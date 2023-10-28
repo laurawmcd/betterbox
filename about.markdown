@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Betterbox is a design tool for ethical, effective technologies.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+It is a printable card deck with four 'suits' and a set of Major Arcana 'Values' cards which will help to run and inspire discussions about using technology in ways that are ethical and which are more likely to work.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+It is designed to be used in in-person workshops, but a Mural template exists to use them in a virtual workshop setting.
 
+You can suggest changes to the cards and to this website [on Github here](https://github.com/laurawmcd/betterbox).
 
-[jekyll-organization]: https://github.com/jekyll
+Betterbox is a side project by [Laura Walker McDonald](http://www.laurawalkermcdonald.com).
