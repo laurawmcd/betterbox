@@ -1,6 +1,4 @@
 title: Betterbox
 description: A design tool for effective, ethical technologies
 
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: jekyll-theme-cayman
