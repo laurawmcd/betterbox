@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Specify the Jekyll version used by GitHub Pages
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 3.9.3"
 
 # Theme for your Jekyll site
 gem "jekyll-theme-cayman-blog"
