@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Users - Product Owner
+title:  Product Owner
 date:   2023-10-28 19:18:42 -0400
 categories: [Users]
 ref: blog
