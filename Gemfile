@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "webrick"
+
 # Specify the Jekyll version used by GitHub Pages
 gem "jekyll", "~> 3.9.3"
 
