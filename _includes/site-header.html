@@ -22,22 +22,18 @@
         </label>
 
         <div class="trigger">
-    {% for ref in page_refs %}
-      {% assign my_page = site.pages | where: "ref", ref | first %}
-      {% if my_page.title %}
-        {% if my_page.title contains "404" %}
-        {% else %}
-          {% if my_page.layout == "blog" %}
-            <a class="page-link" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a>
-          {% else %}
-            <a class="page-link" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    <!-- Add a link to your blog posts page -->
-    <a class="page-link" href="/blog/">Blog</a>
+          {% for ref in page_refs %}
+            {% assign my_page = site.pages | where: "ref", ref | first %}
+            {% if my_page.title %}
+              {% if my_page.layout == "blog" %}
+                <a class="page-link" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a>
+              {% else %}
+                <a class="page-link" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    {% endif %}
   </div>
-
-
 </header>

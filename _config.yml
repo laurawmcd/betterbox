@@ -28,6 +28,11 @@ twitter:
   username: techladylaura
 github_username:  laurawmcd
 
+header_page_refs:
+  - home
+  - about
+  - deck
+
 # Build settings
 theme:
 Plugins:
