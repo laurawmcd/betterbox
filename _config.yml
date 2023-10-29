@@ -28,6 +28,7 @@ repository: laurawmcd/betterbox
 twitter:
   username: techladylaura
 github_username:  laurawmcd
+github_token: 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
 
 header_page_refs:
   - home
