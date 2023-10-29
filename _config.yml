@@ -31,7 +31,7 @@ github_username:  laurawmcd
 header_page_refs:
   - home
   - about
-  - deck
+  - blog
 
 # Build settings
 theme:
