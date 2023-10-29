@@ -24,7 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A design tool for ethical, effective technologies
 baseurl: "/betterbox" # the subpath of your site, e.g. /blog
 url: "https://laurawmcd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: techladylaura
+twitter:
+  username: techladylaura
 github_username:  laurawmcd
 
 # Build settings
