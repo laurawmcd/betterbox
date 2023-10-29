@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Users: Funder or Investor
+title:  Users - Funder or Investor
 date:   2023-10-28 19:18:42 -0400
 categories: Users
 ---
