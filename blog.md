@@ -1,11 +1,6 @@
 ---
 layout: page
-title: Blog
-ref: blog
----
----
-layout: page
-title: Blog
+title: Virtual cards
 ref: blog
 ---
 
