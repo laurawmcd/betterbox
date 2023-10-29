@@ -1,31 +1,40 @@
 ---
 layout: default
-title: Blog
+title: Virtual cards
 ref: blog
 ---
 
-<!-- List of Categories -->
+<!-- List of Categories: Suits -->
 <div class="categories-list">
   <h2>Suits:</h2>
   <ul>
-    {% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq %}
-    {% for category in all_categories %}
-      <li><a href="#{{ category | slugify }}">{{ category }}</a></li>
+    {% for post in site.categories['Suits'] %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
 
-<!-- Blog Posts -->
+<!-- List of Categories: Virtual Cards -->
+<div class="categories-list">
+  <h2>Virtual Cards:</h2>
+  <ul>
+    {% for post in site.categories['Virtual Cards'] %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- Blog Posts with 50-word Snippets for All Categories -->
 <div class="blog-posts">
-  {% for post in site.posts %}
-    <h2 id="{{ post.categories | first | slugify }}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-    <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-
-    <!-- Display Categories -->
-    {% if post.categories %}
-      <h3>Categories: {{ post.categories | join: ', ' }}</h3>
-    {% endif %}
-
-    <p>{{ post.excerpt }}</p>
+  {% for category in site.categories %}
+    <h3>{{ category[0] }}:</h3>
+    <ul>
+      {% for post in category[1] %}
+        <li>
+          <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+          <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+        </li>
+      {% endfor %}
+    </ul>
   {% endfor %}
 </div>
