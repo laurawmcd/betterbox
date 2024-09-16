@@ -29,6 +29,23 @@ social:
     - https://twitter.com/techladylaura
     - https://github.com/laurawmcd
 
+    # Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Cards
+    url: /cards/
+  - title: Users
+    url: /cards/users/
+  - title: Facilitation/Design
+    url: /cards/facilitation-design/
+  - title: Practicalities
+    url: /cards/practicalities/
+  - title: Non-functional Requirements
+    url: /cards/non-functional-requirements/
+  - title: Values
+    url: /cards/values/
+
 # Exclude from processing.
 exclude:
   - .sass-cache/
