@@ -2,33 +2,54 @@
 layout: default
 ---
 
-<div>
+<div class="home">
+  <h1 class="page-heading">{{ page.title }}</h1>
 
-  {{ content }}
+  <div class="page-content">
+    {{ content }}
+  </div>
 
-  <h2>Latest cards</h2>
+  <h2>Explore Betterbox Cards</h2>
+  <div class="card-categories">
+    <div class="card-category">
+      <h3>Users</h3>
+      <p>Explore cards related to different user roles and perspectives.</p>
+      <a href="{{ site.baseurl }}/cards/users/" class="button">View Users Cards</a>
+    </div>
+    <div class="card-category">
+      <h3>Facilitation/Design</h3>
+      <p>Discover tools and techniques for workshop facilitation and design.</p>
+      <a href="{{ site.baseurl }}/cards/facilitation-design/" class="button">View Facilitation/Design Cards</a>
+    </div>
+    <div class="card-category">
+      <h3>Practicalities</h3>
+      <p>Explore practical considerations in technology projects.</p>
+      <a href="{{ site.baseurl }}/cards/practicalities/" class="button">View Practicalities Cards</a>
+    </div>
+    <div class="card-category">
+      <h3>Non-functional Requirements</h3>
+      <p>Learn about important non-functional aspects of technology projects.</p>
+      <a href="{{ site.baseurl }}/cards/non-functional-requirements/" class="button">View Non-functional Requirements Cards</a>
+    </div>
+    <div class="card-category">
+      <h3>Values</h3>
+      <p>Explore ethical and value-based considerations in technology.</p>
+      <a href="{{ site.baseurl }}/cards/values/" class="button">View Values Cards</a>
+    </div>
+  </div>
 
-  <div>&nbsp;</div>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-
-        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-        </h2>
-
-        {% if post.categories %}
-          <h3>{{ post.categories | join: ', ' }}</h3>
-        {% endif %}
-
-        {{ post.excerpt | markdownify | truncatewords: 30 }}
-
-      </li>
-    {% endfor %}
-  </ul>
-
+  {% if site.posts.size > 0 %}
+    <h2>Latest Updates</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:3 %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ "/blog" | relative_url }}">See all updates</a></p>
+  {% endif %}
 </div>
