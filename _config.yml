@@ -2,25 +2,22 @@ title: Betterbox
 email: hello@laurawalkermcdonald.com
 description: >- # this means to ignore newlines until "baseurl:"
   A design tool for ethical, effective technologies
-baseurl: "/betterbox" # the subpath of your site, e.g. /blog
-url: "https://laurawmcd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/betterbox" # Confirm this is correct for your project
+url: "https://laurawmcd.github.io"
 repository: laurawmcd/betterbox
 twitter:
   username: techladylaura
 github_username: laurawmcd
-
 header_page_refs:
   - home
   - about
   - blog
-
 # Build settings
-theme: jekyll-theme-cayman-blog
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-
 # Jekyll SEO Tag settings
 lang: en_US
 social:
@@ -28,8 +25,7 @@ social:
   links:
     - https://twitter.com/techladylaura
     - https://github.com/laurawmcd
-
-    # Navigation
+# Navigation
 nav:
   - title: Home
     url: /
@@ -45,7 +41,6 @@ nav:
     url: /cards/non-functional-requirements/
   - title: Values
     url: /cards/values/
-
 # Exclude from processing.
 exclude:
   - .sass-cache/
