@@ -3,6 +3,26 @@
 
 @import "{{ site.theme }}";
 
+/* Color Variables */
+:root {
+  /* Primary Palette */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-primary: #A7166A;
+
+  /* Secondary Palette */
+  --color-gray-dark: #53565A;
+  --color-gray-light: #97999B;
+  --color-secondary: #AF607C;
+}
+
+/* Header Styles */
+.page-header {
+  background-color: var(--color-primary);
+  background-image: none;  /* Remove default gradient */
+}
+
+/* Navigation Styles */
 .main-nav {
   margin-top: 1rem;
 
@@ -20,14 +40,57 @@
   }
 
   a {
-    color: #fff;
+    color: var(--color-white);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     transition: background-color 0.3s ease;
 
     &:hover, &.active {
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: var(--color-secondary);
     }
   }
+}
+
+/* Main Content Styles */
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-primary);
+  }
+
+  a {
+    color: var(--color-primary);
+
+    &:hover {
+      color: var(--color-secondary);
+    }
+  }
+}
+
+/* Button Styles */
+.btn {
+  background-color: var(--color-secondary);
+
+  &:hover {
+    background-color: var(--color-gray-dark);
+    color: var(--color-white);
+  }
+}
+
+/* Footer Styles */
+.site-footer {
+  border-top: solid 1px var(--color-gray-light);
+
+  a {
+    color: var(--color-primary);
+
+    &:hover {
+      color: var(--color-secondary);
+    }
+  }
+}
+
+/* Body Text */
+body {
+  color: var(--color-black);
 }
