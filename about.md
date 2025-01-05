@@ -15,4 +15,6 @@ Each card will have a webpage, which shares more information and resources than 
 
 You can suggest changes to the cards and to this website [on Github here](https://github.com/laurawmcd/betterbox).
 
-Betterbox is a side project by [Laura Walker McDonald](http://www.laurawalkermcdonald.com).
+Betterbox Laura Walker McDonald of BetterLab.io is licensed under CC BY-SA 4.0
+
+Betterbox © 2018 by [Laura Walker McDonald](http://www.laurawalkermcdonald.com) of [BetterLab.io](http://betterlab.io) and is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1).
