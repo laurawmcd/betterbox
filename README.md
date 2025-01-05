@@ -39,7 +39,7 @@ To run this website locally:
 
 ### Contributing
 
-Contributions to improve the cards or website are welcome. Please:
+Contributions to improve the cards or website are welcome. You can edit the pages for individual cards directly on the Github page itself (see some useful instructions [here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files). Alternatively, please:
 
 1. Fork the repository
 2. Create a feature branch
