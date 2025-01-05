@@ -53,5 +53,5 @@ Betterbox is offered under a CC BY-SA 4.0 license.
 ## Contact
 
 For more information about Betterbox, contact:
-- Email: hello@laurawalkermcdonald.com
+- Via website: [Contact form](https://www.laurawalkermcdonald.com/contact)
 - Bluesky: [@techladylaura](https://techladylaura.bsky.social)
