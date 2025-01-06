@@ -6,31 +6,37 @@ description: Explore the card deck designed to help workshop ethical technology 
 
 # Betterbox Cards
 
-Our deck consists of five suits, each containing 13 cards that help you explore different aspects of ethical technology development. Each suit focuses on a specific area of consideration, from stakeholders to practical implementation concerns.
+Our deck consists of four suits of 13 cards each, plus a Values Major Arcana of 22 cards. Each section helps you explore different aspects of ethical technology development.
 
 ## Card Suits
 
 ### [Users]({{ site.baseurl }}/cards/users/)
-Explore cards representing various stakeholders in technology projects, from direct users to regulatory bodies. These cards help you consider different perspectives and needs throughout your project.
-
-### [Facilitation/Design Exercises]({{ site.baseurl }}/cards/facilitation-design/)
-Tools and techniques for workshop facilitation and design thinking. Use these cards to structure your discussions and planning sessions effectively.
+Cards representing various stakeholders in technology projects, from direct users to regulatory bodies. Use these cards to identify and consider the needs, perspectives, and interests of different people who interact with or are affected by your technology.
 
 ### [Practicalities]({{ site.baseurl }}/cards/practicalities/)
-Address real-world considerations that impact technology implementation, from organizational capacity to infrastructure requirements.
+Cards addressing real-world considerations that impact technology implementation, from organizational capacity to infrastructure requirements. These cards help you think through the practical challenges and requirements for successful deployment.
 
 ### [Non-functional Requirements]({{ site.baseurl }}/cards/non-functional-requirements/)
-Consider technical aspects beyond basic functionality, including accessibility, security, and performance requirements.
+Technical considerations beyond basic functionality, including accessibility, security, and performance requirements. Use these cards to ensure your technology is robust, secure, and meets quality standards.
+
+### [Exercises]({{ site.baseurl }}/cards/facilitation-design/)
+Tools and techniques for workshop facilitation and design thinking. These cards provide methods and approaches for running effective workshops and design sessions.
+
+## Values Major Arcana
 
 ### [Values]({{ site.baseurl }}/cards/values/)
-Focus on ethical principles and important values that should guide technology development, from privacy to environmental impact.
+A special set of cards focusing on ethical principles and values that should guide technology development. These cards help ensure ethical considerations and human values are central to your development process.
 
 ## Using the Cards
 
-Each suit is designed to help you consider different aspects of your technology project. You can:
-- Use individual suits for focused discussions
-- Combine cards from different suits for comprehensive planning
-- Select specific cards relevant to your current challenges
-- Use the blank cards in each suit to add your own considerations
+Some cards are intentionally left blank for your own ideas. You can use the cards in various ways:
+- As part of structured exercises
+- Shuffled and dealt to workshop participants as inspiration
+- For individual exploration and reflection
+- To guide group discussions about technology development
+- To prompt creative thinking about ethical implications
 
-Click on any suit above to explore its cards and learn how they can help you think through the ethical, practical, and societal implications of technology.
+Get creative with how you use them - though we don't recommend using them for fortune telling!
+
+[Download the PDF version](#) (Coming soon)
+Want a physical deck? [Join the waitlist](https://www.laurawalkermcdonald.com/contact)
