@@ -1,10 +1,7 @@
 ---
 layout: page
 title: About
-tagline: A bit about Betterbox
-permalink: /about.html
 ref: about
-order: 0
 ---
 
 Betterbox is a design tool for ethical, effective technologies. It's a collaborative project to gather together all the things we know of that can make technologies _better_.
