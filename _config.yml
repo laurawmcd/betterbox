@@ -4,13 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/betterbox" # Confirm this is correct for your project
 url: "https://laurawmcd.github.io"
 repository: laurawmcd/betterbox
-twitter:
-  username: techladylaura
 github_username: laurawmcd
-header_page_refs:
-  - home
-  - about
-  - blog
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
@@ -29,17 +23,17 @@ nav:
   - title: Home
     url: /
   - title: Cards
-    url: /cards/
+    url: cards/
   - title: Users
-    url: /cards/users/
+    url: cards/users/
   - title: Facilitation/Design
-    url: /cards/facilitation-design/
+    url: cards/facilitation-design/
   - title: Practicalities
-    url: /cards/practicalities/
+    url: cards/practicalities/
   - title: Non-functional Requirements
-    url: /cards/non-functional-requirements/
+    url: cards/non-functional-requirements/
   - title: Values
-    url: /cards/values/
+    url: cards/values/
 # Exclude from processing.
 exclude:
   - .sass-cache/
