@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Security
 description: Ensuring the security of technology systems and data
 ---

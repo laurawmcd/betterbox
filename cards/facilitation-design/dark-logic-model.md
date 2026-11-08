@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Dark Logic Model
 description: Considering potential negative outcomes in technology projects
 ---

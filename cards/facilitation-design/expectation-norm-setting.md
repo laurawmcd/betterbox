@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Expectation and Norm-setting
 description: Establishing clear expectations and norms in technology projects
 ---

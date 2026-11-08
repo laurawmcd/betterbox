@@ -1,0 +1,27 @@
+{%- comment -%}
+A card drawn like the printed card.
+include.suit (entry from site.data.deck), include.number, include.title, include.text,
+include.slug (adds the address line), include.size (sm | md | lg), include.blank
+{%- endcomment -%}
+{%- assign s = include.suit -%}
+{%- if include.blank -%}
+<div class="card-face card-face--blank card-face--{{ include.size | default: 'md' }}" style="--suit: {{ s.color }}">
+  {% include pip.html shape=s.pip %}
+  <p class="card-face__blank-title">{{ include.title | escape }}</p>
+  {%- if include.text %}<p class="card-face__blank-text">{{ include.text | escape }}</p>{% endif %}
+</div>
+{%- else -%}
+<div class="card-face card-face--{{ include.size | default: 'md' }}{% if s.folder == 'values' %} card-face--values{% endif %}" style="--suit: {{ s.color }}">
+  <div class="card-face__band">
+    <span class="card-face__suit">{{ s.name }}</span>
+    <span class="card-face__num">{{ include.number }}{% include pip.html shape=s.pip %}</span>
+  </div>
+  <div class="card-face__body">
+    <h3 class="card-face__title">{{ include.title | escape }}</h3>
+    <p class="card-face__text">{{ include.text | strip | escape | newline_to_br }}</p>
+  </div>
+  {%- if include.slug %}
+  <div class="card-face__foot"><span>betterbox / {{ s.folder }} / {{ include.slug }}</span>{% include pip.html shape=s.pip %}</div>
+  {%- endif %}
+</div>
+{%- endif -%}

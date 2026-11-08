@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{%- assign users = site.data.deck | where: "folder", "users" | first -%}
+{%- assign ex = site.data.deck | where: "folder", "facilitation-design" | first -%}
+{%- assign ctx = site.data.deck | where: "folder", "practicalities" | first -%}
+{%- assign c1 = users.cards | where: "slug", "developer" | first -%}
+{%- assign c2 = ex.cards | where: "slug", "user-personas" | first -%}
+{%- assign c3 = ctx.cards | where: "slug", "political-context" | first -%}
+<section class="hero">
+  <div class="wrap hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow">{{ page.description }}</p>
+      <h1>{{ site.description }}</h1>
+      <p class="hero__actions">
+        <a class="btn" href="{{ '/cards/' | relative_url }}">Browse the cards</a>
+        <a class="btn btn--ghost" href="{{ site.waitlist_url }}">Join the waitlist</a>
+      </p>
+    </div>
+    <div class="fan" aria-hidden="true">
+      <div class="fan__card fan__card--left">{% include card-face.html suit=users number=2 title=c1.title text=c1.face slug=c1.slug size="sm" %}</div>
+      <div class="fan__card fan__card--mid">{% include card-face.html suit=ex number=5 title=c2.title text=c2.face slug=c2.slug size="sm" %}</div>
+      <div class="fan__card fan__card--right">{% include card-face.html suit=ctx number=7 title=c3.title text=c3.face slug=c3.slug size="sm" %}</div>
+    </div>
+  </div>
+</section>
+<div class="wrap section">
+  <div class="prose">
+    {{ content }}
+  </div>
+</div>
+<section class="section section--tint">
+  <div class="wrap">
+    <h2 class="section__title">The suits</h2>
+    {% include suit-tiles.html %}
+  </div>
+</section>

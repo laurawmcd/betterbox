@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Risk Management
 description: Strategies for managing risks in technology projects
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Help
 description: Providing effective user assistance in technology projects
 ---

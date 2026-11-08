@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Fair Information and Privacy Practices
 description: Ensuring ethical handling of information and user privacy
 ---

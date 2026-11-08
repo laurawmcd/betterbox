@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Risk Analysis
 description: Understanding and applying risk analysis in technology projects
 ---

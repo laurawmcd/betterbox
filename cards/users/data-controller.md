@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Data Controller
 description: Understanding the responsibilities of those who determine the purposes for which data is processed
 ---

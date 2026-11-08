@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Humanity, Compassion, Empathy
 description: Prioritizing human values in technology projects
 ---

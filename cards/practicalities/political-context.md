@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Political Context
 description: Understanding and navigating the political context in technology projects
 ---

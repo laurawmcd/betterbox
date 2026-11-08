@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Justice and Power
 description: Considering issues of justice and power dynamics in technology projects
 ---

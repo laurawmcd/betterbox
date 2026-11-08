@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Configurability
 description: Allowing for customization and adaptation of technology
 ---

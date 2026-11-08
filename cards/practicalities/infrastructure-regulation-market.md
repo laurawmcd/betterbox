@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Infrastructure, Regulation and Market
 description: Considering external factors affecting technology implementation
 ---

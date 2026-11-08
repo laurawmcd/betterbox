@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Access and Affordability
 description: Ensuring technology is accessible and affordable to intended users
 ---

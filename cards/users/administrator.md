@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Administrator
 description: Understanding the role of system administrators in technology projects
 ---

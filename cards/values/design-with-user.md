@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Design with the User
 description: Prioritizing user-centered design in technology projects
 ---

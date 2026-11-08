@@ -2,7 +2,7 @@
 redirect_from:
   - /cards/product-owner-card/
   - /cards/users-cards/
-layout: default
+layout: card
 title: Product Owner / Product Manager
 description: Understanding the role and perspective of the product owner in technology projects
 ---

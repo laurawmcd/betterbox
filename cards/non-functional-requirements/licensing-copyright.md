@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Licensing & Copyright
 description: Managing licensing and copyright in technology projects
 ---

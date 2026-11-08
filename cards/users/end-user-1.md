@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: End User 1
 description: Understanding the perspective and needs of primary end users
 ---

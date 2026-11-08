@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Performance
 description: Addressing performance requirements in technology projects
 ---

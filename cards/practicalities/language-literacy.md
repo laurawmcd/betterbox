@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Language, Literacy
 description: Addressing language and literacy considerations in technology projects
 ---

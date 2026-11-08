@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Build for Sustainability
 description: Ensuring long-term viability of technology projects
 ---
