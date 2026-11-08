@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /cards/non-functional-requirements/data-integrity-card/
 layout: default
 title: Data Integrity
 description: Ensuring data integrity in technology projects
@@ -15,5 +17,6 @@ The Data Integrity card represents the assurance that data is accurate, consiste
 3. **Error Detection and Correction**: What mechanisms can be implemented to detect and correct data errors?
 4. **Backup and Recovery**: How can you protect against data loss and ensure data can be recovered in case of system failures?
 5. **Access Control**: How can you prevent unauthorized access or modifications to ensure data integrity?
+6. **Audit Trails**: How can you track changes to data over time to maintain accountability?
 
 Use this card to ensure that data integrity is maintained throughout your system, contributing to the reliability and trustworthiness of your technology solution.

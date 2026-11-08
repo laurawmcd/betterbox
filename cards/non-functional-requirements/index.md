@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /cards/non-functional-requirements/non-functional-requirements-cards/
 layout: default
 title: Non-functional Requirements Suit
 description: Cards representing various non-functional requirements in technology projects
@@ -46,7 +48,7 @@ This suit focuses on the non-functional requirements that are crucial for the su
 12. [Licensing & Copyright]({{ site.baseurl }}/cards/non-functional-requirements/licensing-copyright/)
     - Manage intellectual property rights effectively
 
-13. [Custom Requirement]({{ site.baseurl }}/cards/non-functional-requirements/custom-requirement/)
+13. Custom Requirement
     - Add your own non-functional requirement
 
 Use these cards to ensure your technology project addresses critical quality attributes and system characteristics beyond basic functionality.
