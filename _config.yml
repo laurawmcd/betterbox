@@ -29,7 +29,9 @@ nav:
     url: /cards/
   - title: About
     url: /about/
-waitlist_url: https://www.laurawalkermcdonald.com/contact
+  - title: Contact
+    url: /contact/
+waitlist_url: /contact/?waitlist
 # Every page under cards/ uses the card layout unless its front matter says otherwise (suit index pages use "suit")
 defaults:
   - scope:
