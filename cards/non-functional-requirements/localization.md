@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Localization
 description: Adapting technology for different languages and cultures
 ---

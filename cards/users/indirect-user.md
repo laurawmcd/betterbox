@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Indirect User
 description: Considering those indirectly affected by the technology
 ---

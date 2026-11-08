@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Use Open Standards, Open Data, Open Source, and Open Innovation
 description: Embracing openness in technology projects
 ---

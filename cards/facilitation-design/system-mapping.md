@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: System Mapping
 description: Creating visual representations of complex systems in technology projects
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Developer
 description: Understanding the role and perspective of developers in technology projects
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: End User 3
 description: Understanding the needs of tertiary user groups
 ---

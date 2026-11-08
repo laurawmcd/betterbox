@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Accessibility
 description: Ensuring accessibility in technology projects
 ---

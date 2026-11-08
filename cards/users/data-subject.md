@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Data Subject
 description: Understanding the rights and needs of individuals whose data is processed
 ---

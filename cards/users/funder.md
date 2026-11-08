@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Funder
 description: Understanding the role and perspective of project funders
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Climate and Environment
 description: Considering environmental impact in technology projects
 ---

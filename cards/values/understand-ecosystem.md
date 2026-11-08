@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Understand the Existing Ecosystem
 description: Considering the broader context in technology projects
 ---

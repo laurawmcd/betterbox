@@ -1,7 +1,7 @@
 ---
 redirect_from:
   - /cards/non-functional-requirements/data-integrity-card/
-layout: default
+layout: card
 title: Data Integrity
 description: Ensuring data integrity in technology projects
 ---

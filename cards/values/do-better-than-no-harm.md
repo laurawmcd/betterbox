@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Do Better Than No Harm
 description: Striving for positive impact in technology projects
 ---

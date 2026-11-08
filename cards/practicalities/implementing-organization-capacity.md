@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Implementing Organization Capacity
 description: Assessing and building organizational capacity for technology implementation
 ---

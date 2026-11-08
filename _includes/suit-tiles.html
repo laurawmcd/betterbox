@@ -1,0 +1,16 @@
+<ul class="suit-tiles">
+{%- for s in site.data.deck %}
+  {%- assign idx_url = '/cards/' | append: s.folder | append: '/' -%}
+  {%- assign idx = site.pages | where: "url", idx_url | first %}
+  <li>
+    <a class="suit-tile" href="{{ idx_url | relative_url }}" style="--suit: {{ s.color }}">
+      <span class="suit-tile__band">{% include pip.html shape=s.pip %}</span>
+      <span class="suit-tile__body">
+        <span class="suit-tile__name">{{ s.name }}</span>
+        {%- if idx.description %}<span class="suit-tile__desc">{{ idx.description }}</span>{% endif %}
+        <span class="suit-tile__count">{{ s.cards | size }} cards</span>
+      </span>
+    </a>
+  </li>
+{%- endfor %}
+</ul>

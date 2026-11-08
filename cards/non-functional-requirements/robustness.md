@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Robustness
 description: Ensuring technology can handle varied conditions and inputs
 ---

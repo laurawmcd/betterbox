@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Reuse and Improve
 description: Building on existing resources in technology projects
 ---

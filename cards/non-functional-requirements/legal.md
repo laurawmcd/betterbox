@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Legal
 description: Addressing legal considerations in technology projects
 ---

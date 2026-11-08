@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Interoperability
 description: Ensuring technology can work effectively with other systems
 ---

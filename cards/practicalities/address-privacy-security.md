@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Address Privacy and Security
 description: Ensuring privacy and security in technology projects
 ---

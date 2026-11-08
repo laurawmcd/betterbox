@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Installability
 description: Ensuring ease of installation for technology systems
 ---

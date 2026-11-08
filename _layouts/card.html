@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{%- assign parts = page.url | split: "/" -%}
+{%- assign folder = parts[2] -%}
+{%- assign slug = parts[3] -%}
+{%- assign suit = site.data.deck | where: "folder", folder | first -%}
+{%- assign card = nil -%}{%- assign num = nil -%}{%- assign idx = -1 -%}
+{%- for c in suit.cards -%}
+  {%- if c.slug == slug -%}{%- assign card = c -%}{%- assign num = forloop.index -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
+{%- endfor -%}
+{%- assign prevc = nil -%}{%- assign nextc = nil -%}{%- assign prevn = nil -%}{%- assign nextn = nil -%}
+{%- for c in suit.cards -%}
+  {%- if c.slug and idx >= 0 -%}
+    {%- if forloop.index0 < idx -%}{%- assign prevc = c -%}{%- assign prevn = forloop.index -%}{%- endif -%}
+    {%- if forloop.index0 > idx and nextc == nil -%}{%- assign nextc = c -%}{%- assign nextn = forloop.index -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign face_title = card.title | default: page.title -%}
+{%- assign face_text = card.face | default: card.summary | default: page.description -%}
+<div class="wrap section" style="--suit: {{ suit.color | default: '#A7166A' }}">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">/</span> <a href="{{ '/cards/' | relative_url }}">Cards</a>{% if suit %} <span aria-hidden="true">/</span> <a href="{{ '/cards/' | append: suit.folder | append: '/' | relative_url }}">{{ suit.name }}</a>{% endif %} <span aria-hidden="true">/</span> <span>{{ page.title }}</span></nav>
+  <div class="card-page">
+    {%- if suit %}
+    <div class="card-page__face">
+      {% include card-face.html suit=suit number=num title=face_title text=face_text slug=slug size="lg" %}
+    </div>
+    {%- endif %}
+    <article class="prose card-page__text">
+      {%- if suit %}<p class="eyebrow eyebrow--suit">{% include pip.html shape=suit.pip %}{{ suit.name }}{% if num %} &middot; {{ num }}{% endif %}</p>{% endif %}
+      {{ content }}
+    </article>
+  </div>
+  {%- if suit %}
+  <nav class="pager" aria-label="Next and previous card">
+    {%- if prevc %}<a href="{{ '/cards/' | append: suit.folder | append: '/' | append: prevc.slug | append: '/' | relative_url }}">&larr; {{ prevn }} {{ prevc.title }}</a>{% else %}<span></span>{% endif %}
+    {%- if nextc %}<a href="{{ '/cards/' | append: suit.folder | append: '/' | append: nextc.slug | append: '/' | relative_url }}">{{ nextn }} {{ nextc.title }} &rarr;</a>{% endif %}
+  </nav>
+  {%- endif %}
+</div>

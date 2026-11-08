@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: End User 2
 description: Understanding the needs of secondary user groups
 ---

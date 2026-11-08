@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: General Public
 description: Considering the broader societal impact of technology
 ---

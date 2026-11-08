@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Regulator
 description: Understanding the role of regulators in technology projects
 ---

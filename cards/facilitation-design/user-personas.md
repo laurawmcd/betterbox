@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: User Personas
 description: Creating and utilizing user personas in technology projects
 ---

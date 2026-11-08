@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cards_home
 title: Betterbox Cards
 description: Explore the card deck designed to help workshop ethical technology development
 ---

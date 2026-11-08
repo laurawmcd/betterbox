@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: SWOT Analysis
 description: Applying SWOT analysis in technology projects
 ---

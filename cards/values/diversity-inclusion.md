@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Diversity and Inclusion
 description: Promoting diversity and inclusion in technology projects
 ---

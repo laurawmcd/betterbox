@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Accountability and Governance
 description: Ensuring responsible management in technology projects
 ---

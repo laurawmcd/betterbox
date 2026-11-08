@@ -1,0 +1,301 @@
+# Suit order, colours and card order for the site. Card lists come from the old suit index pages.
+# face: the printed card text, from Betterbox_deck_v0.2.idml. Cards without it show their summary or page description.
+- folder: users
+  name: Users
+  color: '#A7166A'
+  pip: circle
+  cards:
+  - title: Product Owner / Product Manager
+    slug: product-owner
+    summary: Define and prioritize product features and requirements
+    face: The person tasked with managing the product, deadlines and day-to-day decisions; organizing ideas and
+      plans; and gathering feedback and input from other stakeholders.
+  - title: Developer
+    slug: developer
+    summary: Design, code, test, and maintain software applications
+    face: The person or team building the software or hardware to be used.
+  - title: Funder
+    slug: funder
+    summary: Provide financial support and oversight for projects
+    face: The entity providing the funding for the technology or project.
+  - title: Administrator
+    slug: administrator
+    summary: Manage and maintain system operations
+    face: The person tasked with managing the technology or system. They may manage user accounts, adjust settings
+      and parameters and undertake maintenance tasks.
+  - title: End User 1
+    slug: end-user-1
+    summary: Primary users who directly interact with the technology
+    face: A person who uses the system or product, or who is directly impacted by it. There can be multiple different
+      types of users, undertaking different roles and performing different tasks.
+  - title: End User 2
+    slug: end-user-2
+    summary: Secondary users with different needs or use patterns
+    face: A person who uses the system or product, or who is directly impacted by it. There can be multiple different
+      types of users, undertaking different roles and performing different tasks.
+  - title: End User 3
+    slug: end-user-3
+    summary: Tertiary users with occasional or specialized needs
+    face: A person who uses the system or product, or who is directly impacted by it. There can be multiple different
+      types of users, undertaking different roles and performing different tasks.
+  - title: Indirect User
+    slug: indirect-user
+    summary: People affected by the technology without directly using it
+    face: A person who is indirectly impacted by the system or product.
+  - title: Regulator
+    slug: regulator
+    summary: Oversee compliance with laws and regulations
+    face: A body tasked with setting and enforcing rules around the technology, system or process.
+  - title: General Public
+    slug: general-public
+    summary: Broader society impacted by the technology
+    face: The broader group of people who may be impacted by second or third-order effects of the technology or
+      system.
+  - title: Data Subject
+    slug: data-subject
+    summary: Individuals whose personal data is processed
+    face: A person whose data is held or managed by the system or technology.
+  - title: Data Controller
+    slug: data-controller
+    summary: Entities responsible for data processing decisions
+    face: The person or team tasked with managing the information collected and held by the system or product.
+  - title: Custom User
+    blank: true
+    summary: Add your own user category
+- folder: facilitation-design
+  name: Exercises
+  color: '#0E6B66'
+  pip: triangle
+  cards:
+  - title: Expectation and Norm-setting
+    slug: expectation-norm-setting
+    face: |-
+      Set aside time at the beginning of the workshop to set expectations and goals for your time together.
+
+      You can give people time to reflect and then share, or get ideas from the room.
+  - title: Risk Analysis
+    slug: risk-analysis
+  - title: Theory of Change
+    no_page: true
+    face: |-
+      Starting with what you know write your goal at the top of a large piece of paper, and the planned activities at the bottom. In between, map how the activities create the outputs and outcomes that lead to your goal.
+
+      You should end up with a pyramid, or a tree with deep roots. Consider whether you can see gaps where the activities will not produce the desired outcome, or where new risks become visible.
+  - title: Dark Logic Model
+    slug: dark-logic-model
+    face: |-
+      Start with a Theory of Change for your project. Write a new version where everything goes wrong: where activities fail, risks are not mitigated, or bad actors intervene. What could be possible new risks that might arise? Use Risk Management to see if you can make these outcomes less likely.
+
+      This exercise, while depressing, can help us identify our own potential role in causing harm.
+  - title: User Personas
+    slug: user-personas
+    face: |-
+      Identify the most important Users of your project. For each one, create a Persona, with a name, and preferences, skills and habits. This can be a fun exercise. Get creative and go into as much detail as you like!
+
+      For each Persona, note their needs from the project, the pain points it will solve, and challenges they may face.
+  - title: System Mapping
+    slug: system-mapping
+    face: |-
+      Start with your most important User. Draw how the project will cause change in the real world (not technical architecture). I like to use stick figures and lots of arrows.
+
+      For example, draw how a text alert might change behavior; or how a new database could get people help they need.
+
+      This fun exercise can help us get into a creative mindset where new connections can form. It’s another great way to see how the project will work and what might happen.
+  - title: Feature Lists and Prioritization
+    slug: feature-lists-prioritization
+    face: |-
+      Using User Personas and System Mapping, list features that your project may require.
+
+      You could use this format: ‘As a [User], I need to [insert task in the system] so that I can [purpose].’ This helps Developers understand why they are being asked to build a feature.
+
+      When you have your list, it’s useful to prioritize them (high, medium, low).
+  - title: SWOT Analysis
+    slug: swot-analysis
+  - title: Threat Modeling
+    slug: threat-modeling
+    face: |-
+      Mapping actors who might seek to exploit the project can help identify and mitigate new risks.
+
+      Identify the assets implicated in the project, the vulnerabilities that might expose them to risk, and the bad actors who might exploit them.
+
+      You can turn this on its head to identify opportunities that could create value for actors who might support the project.
+  - title: Risk Management
+    slug: risk-management
+    face: |-
+      Mitigating risk is an important part of project management.
+
+      Brainstorm risks that might arise, and then rate them by likelihood and impact to identify the most important. Then come up with ways to mitigate them.
+
+      If you can’t reduce critical risks, consider how to go forward safely.
+  - title: Custom Exercise 1
+    blank: true
+  - title: Custom Exercise 2
+    blank: true
+  - title: Custom Exercise 3
+    blank: true
+- folder: practicalities
+  name: Context
+  color: '#9A4A08'
+  pip: square
+  cards:
+  - title: Implementing Organization Capacity
+    slug: implementing-organization-capacity
+    summary: Assess and build organizational capacity for technology implementation
+    face: |-
+      Successfully building, and/or deploying technology requires time, resources, and political capital.
+
+      Teams must buy into the project, have the knowledge to carry it out sustainably, and be supported to take risks, learn transparently, and sometimes fail. They will need access to practical resources such as electricity and connectivity, and be able to communicate publicly about the work.
+
+      Are implementers empowered to succeed with your project?
+  - title: Design for Scale
+    slug: design-for-scale
+    summary: Create solutions that can grow and adapt effectively
+  - title: Build for Sustainability
+    slug: build-for-sustainability
+    summary: Ensure long-term viability of technology solutions
+  - title: Language, Literacy
+    slug: language-literacy
+    summary: Address linguistic diversity and varying literacy levels
+    face: |-
+      Technologies may need to support multiple languages and scripts, which requires planning, especially with less common scripts. Some users may not read, or may need easy-to-interpret symbology and interfaces. Digital literacy gaps may mean that technology interfaces or processes are unfamiliar.
+
+      Consider how these issues may impact the success of your project.
+  - title: Access and Affordability
+    slug: access-affordability
+    summary: Ensure technology is accessible and affordable to intended users
+    face: |-
+      Some users may be less able to afford the costs of airtime, devices, and even power. In places where access to in-home electricity is not certain, users may also need to spend time and money to charge devices.
+
+      Consider whether target users, even a subset of the most vulnerable, may struggle to access the technology or platform because of the costs of required equipment and connection.
+  - title: Infrastructure, Regulation and Market
+    slug: infrastructure-regulation-market
+    summary: Consider external factors affecting implementation
+    face: |-
+      It is vital to understand the local technology market, including connectivity, mobile telephony, consumer-facing apps and platforms such as mobile money systems, and digital infrastructure.
+
+      Resilience to natural hazards, geographic spread and rural/urban divides, and access to electricity all impact how technology is used, and by whom.
+
+      Planning with these constraints in mind is critical to project success.
+  - title: Political Context
+    slug: political-context
+    summary: Navigate the political environment and implications
+    face: |-
+      Communications infrastructure may be regulated, monitored and controlled by state authorities.
+
+      It can be damaged, or access to install, repair or maintain it can be disrupted, by conflict.
+
+      Analyzing the political context, ownership of communications networks and access to information is important to understanding risks and user behavior.
+  - title: Address Privacy and Security
+    slug: address-privacy-security
+    summary: Implement robust privacy and security measures
+  - title: Custom Practicality 1
+    blank: true
+    summary: Add your own practical consideration
+  - title: Custom Practicality 2
+    blank: true
+    summary: Add your own practical consideration
+  - title: Custom Practicality 3
+    blank: true
+    summary: Add your own practical consideration
+  - title: Custom Practicality 4
+    blank: true
+    summary: Add your own practical consideration
+  - title: Custom Practicality 5
+    blank: true
+    summary: Add your own practical consideration
+- folder: non-functional-requirements
+  name: Non-functional requirements
+  color: '#2C4A94'
+  pip: diamond
+  cards:
+  - title: Accessibility
+    slug: accessibility
+    summary: Ensure usability for people with different abilities and needs
+    face: |-
+      How is the technology usable for people with different physical and other abilities? For example, does it work for people who are colorblind? Can people manipulate the technology successfully if they are missing limbs or digits? Does the technology make assumptions about height or movement? Does it follow relevant accessibility requirements?
+
+      Sometimes, testing or evaluating such considerations can lead to design improvements. At others, it can indicate the need to maintain other options for people who cannot engage with the technology successfully.
+  - title: Localization
+    slug: localization
+    summary: Support multiple languages and cultural contexts
+  - title: Security
+    slug: security
+    summary: Protect against threats and ensure data protection
+    face: |-
+      How will the technology be secured, in the database and as it is transmitted? How will you manage user access and authentication, and educate users on important cyber hygiene practices like two-factor authentication and password safety?
+
+      The extent to which you are able to manage the inherent cybersecurity risks of collecting, managing and securing data should inform the overall risk/benefit analysis for the proposed project.
+  - title: Robustness
+    slug: robustness
+    summary: Handle errors and unexpected conditions gracefully
+  - title: Performance
+    slug: performance
+    summary: Ensure speed, responsiveness, and efficiency
+  - title: Interoperability
+    slug: interoperability
+    summary: Work effectively with other systems and standards
+  - title: Configurability
+    slug: configurability
+    summary: Allow for customization and adaptation
+  - title: Data Integrity
+    slug: data-integrity
+    summary: Maintain accuracy and consistency of information
+  - title: Help
+    slug: help
+    summary: Provide effective user assistance and documentation
+  - title: Installability
+    slug: installability
+    summary: Enable smooth deployment and setup
+  - title: Legal
+    slug: legal
+    summary: Comply with relevant laws and regulations
+  - title: Licensing & Copyright
+    slug: licensing-copyright
+    summary: Manage intellectual property rights effectively
+  - title: Custom Requirement
+    blank: true
+    summary: Add your own non-functional requirement
+- folder: values
+  name: Values
+  color: '#2A1F3D'
+  pip: star
+  cards:
+  - title: Do Better Than No Harm
+    slug: do-better-than-no-harm
+    summary: Focus on creating positive impact beyond avoiding harm
+  - title: Fair Information and Privacy Practices
+    slug: fair-information-privacy
+    summary: Ensure ethical handling of information and user privacy
+  - title: Diversity and Inclusion
+    slug: diversity-inclusion
+    summary: Promote inclusive design and diverse perspectives
+  - title: Climate and Environment
+    slug: climate-environment
+    summary: Consider environmental impacts and sustainability
+  - title: Design with the User
+    slug: design-with-user
+    summary: Center user needs and experiences in design
+  - title: Understand the Existing Ecosystem
+    slug: understand-ecosystem
+    summary: Consider the broader context and existing systems
+  - title: Use Open Standards, Data, Source, and Innovation
+    slug: open-standards
+    summary: Embrace openness and collaboration
+  - title: Reuse and Improve
+    slug: reuse-improve
+    summary: Build on existing solutions and shared knowledge
+  - title: Be Collaborative
+    slug: be-collaborative
+    summary: Work together with various stakeholders
+  - title: Humanity, Compassion, Empathy
+    slug: humanity-compassion-empathy
+    summary: Prioritize human values in technology
+  - title: Accountability and Governance
+    slug: accountability-governance
+    summary: Ensure responsible management and oversight
+  - title: Justice and Power
+    slug: justice-power
+    summary: Address power dynamics and promote equity
+  - title: Custom Value
+    blank: true
+    summary: Add your own value consideration

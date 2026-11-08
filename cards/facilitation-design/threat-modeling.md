@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Threat Modeling
 description: Identifying potential threats in technology projects
 ---
