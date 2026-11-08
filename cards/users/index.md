@@ -46,7 +46,7 @@ The Users suit represents various stakeholders involved in or affected by techno
 12. [Data Controller]({{ site.baseurl }}/cards/users/data-controller/)
    - Entities responsible for data processing decisions
 
-13. [Custom User]({{ site.baseurl }}/cards/users/custom-user/)
+13. Custom User
    - Add your own user category
 
 Use these cards to identify and consider the needs, perspectives, and interests of different stakeholders in your technology project.

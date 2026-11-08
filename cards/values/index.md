@@ -46,7 +46,7 @@ The Values suit focuses on ethical principles and important considerations that 
 12. [Justice and Power]({{ site.baseurl }}/cards/values/justice-power/)
    - Address power dynamics and promote equity
 
-13. [Custom Value]({{ site.baseurl }}/cards/values/custom-value/)
+13. Custom Value
    - Add your own value consideration
 
 Use these cards to ensure ethical considerations and human values are central to your technology development process.

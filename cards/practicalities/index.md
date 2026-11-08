@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /cards/practicalities/practicalities-cards/
 layout: default
 title: Practicalities Suit
 description: Cards addressing practical considerations in technology projects
@@ -31,22 +33,22 @@ The Practicalities suit focuses on real-world considerations that can impact the
 7. [Political Context]({{ site.baseurl }}/cards/practicalities/political-context/)
    - Navigate the political environment and implications
 
-8. [Address Privacy and Security]({{ site.baseurl }}/cards/practicalities/privacy-security/)
+8. [Address Privacy and Security]({{ site.baseurl }}/cards/practicalities/address-privacy-security/)
    - Implement robust privacy and security measures
 
-9. [Custom Practicality 1]({{ site.baseurl }}/cards/practicalities/custom-practicality-1/)
+9. Custom Practicality 1
    - Add your own practical consideration
 
-10. [Custom Practicality 2]({{ site.baseurl }}/cards/practicalities/custom-practicality-2/)
+10. Custom Practicality 2
     - Add your own practical consideration
 
-11. [Custom Practicality 3]({{ site.baseurl }}/cards/practicalities/custom-practicality-3/)
+11. Custom Practicality 3
     - Add your own practical consideration
 
-12. [Custom Practicality 4]({{ site.baseurl }}/cards/practicalities/custom-practicality-4/)
+12. Custom Practicality 4
     - Add your own practical consideration
 
-13. [Custom Practicality 5]({{ site.baseurl }}/cards/practicalities/custom-practicality-5/)
+13. Custom Practicality 5
     - Add your own practical consideration
 
 Use these cards to ensure that practical considerations and implementation challenges are thoroughly addressed in your technology project.
