@@ -10,16 +10,16 @@ Our deck consists of four suits of 13 cards each, plus a Values Major Arcana of 
 
 ## Card Suits
 
-### [Users]({{ site.baseurl }}/cards/users/)
+### [People]({{ site.baseurl }}/cards/people/)
 Cards representing various stakeholders in technology projects, from direct users to regulatory bodies. Use these cards to identify and consider the needs, perspectives, and interests of different people who interact with or are affected by your technology.
 
-### [Practicalities]({{ site.baseurl }}/cards/practicalities/)
+### [Context]({{ site.baseurl }}/cards/context/)
 Cards addressing real-world considerations that impact technology implementation, from organizational capacity to infrastructure requirements. These cards help you think through the practical challenges and requirements for successful deployment.
 
-### [Non-functional Requirements]({{ site.baseurl }}/cards/non-functional-requirements/)
+### [Qualities]({{ site.baseurl }}/cards/qualities/)
 Technical considerations beyond basic functionality, including accessibility, security, and performance requirements. Use these cards to ensure your technology is robust, secure, and meets quality standards.
 
-### [Exercises]({{ site.baseurl }}/cards/facilitation-design/)
+### [Exercises]({{ site.baseurl }}/cards/exercises/)
 Tools and techniques for workshop facilitation and design thinking. These cards provide methods and approaches for running effective workshops and design sessions.
 
 ## Values Major Arcana

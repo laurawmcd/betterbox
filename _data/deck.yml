@@ -1,7 +1,7 @@
 # Suit order, colours and card order for the site. Card lists come from the old suit index pages.
 # face: the printed card text, from Betterbox_deck_v0.2.idml. Cards without it show their summary or page description.
-- folder: users
-  name: Users
+- folder: people
+  name: People
   color: '#A7166A'
   pip: circle
   cards:
@@ -62,7 +62,7 @@
   - title: Custom User
     blank: true
     summary: Add your own user category
-- folder: facilitation-design
+- folder: exercises
   name: Exercises
   color: '#0E6B66'
   pip: triangle
@@ -133,7 +133,7 @@
     blank: true
   - title: Custom Exercise 3
     blank: true
-- folder: practicalities
+- folder: context
   name: Context
   color: '#9A4A08'
   pip: square
@@ -203,8 +203,8 @@
   - title: Custom Practicality 5
     blank: true
     summary: Add your own practical consideration
-- folder: non-functional-requirements
-  name: Non-functional requirements
+- folder: qualities
+  name: Qualities
   color: '#2C4A94'
   pip: diamond
   cards:

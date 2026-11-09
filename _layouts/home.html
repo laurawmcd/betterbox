@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{%- assign users = site.data.deck | where: "folder", "users" | first -%}
-{%- assign ex = site.data.deck | where: "folder", "facilitation-design" | first -%}
-{%- assign ctx = site.data.deck | where: "folder", "practicalities" | first -%}
+{%- assign users = site.data.deck | where: "folder", "people" | first -%}
+{%- assign ex = site.data.deck | where: "folder", "exercises" | first -%}
+{%- assign ctx = site.data.deck | where: "folder", "context" | first -%}
 {%- assign c1 = users.cards | where: "slug", "developer" | first -%}
 {%- assign c2 = ex.cards | where: "slug", "user-personas" | first -%}
 {%- assign c3 = ctx.cards | where: "slug", "political-context" | first -%}
