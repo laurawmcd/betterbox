@@ -1,8 +1,8 @@
 title: Betterbox
 description: >- # this means to ignore newlines until "baseurl:"
   A design tool for ethical, effective technologies
-baseurl: "/betterbox" # Confirm this is correct for your project
-url: "https://laurawmcd.github.io"
+baseurl: "" # the site is served from the root of betterbox.tech
+url: "https://betterbox.tech"
 # Serve every page at a folder-style URL (/cards/users/developer/), which is how all internal links are written
 permalink: pretty
 repository: laurawmcd/betterbox
