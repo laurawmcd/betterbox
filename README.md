@@ -25,7 +25,7 @@ The cards can be used in various workshop settings to:
 
 ## Website
 
-This repository contains the Jekyll-based website for Betterbox, hosted at [https://laurawmcd.github.io/betterbox](https://laurawmcd.github.io/betterbox).
+This repository contains the Jekyll-based website for Betterbox, hosted at [https://betterbox.tech](https://betterbox.tech).
 
 ### Local Development
 
@@ -35,7 +35,7 @@ To run this website locally:
 2. Clone this repository
 3. Run `bundle install`
 4. Run `bundle exec jekyll serve`
-5. Visit `http://localhost:4000/betterbox`
+5. Visit `http://localhost:4000`
 
 ### Contributing
 
