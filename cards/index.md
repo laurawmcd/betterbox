@@ -39,4 +39,4 @@ Some cards are intentionally left blank for your own ideas. You can use the card
 Get creative with how you use them - though we don't recommend using them for fortune telling!
 
 [Download the PDF version](#) (Coming soon)
-Want a physical deck? [Join the waitlist](https://www.laurawalkermcdonald.com/contact)
+Want a physical deck? [Join the waitlist]({{ site.baseurl }}/contact/?waitlist)

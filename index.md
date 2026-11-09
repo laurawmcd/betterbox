@@ -21,4 +21,4 @@ The Betterbox deck consists of four suits, each containing 13 cards, and one 'Va
 
 Some of the cards are left blank for your own ideas. The cards can be used as part of the Exercises, shuffled and dealt to workshop participants as inspiration, or as inspiration for individual exploration. You can even deal them like Tarot cards, although I wouldn't lean on them in making life decisions. Get creative!
 
-A downloadable, printable PDF of the deck will be uploaded soon, and if you'd like to be on the waitlist for a printed deck of cards, let us know [here](https://www.laurawalkermcdonald.com/contact). In the meantime you can explore the deck at the links above.
+A downloadable, printable PDF of the deck will be uploaded soon, and if you'd like to be on the waitlist for a printed deck of cards, let us know [here]({{ site.baseurl }}/contact/?waitlist). In the meantime you can explore the deck at the links above.
