@@ -3,7 +3,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A design tool for ethical, effective technologies
 baseurl: "" # the site is served from the root of betterbox.tech
 url: "https://betterbox.tech"
-# Serve every page at a folder-style URL (/cards/users/developer/), which is how all internal links are written
+# Serve every page at a folder-style URL (/cards/people/developer/), which is how all internal links are written
 permalink: pretty
 repository: laurawmcd/betterbox
 github_username: laurawmcd

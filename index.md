@@ -14,9 +14,9 @@ Betterbox is a deck of cards designed to help people run workshops that explore 
 
 The Betterbox deck consists of four suits, each containing 13 cards, and one 'Values' Major Arcana containing 22 cards.
 
-1. **Users**: Cards representing various stakeholders in technology projects, from direct users to regulatory bodies.
-2. **Practicalities**: Cards addressing real-world considerations that impact technology implementation.
-3. **Non-functional Requirements**: Technical considerations beyond basic functionality.
+1. **People**: Cards representing various stakeholders in technology projects, from direct users to regulatory bodies.
+2. **Context**: Cards addressing real-world considerations that impact technology implementation.
+3. **Qualities**: Technical considerations beyond basic functionality.
 4. **Exercises**: Tools and techniques for workshop facilitation and design thinking.
 
 Some of the cards are left blank for your own ideas. The cards can be used as part of the Exercises, shuffled and dealt to workshop participants as inspiration, or as inspiration for individual exploration. You can even deal them like Tarot cards, although I wouldn't lean on them in making life decisions. Get creative!
