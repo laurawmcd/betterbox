@@ -1,21 +1,29 @@
 ---
-redirect_from:
-  - /cards/users/end-user-2/
 layout: card
-title: End User 2
-description: Understanding the needs of secondary user groups
+title: End user 2
+card_id: end-user-2
+description: The second of three cards for the people who use the system directly.
+redirect_from:
+- /cards/users/end-user-2/
 ---
 
-# End User 2
+# End user 2
 
-The End User 2 card represents secondary user groups who interact with the technology but may have different needs or use patterns compared to primary users.
+Use this card for a second group of end users. Their tasks, skills, devices or circumstances will differ from those of the group on the first End user card, and the design that suits one group can make things harder for the other.
 
-## Key Considerations
+## Questions to ask
 
-1. **Unique Needs**: How do this group's needs differ from primary users?
-2. **Usage Patterns**: How might this group's usage patterns differ?
-3. **Accessibility**: Are there specific accessibility considerations for this group?
-4. **Training**: What kind of training or support might this group need?
-5. **Feedback**: How can you gather and incorporate feedback from this user group?
+- How do this group's needs differ from the first group's?
+- Does anything designed for the first group make life harder for this one?
+- Where and how do they use the system?
+- Who speaks for them when they are not in the room?
 
-Use this card to ensure that the needs of secondary user groups are also considered in the development process, promoting inclusivity and broader usability of the technology.
+## In a workshop
+
+Name the group on the card and turn it into a persona. Compare it with the first group's persona and look for conflicts.
+
+## Related cards
+
+- [End user 1]({{ '/cards/people/end-user-1/' | relative_url }})
+- [End user 3]({{ '/cards/people/end-user-3/' | relative_url }})
+- [User personas]({{ '/cards/exercises/user-personas/' | relative_url }})

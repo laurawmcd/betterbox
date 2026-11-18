@@ -8,7 +8,7 @@
       <span class="suit-tile__body">
         <span class="suit-tile__name">{{ s.name }}</span>
         {%- if idx.description %}<span class="suit-tile__desc">{{ idx.description }}</span>{% endif %}
-        <span class="suit-tile__count">{{ s.cards | size }} cards</span>
+        <span class="suit-tile__count">{{ s.deck_size | default: s.cards.size }} cards{% if s.folder == 'values' %} &middot; major arcana{% endif %}</span>
       </span>
     </a>
   </li>

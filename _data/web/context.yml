@@ -1,0 +1,128 @@
+# Web text for the Context suit (formerly Practicalities). DRAFT for review.
+
+implementing-organization-capacity:
+  summary: "Whether the team building or deploying the technology has what it needs to succeed."
+  body: |
+    Building or deploying technology takes time, resources and political capital. The team has to believe in the project, have the knowledge to carry it out sustainably, and be supported to take risks, learn in the open and sometimes fail. They also need practical resources such as electricity and connectivity, and permission to talk publicly about the work.
+
+    The question to keep asking is whether implementers are empowered to succeed with your project.
+  questions:
+    - "Who does the work, and how much of their time is it?"
+    - "Does their own leadership back the project?"
+    - "Are they allowed to fail, and to say so?"
+    - "What practical resources do they depend on: power, connectivity, devices?"
+    - "Can they speak publicly about what they are learning?"
+  use_it: "Ask each person in the room to say how many hours a week they can give to the project. Compare the total with what the plan assumes."
+  related: [product-owner, project-management, maintainability]
+
+legal-issues:
+  summary: "The laws that apply to the project, wherever it operates and wherever its data goes."
+  body: |
+    Ask what local, regional, national or international law applies. Some sectors have their own rules, for example for health information. Look at legislation in the places you work, and find out whether laws in the jurisdictions where data is stored or passes through, such as a cloud provider's region, also apply.
+  questions:
+    - "Which laws apply where we work, and where our data is held or sent?"
+    - "Do any domain-specific rules apply, such as health, finance or children's data?"
+    - "Who on the team can read the relevant law, or who could we ask?"
+    - "What changes if we move the data to another country or provider?"
+  use_it: "List every place the data lives or travels, and mark each with the law that applies. Blank spaces are homework."
+  related: [regulator, data-controller, people-first-data-practices, licensing-copyright]
+
+language-literacy:
+  summary: "Which languages, scripts and levels of literacy the technology has to work with."
+  body: |
+    Technology may need to support several languages and scripts, and that needs planning, especially for less common scripts. Some users may not read at all, or may need interfaces built on symbols. Gaps in digital literacy mean that interfaces and processes may be unfamiliar even to people who read well.
+  questions:
+    - "Which languages and scripts do our users read and speak?"
+    - "Who can't read, and how will they use this?"
+    - "Would symbols, audio or voice help?"
+    - "How will translations be produced and checked?"
+    - "Which steps will feel unfamiliar to someone new to digital tools?"
+  use_it: "Give each persona a language and a reading level, then walk through one task as that person."
+  related: [localization, access-affordability, design-for-inclusion, user-personas]
+
+access-affordability:
+  summary: "Whether the people you want to reach can afford the devices, data, airtime and power."
+  body: |
+    Some users will be less able to pay for airtime, devices and even electricity. Where power at home is not certain, they may also spend time and money charging devices. Consider whether target users, even a subset of the most vulnerable, may struggle to use the technology because of what the equipment and connection cost.
+  questions:
+    - "What do airtime, data, devices and charging cost, compared with what users earn?"
+    - "Who would be priced out first?"
+    - "Who pays: the user, the organization or the funder?"
+    - "What happens when the power is out?"
+  use_it: "Estimate a month of use for one persona in local currency, and say what share of their income it is."
+  related: [connectivity, infrastructure-regulation-market, design-for-inclusion, leave-no-one-behind]
+
+infrastructure-regulation-market:
+  summary: "The local technology market, infrastructure and rules that shape what can work."
+  body: |
+    Understand the local technology market: connectivity, mobile telephony, consumer apps and platforms such as mobile money, and digital infrastructure. Resilience to natural hazards, geographic spread, rural and urban divides and access to electricity all affect how technology is used and by whom. Planning with these constraints in mind is critical to success.
+  questions:
+    - "Which networks, devices and platforms do people already use?"
+    - "Who owns and controls the infrastructure?"
+    - "How do natural hazards, distance and the rural-urban divide change what is possible?"
+    - "Which rules govern telecoms and digital services here?"
+  use_it: "Ask the group to name the three most-used apps or services in the target area, and say why people prefer them."
+  related: [connectivity, political-context, access-affordability, understand-existing-ecosystem]
+
+political-context:
+  summary: "Who controls communications and information, and what that means for risk and behaviour."
+  body: |
+    Communications infrastructure may be regulated, monitored and controlled by state authorities. Conflict can damage it, or block access to install, repair and maintain it. Analyzing the political context, the ownership of communications networks and access to information helps you understand risks and how users will behave.
+  questions:
+    - "Who controls the networks, and who can monitor them?"
+    - "Could conflict cut access or stop repairs?"
+    - "Who could be at risk if the project were seen as political?"
+    - "How does that change what you collect, store or announce?"
+  use_it: "Pair this card with Threat modeling. Ask which actors in the political context would be interested in your data."
+  related: [regulator, threat-modeling, infrastructure-regulation-market, anticipate-mitigate-harms]
+
+people-first-data-practices:
+  summary: "Put people's rights and needs first when collecting, sharing, analyzing or deleting data."
+  digital_principle: establish-people-first-data-practices
+  body: |
+    Digital services and initiatives generate, rely on and use people's data. It is critical to put people's rights and needs first when collecting, sharing, analyzing or deleting it, and to follow the applicable rules and guidelines. People-first data practices include meaningful consent and real control over how data is used, managed and maintained.
+
+    This card is also one of the nine Principles for Digital Development.
+  questions:
+    - "What data do we need, and what could we choose not to collect?"
+    - "How do people give meaningful consent, and can they withdraw it?"
+    - "Can people see, correct and take their data elsewhere?"
+    - "Which data protection rules apply, and who checks that we follow them?"
+  use_it: "Choose one data field, such as a phone number, and ask the group to justify collecting it."
+  related: [data-subject, data-controller, security, legal-issues]
+
+cultural-context:
+  summary: "The norms, beliefs and habits that shape how technology is used and by whom."
+  body: |
+    Culture determines who is allowed to own a phone, whom people trust, what is private, and how information travels. What looks like a technical problem may turn out to be a cultural one, and design choices that ignore local norms can exclude people or put them at risk.
+  questions:
+    - "Whose permission or endorsement matters in this community?"
+    - "How do gender norms affect who can own devices, use the service or speak up?"
+    - "What counts as private or sensitive here?"
+    - "Could any words, symbols or colours in the design mean something different locally?"
+  use_it: "Ask someone from the community, or who has lived there, to react to the system map and point out what is missing."
+  related: [language-literacy, design-with-people, design-for-inclusion, respect]
+
+connectivity:
+  summary: "The connection people actually have: coverage, speed, cost and reliability."
+  body: |
+    Signal, bandwidth and power decide what can work. Find out which networks reach your users, how reliable and how expensive they are, and whether people rely on basic phones, shared devices or public access points. Design for the connection people actually have rather than the one you would like them to have.
+  questions:
+    - "What coverage, speed and cost do users experience in practice?"
+    - "Do they use basic phones or shared devices?"
+    - "What should keep working offline or over SMS?"
+    - "What happens to the project when the connection drops?"
+  use_it: "Test a key task on a slow or intermittent connection before the workshop, and bring the results."
+  related: [access-affordability, network-resilience, performance, infrastructure-regulation-market]
+
+design-for-scale:
+  summary: "Whether the project can grow, or be adapted to new places, without breaking."
+  body: |
+    Ask what would happen with ten times as many users, or in ten more places. Costs, support, data and staffing all change as a project grows. Scale can also mean adaptation to new contexts. Decide which kind of growth you are planning for, and which you are not.
+  questions:
+    - "What growth are we planning for, in users, places and costs?"
+    - "What breaks first?"
+    - "What does each additional user cost?"
+    - "Would a version for another context need a redesign?"
+  use_it: "Ask the group to describe the project at ten times its current size, and note what they cannot answer."
+  related: [build-for-sustainability, performance, share-reuse-improve]

@@ -1,21 +1,29 @@
 ---
-redirect_from:
-  - /cards/users/funder/
 layout: card
 title: Funder
-description: Understanding the role and perspective of project funders
+card_id: funder
+description: The entity paying for the technology or the project, and what it expects in return.
+redirect_from:
+- /cards/users/funder/
 ---
 
 # Funder
 
-The Funder card represents individuals or organizations that provide financial support for technology projects.
+Funders shape a project through what they will pay for, how long they will pay, and what they ask to see. Their reporting requirements and timelines often steer design more than users do, and when the money stops a system can be left with nobody to run it.
 
-## Key Considerations
+## Questions to ask
 
-1. **Project Goals**: How do the funder's goals align with the project's objectives?
-2. **Return on Investment**: What does the funder expect in terms of ROI?
-3. **Risk Assessment**: How does the funder evaluate and mitigate project risks?
-4. **Ethical Considerations**: How can funders ensure their investments support ethical technology development?
-5. **Long-term Impact**: How does the funder consider the long-term societal impact of the project?
+- What does the funder need to see, and by when?
+- Who could pay for running costs after the first grant ends?
+- Do the funder's indicators match what would help users?
+- How open is the funder to changing course when the evidence says so?
 
-Use this card to explore how funders' priorities and decisions can shape the direction and impact of technology projects.
+## In a workshop
+
+Ask the group to describe what the funder would call success, then set it beside the users' version.
+
+## Related cards
+
+- [Product owner / Product manager]({{ '/cards/people/product-owner/' | relative_url }})
+- [Build for sustainability]({{ '/cards/values/build-for-sustainability/' | relative_url }})
+- [Use evidence to improve outcomes]({{ '/cards/values/use-evidence/' | relative_url }})

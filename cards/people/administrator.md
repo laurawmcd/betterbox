@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/users/administrator/
 layout: card
 title: Administrator
-description: Understanding the role of system administrators in technology projects
+card_id: administrator
+description: The person who runs the system day to day.
+redirect_from:
+- /cards/users/administrator/
 ---
 
 # Administrator
 
-The Administrator card represents individuals responsible for the installation, support, and maintenance of computer systems.
+Administrators manage user accounts, adjust settings and parameters, and carry out maintenance. They take the calls when something breaks, so their needs are easy to overlook until after launch.
 
-## Key Considerations
+## Questions to ask
 
-1. **System Management**: What tools and processes are needed for effective system administration?
-2. **Security**: How can administrators ensure system security and protect against threats?
-3. **User Support**: How can administrators effectively support end-users?
-4. **Performance Optimization**: What strategies can administrators use to optimize system performance?
-5. **Compliance**: How can administrators ensure systems comply with relevant regulations and policies?
+- Who will administer this, and has anyone asked what they need?
+- What can they change without calling a developer?
+- How will they find out that something has gone wrong?
+- What training do they need, and who will provide it?
 
-Use this card to consider the crucial role administrators play in maintaining the security, performance, and usability of technology systems.
+## In a workshop
+
+Map the administrator's week. Which tasks come up most often, and which of them could the system make easier?
+
+## Related cards
+
+- [Developer]({{ '/cards/people/developer/' | relative_url }})
+- [Configurability]({{ '/cards/qualities/configurability/' | relative_url }})
+- [Help]({{ '/cards/qualities/help/' | relative_url }})
+- [Maintainability]({{ '/cards/qualities/maintainability/' | relative_url }})

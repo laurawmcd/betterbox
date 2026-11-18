@@ -1,21 +1,31 @@
 ---
-redirect_from:
-  - /cards/practicalities/design-for-scale/
 layout: card
-title: Design for Scale
-description: Considering scalability in technology projects
+title: Design for scale
+card_id: design-for-scale
+description: Whether the project can grow, or be adapted to new places, without breaking.
+redirect_from:
+- /cards/practicalities/design-for-scale/
 ---
 
-# Design for Scale
+# Design for scale
 
-The Design for Scale card represents the approach of creating solutions that can effectively grow and adapt to serve larger numbers of users or handle increased demands.
+*This card is proposed for the next version of the deck.*
 
-## Key Considerations
+Ask what would happen with ten times as many users, or in ten more places. Costs, support, data and staffing all change as a project grows. Scale can also mean adaptation to new contexts. Decide which kind of growth you are planning for, and which you are not.
 
-1. **Architecture**: How can the system architecture be designed to support scaling?
-2. **Performance**: What performance considerations need to be addressed for large-scale use?
-3. **Data Management**: How will data storage and processing scale with increased usage?
-4. **User Experience**: How can the user experience remain consistent as the system scales?
-5. **Resource Planning**: What resources (technical, human, financial) are needed to support scaling?
+## Questions to ask
 
-Use this card to ensure that scalability is considered from the early stages of development, allowing for future growth and adaptation.
+- What growth are we planning for, in users, places and costs?
+- What breaks first?
+- What does each additional user cost?
+- Would a version for another context need a redesign?
+
+## In a workshop
+
+Ask the group to describe the project at ten times its current size, and note what they cannot answer.
+
+## Related cards
+
+- [Build for sustainability]({{ '/cards/values/build-for-sustainability/' | relative_url }})
+- [Performance]({{ '/cards/qualities/performance/' | relative_url }})
+- [Share, reuse and improve]({{ '/cards/values/share-reuse-improve/' | relative_url }})

@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/users/data-controller/
 layout: card
-title: Data Controller
-description: Understanding the responsibilities of those who determine the purposes for which data is processed
+title: Data controller
+card_id: data-controller
+description: The person or team who decides how information is collected and used.
+redirect_from:
+- /cards/users/data-controller/
 ---
 
-# Data Controller
+# Data controller
 
-The Data Controller card represents the entity that determines the purposes for which and the manner in which personal data is processed.
+The data controller decides what data is collected, why, how long it is kept and who sees it. That may be the implementing organization, a partner, a vendor or a government. Naming the controller shows who answers to data subjects and to regulators. Data protection laws often define controllers and processors, and the definitions vary by country.
 
-## Key Considerations
+## Questions to ask
 
-1. **Legal Compliance**: How does the data controller ensure compliance with data protection laws?
-2. **Data Security**: What measures are in place to protect the data being processed?
-3. **Transparency**: How does the data controller maintain transparency about data processing practices?
-4. **Data Subject Rights**: How does the controller facilitate the exercise of data subject rights?
-5. **Accountability**: How does the controller demonstrate accountability for their data processing activities?
+- Who decides what is collected and kept?
+- Who else processes the data on their behalf?
+- Where is it stored, and under whose law?
+- What is the process when someone asks to see or delete their data?
 
-Use this card to explore the responsibilities and ethical considerations associated with controlling and processing personal data in technology projects.
+## In a workshop
+
+Write a name next to the card. If the group cannot agree on one, you have found a gap.
+
+## Related cards
+
+- [Data subject]({{ '/cards/people/data-subject/' | relative_url }})
+- [Regulator]({{ '/cards/people/regulator/' | relative_url }})
+- [Legal issues]({{ '/cards/context/legal-issues/' | relative_url }})
+- [Establish people-first data practices]({{ '/cards/context/people-first-data-practices/' | relative_url }})

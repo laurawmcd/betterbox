@@ -1,0 +1,1606 @@
+# Betterbox card data. One entry per card slot. Source of truth for site pages, the print PDF and card QR/short links.
+# Layout: 13 numbered cards in each of the four suits plus one blank (14 per suit), and 22 Values. 4 x 14 + 22 = 78, a tarot-size deck.
+# Built 2026-09-26. Web text for each card lives in _data/web/<suit>.yml, keyed by id.
+#
+# status:            confirmed = in the live sheet (edited 2025-07-06); proposed = added by this restructure, needs your yes/no;
+#                    open = empty slot; blank = blank card.
+# card_text:         printed on the card; paragraphs separated by a blank line. card_text_status: indesign = from
+#                    Betterbox_deck_v0.2.idml (Nov 2026); draft = written in the Sept 2026 restructure.
+# card_text_approved / web_text_approved: set to true only by Laura. Nothing is printed or published until true.
+# sheet_note:        description text from the live sheet cell (Non-functional requirements).
+# digital_principle: the card matches one of the nine Principles for Digital Development (2024 update).
+# old_site_page / redirect_from: the old URL, and the redirect that keeps it working (jekyll-redirect-from).
+# needs:             what is left to do on the card.
+
+- id: product-owner
+  suit: people
+  number: 1
+  title: Product owner / Product manager
+  deck_title: Product owner
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: The person tasked with managing the product, deadlines and day-to-day decisions; organizing ideas and plans;
+    and gathering feedback and input from other stakeholders.
+  card_text_status: indesign
+  path: /cards/people/product-owner/
+  old_site_page: /cards/users/product-owner/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 1
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/product-owner/
+- id: developer
+  suit: people
+  number: 2
+  title: Developer
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: The person or team building the software or hardware to be used.
+  card_text_status: indesign
+  path: /cards/people/developer/
+  old_site_page: /cards/users/developer/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 1
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/developer/
+- id: funder
+  suit: people
+  number: 3
+  title: Funder
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: The entity providing the funding for the technology or project.
+  card_text_status: indesign
+  path: /cards/people/funder/
+  old_site_page: /cards/users/funder/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 2
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/funder/
+- id: administrator
+  suit: people
+  number: 4
+  title: Administrator
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: The person tasked with managing the technology or system. They may manage user accounts, adjust settings and
+    parameters and undertake maintenance tasks.
+  card_text_status: indesign
+  path: /cards/people/administrator/
+  old_site_page: /cards/users/administrator/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 2
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/administrator/
+- id: end-user-1
+  suit: people
+  number: 5
+  title: End user 1
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: A person who uses the system or product, or who is directly impacted by it. There can be multiple different types
+    of users, undertaking different roles and performing different tasks.
+  card_text_status: indesign
+  path: /cards/people/end-user-1/
+  old_site_page: /cards/users/end-user-1/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 3
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/end-user-1/
+- id: end-user-2
+  suit: people
+  number: 6
+  title: End user 2
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: A person who uses the system or product, or who is directly impacted by it. There can be multiple different types
+    of users, undertaking different roles and performing different tasks.
+  card_text_status: indesign
+  path: /cards/people/end-user-2/
+  old_site_page: /cards/users/end-user-2/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 3
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/end-user-2/
+- id: end-user-3
+  suit: people
+  number: 7
+  title: End user 3
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: A person who uses the system or product, or who is directly impacted by it. There can be multiple different types
+    of users, undertaking different roles and performing different tasks.
+  card_text_status: indesign
+  path: /cards/people/end-user-3/
+  old_site_page: /cards/users/end-user-3/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 4
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/end-user-3/
+- id: indirect-user
+  suit: people
+  number: 8
+  title: Indirect user
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: A person who is indirectly impacted by the system or product.
+  card_text_status: indesign
+  path: /cards/people/indirect-user/
+  old_site_page: /cards/users/indirect-user/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 4
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/indirect-user/
+- id: regulator
+  suit: people
+  number: 9
+  title: Regulator
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: A body tasked with setting and enforcing rules around the technology, system or process.
+  card_text_status: indesign
+  path: /cards/people/regulator/
+  old_site_page: /cards/users/regulator/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 5
+  card_text_fixes:
+  - or process -> or process.
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/regulator/
+- id: general-public
+  suit: people
+  number: 10
+  title: General public
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: The broader group of people who may be impacted by second or third-order effects of the technology or system.
+  card_text_status: indesign
+  path: /cards/people/general-public/
+  old_site_page: /cards/users/general-public/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 5
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/general-public/
+- id: data-subject
+  suit: people
+  number: 11
+  title: Data subject
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: A person whose data is held or managed by the system or technology.
+  card_text_status: indesign
+  path: /cards/people/data-subject/
+  old_site_page: /cards/users/data-subject/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 6
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/data-subject/
+- id: data-controller
+  suit: people
+  number: 12
+  title: Data controller
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: The person or team tasked with managing the information collected and held by the system or product.
+  card_text_status: indesign
+  path: /cards/people/data-controller/
+  old_site_page: /cards/users/data-controller/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 6
+  card_text_fixes:
+  - system or product -> system or product.
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/data-controller/
+- id: governance-and-oversight
+  suit: people
+  number: 13
+  title: Governance and oversight
+  status: proposed
+  sources:
+  - gdoc_2018
+  card_text: The board, steering group or other body that holds the project accountable. Do they get real information? Do
+    they have real authority? Can the people affected reach them?
+  card_text_status: draft
+  path: /cards/people/governance-and-oversight/
+  note: Appears only as row 13 of the Users column in the 2018 Google Doc. Proposed as the 13th Users card.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/users/governance-and-oversight/
+- id: users-blank
+  suit: people
+  number: 14
+  title: Blank
+  status: blank
+  note: Blank card for the group to write on.
+  card_text_approved: false
+- id: expectation-norm-setting
+  suit: exercises
+  number: 1
+  title: Expectation and norm-setting
+  deck_title: Expectations
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Set aside time at the beginning of the workshop to set expectations and goals for your time together.
+
+    You can give people time to reflect and then share, or get ideas from the room.
+  card_text_status: indesign
+  path: /cards/exercises/expectation-norm-setting/
+  old_site_page: /cards/facilitation-design/expectation-norm-setting/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 12
+  card_text_fixes:
+  - give people to time -> give people time
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/expectation-norm-setting/
+- id: risk-management
+  suit: exercises
+  number: 2
+  title: Risk management
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Mitigating risk is an important part of project management.
+
+    Brainstorm risks that might arise, and then rate them by likelihood and impact to identify the most important. Then come up with ways to mitigate them.
+
+    If you can’t reduce critical risks, consider how to go forward safely.
+  card_text_status: indesign
+  path: /cards/exercises/risk-management/
+  old_site_page: /cards/facilitation-design/risk-management/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 8
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/risk-management/
+- id: theory-of-change
+  suit: exercises
+  number: 3
+  title: Theory of change
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  card_text: |-
+    Starting with what you know write your goal at the top of a large piece of paper, and the planned activities at the bottom. In between, map how the activities create the outputs and outcomes that lead to your goal.
+
+    You should end up with a pyramid, or a tree with deep roots. Consider whether you can see gaps where the activities will not produce the desired outcome, or where new risks become visible.
+  card_text_status: indesign
+  path: /cards/exercises/theory-of-change/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 8
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/theory-of-change/
+- id: dark-logic-model
+  suit: exercises
+  number: 4
+  title: Dark logic model
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Start with a Theory of Change for your project. Write a new version where everything goes wrong: where activities fail, risks are not mitigated, or bad actors intervene. What could be possible new risks that might arise? Use Risk Management to see if you can make these outcomes less likely.
+
+    This exercise, while depressing, can help us identify our own potential role in causing harm.
+  card_text_status: indesign
+  path: /cards/exercises/dark-logic-model/
+  old_site_page: /cards/facilitation-design/dark-logic-model/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 9
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/dark-logic-model/
+- id: user-personas
+  suit: exercises
+  number: 5
+  title: User personas
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Identify the most important Users of your project. For each one, create a Persona, with a name, and preferences, skills and habits. This can be a fun exercise. Get creative and go into as much detail as you like!
+
+    For each Persona, note their needs from the project, the pain points it will solve, and challenges they may face.
+  card_text_status: indesign
+  path: /cards/exercises/user-personas/
+  old_site_page: /cards/facilitation-design/user-personas/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 9
+  card_text_fixes:
+  - pain points in will sove -> pain points it will solve
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/user-personas/
+- id: system-mapping
+  suit: exercises
+  number: 6
+  title: System mapping
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Start with your most important User. Draw how the project will cause change in the real world (not technical architecture). I like to use stick figures and lots of arrows.
+
+    For example, draw how a text alert might change behavior; or how a new database could get people help they need.
+
+    This fun exercise can help us get into a creative mindset where new connections can form. It’s another great way to see how the project will work and what might happen.
+  card_text_status: indesign
+  path: /cards/exercises/system-mapping/
+  old_site_page: /cards/facilitation-design/system-mapping/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 10
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/system-mapping/
+- id: feature-lists-prioritization
+  suit: exercises
+  number: 7
+  title: Feature lists and prioritization
+  deck_title: User stories
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Using User Personas and System Mapping, list features that your project may require.
+
+    You could use this format: ‘As a [User], I need to [insert task in the system] so that I can [purpose].’ This helps Developers understand why they are being asked to build a feature.
+
+    When you have your list, it’s useful to prioritize them (high, medium, low).
+  card_text_status: indesign
+  path: /cards/exercises/feature-lists-prioritization/
+  old_site_page: /cards/facilitation-design/feature-lists-prioritization/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 10
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/feature-lists-prioritization/
+- id: threat-modeling
+  suit: exercises
+  number: 8
+  title: Threat modeling
+  deck_title: Threat modelling
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Mapping actors who might seek to exploit the project can help identify and mitigate new risks.
+
+    Identify the assets implicated in the project, the vulnerabilities that might expose them to risk, and the bad actors who might exploit them.
+
+    You can turn this on its head to identify opportunities that could create value for actors who might support the project.
+  card_text_status: indesign
+  path: /cards/exercises/threat-modeling/
+  old_site_page: /cards/facilitation-design/threat-modeling/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 11
+  card_text_fixes:
+  - mitigate newl risks -> mitigate new risks
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/threat-modeling/
+- id: values-card-sorting
+  suit: exercises
+  number: 9
+  title: Values card-sorting exercise
+  deck_title: Values
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  card_text: |-
+    This powerful exercise produces the values that should guide your action.
+
+    As a group, sort the Values suit, prioritizing, clustering and discarding. Add organizational values and principles on blank cards. Layer in any cards from other suits, such as Accessibility, that speak to your priorities.
+
+    How does your project live up to these Values?
+  card_text_status: indesign
+  path: /cards/exercises/values-card-sorting/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 11
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/values-card-sorting/
+- id: project-management
+  suit: exercises
+  number: 10
+  title: Project management
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  card_text: |-
+    Less an exercise than a practice, effective project management brings in many of the practices that make technology projects better.
+
+    Those practices include setting clear goals and underlying objectives, planning and monitoring progress, clear ownership and stakeholder management, and identifying and mitigating risks.
+
+    Discuss whether strengthening these practices in the management of the project might help lead to better outcomes.
+  card_text_status: indesign
+  path: /cards/exercises/project-management/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 12
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/project-management/
+- id: swot-analysis
+  suit: exercises
+  number: 11
+  title: SWOT analysis
+  status: proposed
+  sources:
+  - gdoc_2018
+  - old_site
+  card_text: List the project's Strengths and Weaknesses (inside your control) and its Opportunities and Threats (outside
+    it). Work in small groups, then compare. Look for weaknesses that a threat could exploit, and strengths that could open
+    an opportunity.
+  card_text_status: draft
+  path: /cards/exercises/swot-analysis/
+  old_site_page: /cards/facilitation-design/swot-analysis/
+  note: In the 2018 Google Doc and on the site; not in the live sheet or deck v0.2.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/swot-analysis/
+- id: plenary-discussion
+  suit: exercises
+  number: 12
+  title: Plenary discussion
+  status: proposed
+  sources: []
+  card_text: Bring everyone back together. Return to the system map and ask for feedback, risks, challenges and concerns.
+    Invite criticism, including about surveillance, security and trust. Try to end on the priorities people voted for, not
+    on the worst worry.
+  card_text_status: draft
+  path: /cards/exercises/plenary-discussion/
+  note: New. Drawn from the plenary-discussion write-up in the 2018 Google Doc.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/facilitation-design/plenary-discussion/
+- id: facilitation-design-open-13
+  suit: exercises
+  number: 13
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.
+- id: facilitation-design-blank
+  suit: exercises
+  number: 14
+  title: Blank
+  status: blank
+  note: Blank card for the group to write on.
+  card_text_approved: false
+- id: implementing-organization-capacity
+  suit: context
+  number: 1
+  title: Implementing organization capacity
+  deck_title: Team capacity
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Successfully building, and/or deploying technology requires time, resources, and political capital.
+
+    Teams must buy into the project, have the knowledge to carry it out sustainably, and be supported to take risks, learn transparently, and sometimes fail. They will need access to practical resources such as electricity and connectivity, and be able to communicate publicly about the work.
+
+    Are implementers empowered to succeed with your project?
+  card_text_status: indesign
+  path: /cards/context/implementing-organization-capacity/
+  old_site_page: /cards/practicalities/implementing-organization-capacity/
+  redirect_from:
+  - /cards/practicalities/implementing-organization-capacity/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 15
+  card_text_approved: false
+  web_text_approved: false
+- id: legal-issues
+  suit: context
+  number: 2
+  title: Legal issues
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  card_text: |-
+    What, if any, local, regional, national or international law applies to the project?
+
+    Consider whether there is domain-specific regulation that may apply, for example, relating to health information.
+
+    Look at legislation in the target geography, and ensure you understand whether laws in the jurisdictions where data is housed or transmitted - for example, in the cloud - may also apply.
+  card_text_status: indesign
+  path: /cards/context/legal-issues/
+  note: The deck text is written for this Context card. The old site had a generic Legal card under Non-functional requirements
+    instead, now retired.
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 15
+  card_text_approved: false
+  web_text_approved: false
+- id: language-literacy
+  suit: context
+  number: 3
+  title: Language, literacy
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Technologies may need to support multiple languages and scripts, which requires planning, especially with less common scripts. Some users may not read, or may need easy-to-interpret symbology and interfaces. Digital literacy gaps may mean that technology interfaces or processes are unfamiliar.
+
+    Consider how these issues may impact the success of your project.
+  card_text_status: indesign
+  path: /cards/context/language-literacy/
+  old_site_page: /cards/practicalities/language-literacy/
+  redirect_from:
+  - /cards/practicalities/language-literacy/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 16
+  card_text_approved: false
+  web_text_approved: false
+- id: access-affordability
+  suit: context
+  number: 4
+  title: Access and affordability
+  deck_title: Affordability
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Some users may be less able to afford the costs of airtime, devices, and even power. In places where access to in-home electricity is not certain, users may also need to spend time and money to charge devices.
+
+    Consider whether target users, even a subset of the most vulnerable, may struggle to access the technology or platform because of the costs of required equipment and connection.
+  card_text_status: indesign
+  path: /cards/context/access-affordability/
+  old_site_page: /cards/practicalities/access-affordability/
+  redirect_from:
+  - /cards/practicalities/access-affordability/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 16
+  card_text_approved: false
+  web_text_approved: false
+- id: infrastructure-regulation-market
+  suit: context
+  number: 5
+  title: Infrastructure, regulation and market
+  deck_title: Market
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    It is vital to understand the local technology market, including connectivity, mobile telephony, consumer-facing apps and platforms such as mobile money systems, and digital infrastructure.
+
+    Resilience to natural hazards, geographic spread and rural/urban divides, and access to electricity all impact how technology is used, and by whom.
+
+    Planning with these constraints in mind is critical to project success.
+  card_text_status: indesign
+  path: /cards/context/infrastructure-regulation-market/
+  old_site_page: /cards/practicalities/infrastructure-regulation-market/
+  redirect_from:
+  - /cards/practicalities/infrastructure-regulation-market/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 17
+  card_text_approved: false
+  web_text_approved: false
+- id: political-context
+  suit: context
+  number: 6
+  title: Political context
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    Communications infrastructure may be regulated, monitored and controlled by state authorities.
+
+    It can be damaged, or access to install, repair or maintain it can be disrupted, by conflict.
+
+    Analyzing the political context, ownership of communications networks and access to information is important to understanding risks and user behavior.
+  card_text_status: indesign
+  path: /cards/context/political-context/
+  old_site_page: /cards/practicalities/political-context/
+  redirect_from:
+  - /cards/practicalities/political-context/
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 17
+  card_text_approved: false
+  web_text_approved: false
+- id: people-first-data-practices
+  suit: context
+  number: 7
+  title: Establish people-first data practices
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - deck_v0.2
+  - gdoc_2018
+  card_text: |-
+    Digital services and initiatives generate, rely on, and/or use people’s data. It is critical to put people’s rights and needs first when collecting, sharing, analyzing, or deleting data, and to follow applicable rules and guidelines.
+
+    People-first data practices include ensuring people have meaningful consent and control over how their data is used, managed and maintained.
+  card_text_status: indesign
+  digital_principle:
+    name: Establish people-first data practices
+    url: https://digitalprinciples.org/principles/establish-people-first-data-practices/
+  path: /cards/context/people-first-data-practices/
+  note: Also one of the nine 2024 Digital Principles. Kept in Context because the printed deck and live sheet put it there.
+  needs:
+  - review_web_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 18
+  card_text_approved: false
+  web_text_approved: false
+- id: cultural-context
+  suit: context
+  number: 8
+  title: Cultural context
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  card_text: |-
+    Are the ways that cultures intersect with technology and power influential on the goals of your project? For example, who holds power in the local community? How do different languages, beliefs and customs co-exist? And how are technologies seen within those communities? Who has access to technology? Is it constrained or monitored, and by whom? Are there relevant taboos or beliefs?
+
+    Understanding the relationships between technology and society can help improve project design and avoid or mitigate some risks.
+  card_text_status: indesign
+  path: /cards/context/cultural-context/
+  needs:
+  - review_card_text
+  - review_web_text
+  - recheck_web_text_against_card_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 18
+  card_text_fixes:
+  - technology, s it -> technology? Is it
+  - immprove -> improve
+  replaced_draft: true
+  card_text_approved: false
+  web_text_approved: false
+- id: connectivity
+  suit: context
+  number: 9
+  title: Connectivity
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  card_text: |-
+    The quality and reliability of connectivity - whether via mobile telephony, broadband fiber or, increasingly, low-earth-orbit (LEO) satellite, can make or break a project.
+
+    Seek to understand how communities navigate unreliable connectivity and determine how resilient your chosen technology and data flows must be to outages or high latency. For example, asynchronous messaging will handle delay better than servers handling financial transactions.
+  card_text_status: indesign
+  path: /cards/context/connectivity/
+  needs:
+  - review_card_text
+  - review_web_text
+  - recheck_web_text_against_card_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 19
+  replaced_draft: true
+  card_text_approved: false
+  web_text_approved: false
+- id: design-for-scale
+  suit: context
+  number: 10
+  title: Design for scale
+  status: proposed
+  sources:
+  - gdoc_2018
+  - old_site
+  card_text: 'Will it work with ten times as many users, or in ten more places? Consider what breaks as the numbers grow:
+    costs, support, data, staff. Decide what growth you are planning for, and what you are not.'
+  card_text_status: draft
+  path: /cards/context/design-for-scale/
+  old_site_page: /cards/practicalities/design-for-scale/
+  redirect_from:
+  - /cards/practicalities/design-for-scale/
+  note: In the 2018 Google Doc and on the site; dropped from the live sheet and from the 2024 Digital Principles.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: context-open-11
+  suit: context
+  number: 11
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.
+- id: context-open-12
+  suit: context
+  number: 12
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.
+- id: context-open-13
+  suit: context
+  number: 13
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.
+- id: context-blank
+  suit: context
+  number: 14
+  title: Blank
+  status: blank
+  note: Blank card for the group to write on.
+  card_text_approved: false
+- id: accessibility
+  suit: qualities
+  number: 1
+  title: Accessibility
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    How is the technology usable for people with different physical and other abilities? For example, does it work for people who are colorblind? Can people manipulate the technology successfully if they are missing limbs or digits? Does the technology make assumptions about height or movement? Does it follow relevant accessibility requirements?
+
+    Sometimes, testing or evaluating such considerations can lead to design improvements. At others, it can indicate the need to maintain other options for people who cannot engage with the technology successfully.
+  card_text_status: indesign
+  sheet_note: Usability concerns for people with non-standard constraints – e.g. colorblindness, poor or no eyesight.
+  path: /cards/qualities/accessibility/
+  old_site_page: /cards/non-functional-requirements/accessibility/
+  needs:
+  - review_card_text
+  - review_web_text
+  - recheck_web_text_against_card_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 22
+  replaced_draft: true
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/accessibility/
+- id: security
+  suit: qualities
+  number: 2
+  title: Security
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: |-
+    How will the technology be secured, in the database and as it is transmitted? How will you manage user access and authentication, and educate users on important cyber hygiene practices like two-factor authentication and password safety?
+
+    The extent to which you are able to manage the inherent cybersecurity risks of collecting, managing and securing data should inform the overall risk/benefit analysis for the proposed project.
+  card_text_status: indesign
+  sheet_note: Does the data need to be encrypted in the database? Encrypted for network communication between internal systems?
+    What type of authentication need to be in place for user's access remotely?
+  path: /cards/qualities/security/
+  old_site_page: /cards/non-functional-requirements/security/
+  needs:
+  - review_card_text
+  - review_web_text
+  - recheck_web_text_against_card_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 22
+  replaced_draft: true
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/security/
+- id: network-resilience
+  suit: qualities
+  number: 3
+  title: Network resilience
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Can the technology handle network instability, power failure, or hardware failure? Are critical systems, such
+    as servers, protected with uninterruptible power supplies to allow them to shut down safely, or back-up storage to provide
+    redundancy? How might networked servers need to handle high latency or downtime? Can systems automatically manage and
+    reduce bandwidth loads? How will user-facing interfaces and data management handle working offline and syncing to the
+    server once connectivity is restored?
+  card_text_status: indesign
+  sheet_note: Ability to handle error and boundary conditions while running (internet connection goes down, power outage or
+    hardware failure).
+  path: /cards/qualities/network-resilience/
+  old_site_page: /cards/non-functional-requirements/robustness/
+  redirect_from:
+  - /cards/non-functional-requirements/robustness/
+  - /cards/non-functional-requirements/network-resilience/
+  note: Called Resilience in the April sheet and 2018 doc, Robustness on the old site, Network resilience in the live sheet.
+  needs:
+  - review_card_text
+  - review_web_text
+  - recheck_web_text_against_card_text
+  card_text_source: Betterbox_deck_v0.2.idml, spread 23
+  replaced_draft: true
+  card_text_approved: false
+  web_text_approved: false
+- id: maintainability
+  suit: qualities
+  number: 4
+  title: Maintainability
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  card_text: Who will fix and update it in two years? Consider documentation, readable code, dependencies that may lose support,
+    and whether the people who built it will still be around.
+  card_text_status: draft
+  path: /cards/qualities/maintainability/
+  note: New in the live sheet. No earlier text anywhere.
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/maintainability/
+- id: interoperability
+  suit: qualities
+  number: 5
+  title: Interoperability
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Which industry output standards should it follow? Does it have APIs? Is it part of a larger system? Consider
+    what it needs to exchange data with.
+  card_text_status: draft
+  sheet_note: Industry output standards, APIs, is the system part of a larger one.
+  path: /cards/qualities/interoperability/
+  old_site_page: /cards/non-functional-requirements/interoperability/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/interoperability/
+- id: configurability
+  suit: qualities
+  number: 6
+  title: Configurability
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Can end users change aspects of the software's configuration easily, through usable interfaces or config files?
+    Decide what people should change themselves and what should stay locked.
+  card_text_status: draft
+  sheet_note: Ability for the end users to change aspects of the software's configuration easily (through usable interfaces
+    or config files etc.).
+  path: /cards/qualities/configurability/
+  old_site_page: /cards/non-functional-requirements/configurability/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/configurability/
+- id: data-integrity
+  suit: qualities
+  number: 7
+  title: Data integrity
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: How much loss, corruption or duplication of data can you tolerate? Some records must be exact and others can
+    be approximate. How would you notice a problem?
+  card_text_status: draft
+  sheet_note: Tolerance for loss, corruption, or duplication of data.
+  path: /cards/qualities/data-integrity/
+  old_site_page: /cards/non-functional-requirements/data-integrity/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/data-integrity/
+- id: licensing-copyright
+  suit: qualities
+  number: 8
+  title: Licensing and copyright
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Does the client require particular rights to use the application or ownership of the code? Do these place restrictions
+    on the software libraries you can use?
+  card_text_status: draft
+  sheet_note: Does the client require particular rights to use the application or ownership of the code? Do these place restrictions
+    on the software libraries we can use?
+  path: /cards/qualities/licensing-copyright/
+  old_site_page: /cards/non-functional-requirements/licensing-copyright/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/licensing-copyright/
+- id: help
+  suit: qualities
+  number: 9
+  title: Help
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: What type and extent of help do users need? Interactive help, inline help or an instruction manual? Who answers
+    when people get stuck?
+  card_text_status: draft
+  sheet_note: Type and extent of help required for the application – Interactive help? Inline help? Instruction manual?
+  path: /cards/qualities/help/
+  old_site_page: /cards/non-functional-requirements/help/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/help/
+- id: installability
+  suit: qualities
+  number: 10
+  title: Installability
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: How easy is it to install on every platform it needs? Consider whether end users install it themselves or a technical
+    team deploys it.
+  card_text_status: draft
+  sheet_note: Ease of system installation on all necessary platforms (e.g. installation by end users vs. deployment by tech
+    team).
+  path: /cards/qualities/installability/
+  old_site_page: /cards/non-functional-requirements/installability/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/installability/
+- id: performance
+  suit: qualities
+  number: 11
+  title: Performance
+  status: proposed
+  sources:
+  - gdoc_2018
+  - old_site
+  card_text: How fast does it need to be, and what does slowness or downtime cost? Consider latency on your users' connections
+    and what happens at peak use.
+  card_text_status: draft
+  sheet_note: Latency, performance and cost of downtime?
+  path: /cards/qualities/performance/
+  old_site_page: /cards/non-functional-requirements/performance/
+  note: In the 2018 Google Doc, the April 2025 sheet export and on the site; not in the live sheet.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/performance/
+- id: localization
+  suit: qualities
+  number: 12
+  title: Localization
+  status: proposed
+  sources:
+  - gdoc_2018
+  - old_site
+  card_text: Does the system support multiple languages or locally appropriate formats throughout? Consider scripts, dates,
+    numbers, currency and units, and who checks the translations.
+  card_text_status: draft
+  path: /cards/qualities/localization/
+  old_site_page: /cards/non-functional-requirements/localization/
+  note: In the 2018 Google Doc and on the site; not in the live sheet.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+  redirect_from:
+  - /cards/non-functional-requirements/localization/
+- id: non-functional-requirements-open-13
+  suit: qualities
+  number: 13
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.
+- id: non-functional-requirements-blank
+  suit: qualities
+  number: 14
+  title: Blank
+  status: blank
+  note: Blank card for the group to write on.
+  card_text_approved: false
+- id: positive-impact
+  suit: values
+  number: 1
+  title: Aim for positive impact
+  keywords:
+  - Do better than no harm
+  - Beneficence
+  - Better than non-use
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: 'Avoiding harm is the minimum. Aim to do better than no harm: to leave people better off than if the technology
+    had not been used. Is this better than not using technology at all?'
+  card_text_status: draft
+  path: /cards/values/positive-impact/
+  old_site_page: /cards/values/do-better-than-no-harm/
+  redirect_from:
+  - /cards/values/do-better-than-no-harm/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: anticipate-mitigate-harms
+  suit: values
+  number: 2
+  title: Anticipate and mitigate harms
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  card_text: Harm is always possible with technology. Plan for the worst while working for the best outcomes. Look for harms
+    early and build in safeguards from the start.
+  card_text_status: draft
+  digital_principle:
+    name: Anticipate and mitigate harms
+    url: https://digitalprinciples.org/principles/anticipate-and-mitigate-harms/
+  path: /cards/values/anticipate-mitigate-harms/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: design-for-inclusion
+  suit: values
+  number: 3
+  title: Design for inclusion
+  keywords:
+  - Diversity
+  - Leave no-one behind
+  - Gender
+  - Persons with disabilities
+  - Intersectionality
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Consider the full range of human diversity, including gender, disability, literacy, language and income. Who
+    is left out by the way this is designed?
+  card_text_status: draft
+  digital_principle:
+    name: Design for inclusion
+    url: https://digitalprinciples.org/principles/design-for-inclusion/
+  path: /cards/values/design-for-inclusion/
+  old_site_page: /cards/values/diversity-inclusion/
+  redirect_from:
+  - /cards/values/diversity-inclusion/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: climate-environment
+  suit: values
+  number: 4
+  title: Climate and environment
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: 'Consider the environmental cost of the technology: devices, energy, servers and waste. How will the project
+    cope with a changing climate, and reduce its footprint?'
+  card_text_status: draft
+  path: /cards/values/climate-environment/
+  old_site_page: /cards/values/climate-environment/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: design-with-people
+  suit: values
+  number: 5
+  title: Design with people
+  keywords:
+  - Respect
+  - Agency
+  - Autonomy
+  - Localization
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Good design starts and ends with the people who will manage, use and benefit from it. Involve them from the beginning,
+    and treat their agency and autonomy as design requirements.
+  card_text_status: draft
+  digital_principle:
+    name: Design with people
+    url: https://digitalprinciples.org/principles/design-with-people/
+  path: /cards/values/design-with-people/
+  old_site_page: /cards/values/design-with-user/
+  redirect_from:
+  - /cards/values/design-with-user/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: use-evidence
+  suit: values
+  number: 6
+  title: Use evidence to improve outcomes
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  card_text: Keep gathering, analyzing and using feedback. Measure outcomes for people, not only usage. Involve the people
+    affected in deciding what to measure, and change course when the evidence says so.
+  card_text_status: draft
+  digital_principle:
+    name: Use evidence to improve outcomes
+    url: https://digitalprinciples.org/principles/use-evidence-to-improve-outcomes/
+  path: /cards/values/use-evidence/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: open-transparent-practices
+  suit: values
+  number: 7
+  title: Create open and transparent practices
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Build confidence through clear roles and responsibilities, openly shared decisions, ways for people to raise
+    concerns, and open standards, data and source where you can.
+  card_text_status: draft
+  digital_principle:
+    name: Create open and transparent practices
+    url: https://digitalprinciples.org/principles/create-open-and-transparent-practices/
+  path: /cards/values/open-transparent-practices/
+  old_site_page: /cards/values/open-standards/
+  redirect_from:
+  - /cards/values/open-standards/
+  note: The old site page (Use Open Standards, Data, Source, and Innovation) was the closest match; its content is now part
+    of this principle.
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: share-reuse-improve
+  suit: values
+  number: 8
+  title: Share, reuse and improve
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Build on what works, improve it, and share so that others can do the same. Use existing open source and standards,
+    document your work, and contribute improvements back.
+  card_text_status: draft
+  digital_principle:
+    name: Share, reuse and improve
+    url: https://digitalprinciples.org/principles/share-reuse-and-improve/
+  path: /cards/values/share-reuse-improve/
+  old_site_page: /cards/values/reuse-improve/
+  redirect_from:
+  - /cards/values/reuse-improve/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: justice-power
+  suit: values
+  number: 9
+  title: Justice and power
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Who holds power in this project and who does not? Consider whose interests are served and whether the outcome
+    is fair.
+  card_text_status: draft
+  path: /cards/values/justice-power/
+  old_site_page: /cards/values/justice-power/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: humanity-compassion-empathy
+  suit: values
+  number: 10
+  title: Humanity, compassion and empathy
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Keep people at the centre. Bring humanity, compassion and empathy to every design decision, especially when the
+    people affected are in difficult circumstances.
+  card_text_status: draft
+  path: /cards/values/humanity-compassion-empathy/
+  old_site_page: /cards/values/humanity-compassion-empathy/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: accountability-governance
+  suit: values
+  number: 11
+  title: Accountability and governance
+  status: confirmed
+  sources:
+  - sheet_2025_07
+  - gdoc_2018
+  - old_site
+  card_text: Who is responsible when something goes wrong, and to whom do they answer? Set out who decides, who oversees,
+    and how affected people can raise concerns and get a response.
+  card_text_status: draft
+  path: /cards/values/accountability-governance/
+  old_site_page: /cards/values/accountability-governance/
+  needs:
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: understand-existing-ecosystem
+  suit: values
+  number: 12
+  title: Understand the existing ecosystem
+  status: proposed
+  sources:
+  - old_site
+  card_text: Trust starts with understanding the cultural, social and economic context. Learn what technology and local organizations
+    already exist, which policies apply, and who has access, before designing anything new.
+  card_text_status: draft
+  digital_principle:
+    name: Understand the existing ecosystem
+    url: https://digitalprinciples.org/principles/understand-the-existing-ecosystem/
+  path: /cards/values/understand-existing-ecosystem/
+  old_site_page: /cards/values/understand-ecosystem/
+  redirect_from:
+  - /cards/values/understand-ecosystem/
+  note: One of the nine 2024 Digital Principles. Absent from the live sheet; the old site had it as Understand the Existing
+    Ecosystem.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: build-for-sustainability
+  suit: values
+  number: 13
+  title: Build for sustainability
+  status: proposed
+  sources:
+  - gdoc_2018
+  - old_site
+  card_text: 'Plan for the long term: financial, operational and ecological. Show the full cost of ownership, and plan who
+    will run it and how it might be handed over or wound down.'
+  card_text_status: draft
+  digital_principle:
+    name: Build for sustainability
+    url: https://digitalprinciples.org/principles/build-for-sustainability/
+  path: /cards/values/build-for-sustainability/
+  old_site_page: /cards/practicalities/build-for-sustainability/
+  redirect_from:
+  - /cards/practicalities/build-for-sustainability/
+  note: One of the nine 2024 Digital Principles. The live sheet lists it under Non-functional requirements and the old site
+    under Practicalities; placed here with the other principles.
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: be-collaborative
+  suit: values
+  number: 14
+  title: Be collaborative
+  status: proposed
+  sources:
+  - old_site
+  card_text: Work with other people and organizations. Share information and resources, avoid duplicating what others are
+    doing, and coordinate with those working on the same problem.
+  card_text_status: draft
+  path: /cards/values/be-collaborative/
+  old_site_page: /cards/values/be-collaborative/
+  note: Old site page (2015-era principle, no longer among the nine).
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: respect
+  suit: values
+  number: 15
+  title: Respect
+  status: proposed
+  sources: []
+  card_text: Treat the people affected as partners whose time, knowledge and choices deserve respect. Was their consent real?
+    Does the design treat them with dignity?
+  card_text_status: draft
+  path: /cards/values/respect/
+  note: 'Proposed: a keyword under Design with people in the live sheet, given its own card.'
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: agency-autonomy
+  suit: values
+  number: 16
+  title: Agency and autonomy
+  status: proposed
+  sources: []
+  card_text: People should keep control over decisions that affect them. Is anyone being nudged, forced or locked in? Can
+    they leave, and take their data with them?
+  card_text_status: draft
+  path: /cards/values/agency-autonomy/
+  note: 'Proposed: keywords under Design with people in the live sheet, given their own card.'
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: leave-no-one-behind
+  suit: values
+  number: 17
+  title: Leave no one behind
+  status: proposed
+  sources: []
+  card_text: 'Start with the people who are hardest to reach: those with the least access, income, connectivity or voice.
+    Who would be left behind if the project met its own targets?'
+  card_text_status: draft
+  path: /cards/values/leave-no-one-behind/
+  note: 'Proposed: a keyword under Design for inclusion in the live sheet, given its own card.'
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: intersectionality
+  suit: values
+  number: 18
+  title: Intersectionality
+  status: proposed
+  sources: []
+  card_text: People sit at the crossing of gender, disability, age, class and more, and the overlaps can compound disadvantage.
+    Look beyond single categories.
+  card_text_status: draft
+  path: /cards/values/intersectionality/
+  note: 'Proposed: a keyword under Design for inclusion in the live sheet, given its own card.'
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: local-ownership
+  suit: values
+  number: 19
+  title: Local ownership
+  status: proposed
+  sources: []
+  card_text: Who owns this locally? Do local people and organizations lead, control and benefit from the project, and does
+    it fit local knowledge, language and priorities?
+  card_text_status: draft
+  path: /cards/values/local-ownership/
+  note: 'Proposed: the "localization" keyword under Design with people in the live sheet, read as local ownership.'
+  needs:
+  - decision
+  - review_card_text
+  - review_web_text
+  card_text_approved: false
+  web_text_approved: false
+- id: values-open-20
+  suit: values
+  number: 20
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.
+- id: values-open-21
+  suit: values
+  number: 21
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.
+- id: values-open-22
+  suit: values
+  number: 22
+  title: null
+  status: open
+  note: Unfilled slot. Choose a card.

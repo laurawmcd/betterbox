@@ -1,0 +1,164 @@
+# Web text for the Exercises suit. DRAFT for review.
+# Fields: summary, time (only where your own write-ups give one), body, steps, tips, related.
+# Workshop details come from the exercise write-ups in the 2018 working doc, with client-specific references removed.
+
+expectation-norm-setting:
+  summary: "Set expectations and agree how the group will work together before doing anything else."
+  time: "10 minutes"
+  body: |
+    Set aside time at the start to ask people what they expect from the workshop and how they want to work together. The exercise makes people feel heard, shows you what the room cares about, and gives you something to point back to later.
+  steps:
+    - "Put a flipchart where everyone can see it. Ask the group for their expectations and goals for the session, and write them up. You can give people a moment to reflect and then share, or take ideas from the room."
+    - "Put up a second flipchart and ask for group norms. Explain that for the day you are a team, and that trust depends on behaving in certain ways. Offer an example that fits the room, such as raising a hand rather than interrupting, taking calls outside, or coming back from breaks on time."
+    - "Tack both charts to the wall and refer to them at key moments, such as just before a break or when someone becomes disruptive."
+  tips:
+    - "Expectation-setting carries a risk: people may ask for sessions you have not planned. Note the request visibly and promise to take it back to the organizers. Where a request matches a session you have planned, use it to show why that session matters."
+    - "Norm-setting can feel awkward with a room of adults. It gives you a chance to get ahead of anyone likely to disrupt, and groups that have been through disruption before will often take the opportunity to set the rules themselves."
+  related: [values-card-sorting, project-management]
+
+risk-management:
+  summary: "Brainstorm what could go wrong, rank the risks, and agree what to do about the important ones."
+  body: |
+    Mitigating risk is an important part of project management. This exercise gets the group to name risks, rate them, and decide what to do about them, so that the plan carries the answers instead of the anxieties.
+  steps:
+    - "Brainstorm the risks that might arise. Give everyone sticky notes and ask for one risk per note."
+    - "Rate each risk by likelihood and by impact, for example high, medium or low, and identify the most important ones."
+    - "For each important risk, come up with ways to make it less likely or less damaging."
+    - "For risks you cannot reduce, discuss how to go forward safely, or whether to go forward at all."
+  tips:
+    - "People rarely think of the worst risks unprompted. Run the Dark logic model or Threat modeling first to widen the list."
+  related: [dark-logic-model, threat-modeling, theory-of-change, project-management]
+
+theory-of-change:
+  summary: "Map how your activities are meant to lead to your goal, and look for the gaps."
+  body: |
+    A theory of change shows how the work is expected to produce results. Drawing it as a group exposes assumptions that everyone had been carrying silently.
+  steps:
+    - "Starting with what you know, write your goal at the top of a large piece of paper and the planned activities at the bottom."
+    - "In between, map how the activities create the outputs and outcomes that lead to your goal. You should end up with a pyramid, or a tree with deep roots."
+    - "Look for gaps where the activities will not produce the outcome you want, and for places where new risks become visible."
+  tips:
+    - "Write the assumption on each arrow: 'this leads to that, because...'. Weak assumptions are usually where a project is most likely to fail."
+  related: [dark-logic-model, risk-management, use-evidence]
+
+dark-logic-model:
+  summary: "Draw your theory of change again, this time with everything going wrong."
+  body: |
+    Start from your Theory of Change and write a second version in which activities fail, risks are not mitigated, or bad actors step in. The exercise is uncomfortable, which is the point: it helps the group see their own possible part in causing harm.
+  steps:
+    - "Start with the Theory of Change you made for the project."
+    - "Write a new version where everything goes wrong: activities fail, risks go unmitigated, or bad actors intervene."
+    - "Note the new risks that show up."
+    - "Use Risk management to work out how to make those outcomes less likely."
+  tips:
+    - "Ask, at each step, what the project team itself might do to make things worse. Good intentions do not prevent harm."
+  related: [theory-of-change, risk-management, threat-modeling, anticipate-mitigate-harms]
+
+user-personas:
+  summary: "Turn each important user into a named, specific person the group can talk about."
+  time: "30 minutes"
+  body: |
+    A persona describes an individual: how they use technology, what their work and home life are like, and what they need from the project. Personas give the group a shared vocabulary for the rest of the day. They also show up inconsistent assumptions about technology and problems in the theory of change, and they speed up the mapping exercises that follow.
+  steps:
+    - "Prepare prompts on a flipchart or slide: personas describe individuals, how they use technology, and what they need from the tool; who are the users we should talk about?; a sample persona; and 'now write your own'."
+    - "Put up a flipchart and ask the group to suggest the roles that matter. Look for people who use the system directly and for people who receive its outputs without producing them."
+    - "In small groups, choose or assign a role and spend 5 to 10 minutes writing a persona on flipchart paper: a name, home life, the technology they use at home and at work, how they get important updates about their job, and what they need that this project could supply."
+    - "Come back together and spend 10 to 20 minutes talking through the personas. Invite groups to comment on each other's work and amend as you go, so that the whole group owns them."
+    - "Put the final personas on the wall for the rest of the day."
+  tips:
+    - "Prepare one sample persona. Choose a real role that is not central to the system so that the example does not steer the group."
+    - "If people resist group work, run it in plenary, or bring pre-written personas and have the room validate them."
+    - "To validate: put quotes or bullet points on flipcharts and have people put coloured stickers on what they agree and disagree with, or ask someone to read a prepared user story aloud and discuss it."
+  related: [system-mapping, feature-lists-prioritization, end-user-1]
+
+system-mapping:
+  summary: "Draw how the project will change things in the real world, not how the software fits together."
+  time: "30 minutes"
+  body: |
+    A system map shows how people, information and decisions move around, and what happens when they arrive. It is not a technical architecture diagram. Start with your most important user and draw how the project will cause change: how a text alert might alter behaviour, or how a new database could get people the help they need. Stick figures and lots of arrows work well.
+  steps:
+    - "Ask the group to help you draw what happens now. What information is collected, by whom, and where does it go? What are the challenges?"
+    - "Show how information moves from one actor to another, through which channel, and what happens when it arrives."
+    - "Use the drawing to draw out a discussion of how people make decisions, and what their goals and plans are."
+    - "Run it in small groups and discuss in plenary, or build it in plenary. If you build it in plenary, start it yourself so it develops correctly, then invite others to take the pen."
+  tips:
+    - "Avoid maps that only show information being passed on. A useful map also shows what people do with it in the real world."
+    - "Draw the current system first, then draw how the new one will change it."
+  related: [user-personas, feature-lists-prioritization, plenary-discussion, indirect-user]
+
+feature-lists-prioritization:
+  summary: "List the features each user needs, then agree which matter most."
+  time: "30 minutes to list, 15 minutes to prioritize"
+  body: |
+    Using your personas and system map, list what the project may need to do. Writing each feature as a user story ('As a [user], I need to [do something in the system] so that I can [purpose]') helps developers understand why they are being asked to build it.
+  steps:
+    - "Give each person sticky notes in one colour. Ask them to write features for the personas, drawing on the system map and their own ideas, and attach them to the persona they belong to. Share and discuss."
+    - "To prioritize, use one of two methods. In the first, give each participant a fixed number of stickers (10 or fewer). Without discussing, they vote on the notes they think matter, using all their stickers and stacking more than one on the same note if they wish. If you have no stickers, people can draw stars in marker pen."
+    - "In the second method, take each note and ask the group to place it higher or lower on a flipchart, where higher means more important. Do this together with discussion, or silently, which encourages everyone to take part. In the silent version people may move notes placed by others. If a note keeps moving up and down, put a mark on it and discuss it in plenary."
+    - "In plenary, ask what was prioritized, what was deprioritized, and what surprised people. Ask a few people why they voted as they did."
+    - "End with a prioritized display that you can hand to the developers or use to shape your feedback to them."
+  tips:
+    - "The deck card says to sort features as high, medium or low. Either voting method gives you that."
+  related: [user-personas, system-mapping, product-owner, developer]
+
+threat-modeling:
+  summary: "Map who might want to exploit the project, what they could reach, and how."
+  body: |
+    Threat modeling looks at the project from the point of view of someone who wants to misuse it. Mapping those actors helps you find and reduce risks that cheerful planning tends to miss.
+  steps:
+    - "Identify the assets in the project: data, systems, money, reputations, people."
+    - "Identify the vulnerabilities that might expose those assets to risk."
+    - "Identify the bad actors who might exploit the vulnerabilities, and what each of them wants."
+    - "For each combination that worries the group, agree what to do, and add it to your risk list."
+    - "Turn it on its head: identify the actors who could gain value from the project succeeding, and think about how to work with them."
+  related: [risk-management, dark-logic-model, security, anticipate-mitigate-harms]
+
+values-card-sorting:
+  summary: "Sort the Values cards as a group to find the values that should guide the project."
+  body: |
+    The Values suit holds ethical principles and commitments. Sorting them together shows which the group holds, which they disagree about, and how far the project lives up to them.
+  steps:
+    - "As a group, sort the Values cards: prioritize, cluster and discard."
+    - "Add your organization's own values and principles on the blank cards."
+    - "Layer in cards from other suits, such as Accessibility, that speak to your priorities."
+    - "Ask how your project lives up to the values the group has chosen, and where it falls short."
+  tips:
+    - "Ask people to explain a discard as well as a choice. Disagreements about what to drop are often where the useful conversation is."
+  related: [expectation-norm-setting, accountability-governance, positive-impact]
+
+project-management:
+  summary: "Discuss whether stronger project management would lead to better outcomes."
+  body: |
+    Project management is less an exercise than a practice. Setting clear goals, planning and monitoring progress, naming owners and managing stakeholders, and identifying and mitigating risk are the habits that make technology projects better.
+  steps:
+    - "Go through each practice: clear goals and underlying objectives, planning and monitoring progress, clear ownership and stakeholder management, and identifying and mitigating risks."
+    - "For each, ask the group how well the project does it today."
+    - "Discuss whether strengthening any of them in the management of the project might lead to better outcomes, and agree who will act."
+  related: [risk-management, product-owner, implementing-organization-capacity]
+
+swot-analysis:
+  summary: "List the project's strengths, weaknesses, opportunities and threats."
+  body: |
+    A SWOT analysis sorts what you know about the project into four boxes. Strengths and weaknesses are inside your control. Opportunities and threats come from outside.
+  steps:
+    - "Draw a grid with four boxes: Strengths, Weaknesses, Opportunities and Threats."
+    - "In small groups, fill each box, using sticky notes."
+    - "Compare the grids. Look for weaknesses that a threat could exploit and strengths that could open an opportunity."
+    - "Pick the most important items and decide what to do about them."
+  tips:
+    - "Use Threat modeling to go deeper on the Threats box."
+  related: [threat-modeling, risk-management, theory-of-change]
+
+plenary-discussion:
+  summary: "Bring everyone back together to hear feedback, risks, challenges and concerns."
+  time: "45 minutes"
+  body: |
+    After the exercises, return to the whole group. Go back to the system map and to whatever you are testing, such as a demo or prototype, and ask what feedback the feature list did not capture.
+  steps:
+    - "Return to the system map you drew of the new reality, and to the demo or plan under discussion. Ask what feedback people have that the feature list does not cover."
+    - "Ask about operational and political challenges. Tease out concerns about surveillance in people's jobs, about security and the protection of people, and about trust in the state and in others."
+    - "Be open to any concern and any criticism."
+    - "If the discussion turns negative, be ready to answer objections. You can end on the voting results from the prioritization, which give solid feedback."
+  tips:
+    - "Ending on a negative note is a real risk. Plan the end of the session so that people leave with a clear list of what they will do."
+  related: [system-mapping, feature-lists-prioritization, risk-management]

@@ -1,21 +1,32 @@
 ---
-redirect_from:
-  - /cards/practicalities/implementing-organization-capacity/
 layout: card
-title: Implementing Organization Capacity
-description: Assessing and building organizational capacity for technology implementation
+title: Implementing organization capacity
+card_id: implementing-organization-capacity
+description: Whether the team building or deploying the technology has what it needs to succeed.
+redirect_from:
+- /cards/practicalities/implementing-organization-capacity/
 ---
 
-# Implementing Organization Capacity
+# Implementing organization capacity
 
-This card focuses on the ability of an organization to effectively implement and maintain a technology solution.
+Building or deploying technology takes time, resources and political capital. The team has to believe in the project, have the knowledge to carry it out sustainably, and be supported to take risks, learn in the open and sometimes fail. They also need practical resources such as electricity and connectivity, and permission to talk publicly about the work.
 
-## Key Considerations
+The question to keep asking is whether implementers are empowered to succeed with your project.
 
-1. **Skills and Expertise**: What skills and expertise are required to implement and maintain the technology?
-2. **Resource Availability**: Does the organization have the necessary resources (human, financial, technical) to support the technology?
-3. **Training Needs**: What training might be required for staff to effectively use and manage the technology?
-4. **Organizational Culture**: How does the organizational culture support or hinder technology adoption?
-5. **Change Management**: What change management processes are needed to support successful implementation?
+## Questions to ask
 
-Use this card to assess and plan for the organizational capacity needed to successfully implement and sustain your technology project.
+- Who does the work, and how much of their time is it?
+- Does their own leadership back the project?
+- Are they allowed to fail, and to say so?
+- What practical resources do they depend on: power, connectivity, devices?
+- Can they speak publicly about what they are learning?
+
+## In a workshop
+
+Ask each person in the room to say how many hours a week they can give to the project. Compare the total with what the plan assumes.
+
+## Related cards
+
+- [Product owner / Product manager]({{ '/cards/people/product-owner/' | relative_url }})
+- [Project management]({{ '/cards/exercises/project-management/' | relative_url }})
+- [Maintainability]({{ '/cards/qualities/maintainability/' | relative_url }})

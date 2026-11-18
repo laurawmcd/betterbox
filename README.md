@@ -4,7 +4,7 @@ Betterbox is a deck of cards designed to help people run workshops to think thro
 
 ## About
 
-The Betterbox deck consists of four suits, each containing 13 cards, and one 'Values' Major Arcana containing 22 cards:
+The Betterbox deck has 78 cards: four suits of 14 cards each (13 cards and a blank card for your own ideas), and one 'Values' Major Arcana containing 22 cards:
 
 1. **People**: Cards representing various stakeholders in technology projects, from direct users to regulatory bodies.
 2. **Exercises**: Tools and techniques for workshop facilitation and design thinking.

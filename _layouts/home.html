@@ -18,9 +18,9 @@ layout: default
       </p>
     </div>
     <div class="fan" aria-hidden="true">
-      <div class="fan__card fan__card--left">{% include card-face.html suit=users number=2 title=c1.title text=c1.face slug=c1.slug size="sm" %}</div>
-      <div class="fan__card fan__card--mid">{% include card-face.html suit=ex number=5 title=c2.title text=c2.face slug=c2.slug size="sm" %}</div>
-      <div class="fan__card fan__card--right">{% include card-face.html suit=ctx number=7 title=c3.title text=c3.face slug=c3.slug size="sm" %}</div>
+      <div class="fan__card fan__card--left">{% include card-face.html suit=users number=c1.number title=c1.title text=c1.face slug=c1.slug size="sm" %}</div>
+      <div class="fan__card fan__card--mid">{% include card-face.html suit=ex number=c2.number title=c2.title text=c2.face slug=c2.slug size="sm" %}</div>
+      <div class="fan__card fan__card--right">{% include card-face.html suit=ctx number=c3.number title=c3.title text=c3.face slug=c3.slug size="sm" %}</div>
     </div>
   </div>
 </section>

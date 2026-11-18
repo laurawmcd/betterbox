@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/practicalities/infrastructure-regulation-market/
 layout: card
-title: Infrastructure, Regulation and Market
-description: Considering external factors affecting technology implementation
+title: Infrastructure, regulation and market
+card_id: infrastructure-regulation-market
+description: The local technology market, infrastructure and rules that shape what can work.
+redirect_from:
+- /cards/practicalities/infrastructure-regulation-market/
 ---
 
-# Infrastructure, Regulation and Market
+# Infrastructure, regulation and market
 
-This card focuses on the broader context in which a technology solution will be implemented, including infrastructure limitations, regulatory requirements, and market dynamics.
+Understand the local technology market: connectivity, mobile telephony, consumer apps and platforms such as mobile money, and digital infrastructure. Resilience to natural hazards, geographic spread, rural and urban divides and access to electricity all affect how technology is used and by whom. Planning with these constraints in mind is critical to success.
 
-## Key Considerations
+## Questions to ask
 
-1. **Infrastructure Limitations**: What infrastructure constraints might affect the technology's implementation or use?
-2. **Regulatory Compliance**: What regulations must the technology comply with, and how?
-3. **Market Demand**: Is there a clear market demand for the technology?
-4. **Competition**: How does the technology position itself in relation to existing market offerings?
-5. **Future Trends**: What future infrastructure, regulatory, or market trends might impact the technology?
+- Which networks, devices and platforms do people already use?
+- Who owns and controls the infrastructure?
+- How do natural hazards, distance and the rural-urban divide change what is possible?
+- Which rules govern telecoms and digital services here?
 
-Use this card to ensure your technology solution is viable within its broader context, complying with regulations and meeting market needs while working within infrastructure constraints.
+## In a workshop
+
+Ask the group to name the three most-used apps or services in the target area, and say why people prefer them.
+
+## Related cards
+
+- [Connectivity]({{ '/cards/context/connectivity/' | relative_url }})
+- [Political context]({{ '/cards/context/political-context/' | relative_url }})
+- [Access and affordability]({{ '/cards/context/access-affordability/' | relative_url }})
+- [Understand the existing ecosystem]({{ '/cards/values/understand-existing-ecosystem/' | relative_url }})

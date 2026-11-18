@@ -1,21 +1,29 @@
 ---
-redirect_from:
-  - /cards/users/general-public/
 layout: card
-title: General Public
-description: Considering the broader societal impact of technology
+title: General public
+card_id: general-public
+description: The wider group affected by the second- and third-order effects of the technology.
+redirect_from:
+- /cards/users/general-public/
 ---
 
-# General Public
+# General public
 
-The General Public card represents the broader society that may be impacted by the technology, even if they don't use it directly.
+Beyond direct and indirect users is everyone else. Society at large may see changes in behaviour, trust, jobs, prices or public services because of the technology. These effects arrive second or third in the chain, so they are hard to predict and easy to wave away.
 
-## Key Considerations
+## Questions to ask
 
-1. **Societal Impact**: How might the technology affect society at large?
-2. **Public Perception**: How might the public perceive and react to the technology?
-3. **Ethical Implications**: What ethical considerations arise when considering the general public?
-4. **Information and Transparency**: How can the project maintain transparency with the public?
-5. **Long-term Consequences**: What potential long-term effects might the technology have on society?
+- What might change in the wider community if this works well? If it fails?
+- Who benefits and who pays?
+- What could someone with bad intentions do with this at scale?
+- How would the public find out about a problem?
 
-Use this card to consider the broader societal implications of the technology, ensuring that its development takes into account the interests and well-being of the general public.
+## In a workshop
+
+Use this card with the Dark logic model. Ask what the worst realistic outcome for the wider public would look like.
+
+## Related cards
+
+- [Indirect user]({{ '/cards/people/indirect-user/' | relative_url }})
+- [Anticipate and mitigate harms]({{ '/cards/values/anticipate-mitigate-harms/' | relative_url }})
+- [Dark logic model]({{ '/cards/exercises/dark-logic-model/' | relative_url }})

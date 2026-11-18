@@ -21,7 +21,7 @@ include.slug (adds the address line), include.size (sm | md | lg), include.blank
     <p class="card-face__text">{{ include.text | strip | escape | newline_to_br }}</p>
   </div>
   {%- if include.slug %}
-  <div class="card-face__foot"><span>betterbox / {{ s.folder }} / {{ include.slug }}</span>{% include pip.html shape=s.pip %}</div>
+  <div class="card-face__foot"><span>betterbox.tech/cards/{{ s.folder }}/{{ include.slug }}</span>{% include pip.html shape=s.pip %}</div>
   {%- endif %}
 </div>
 {%- endif -%}

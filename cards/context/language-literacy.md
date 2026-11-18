@@ -1,21 +1,31 @@
 ---
-redirect_from:
-  - /cards/practicalities/language-literacy/
 layout: card
-title: Language, Literacy
-description: Addressing language and literacy considerations in technology projects
+title: Language, literacy
+card_id: language-literacy
+description: Which languages, scripts and levels of literacy the technology has to work with.
+redirect_from:
+- /cards/practicalities/language-literacy/
 ---
 
-# Language, Literacy
+# Language, literacy
 
-The Language, Literacy card represents the consideration of linguistic diversity and varying literacy levels among users of technology.
+Technology may need to support several languages and scripts, and that needs planning, especially for less common scripts. Some users may not read at all, or may need interfaces built on symbols. Gaps in digital literacy mean that interfaces and processes may be unfamiliar even to people who read well.
 
-## Key Considerations
+## Questions to ask
 
-1. **Multilingual Support**: How can the technology support multiple languages effectively?
-2. **Literacy Levels**: How can the interface be designed to accommodate users with different literacy levels?
-3. **Cultural Sensitivity**: How can language use be culturally appropriate and sensitive?
-4. **Accessibility**: How can language and literacy considerations be integrated with accessibility features?
-5. **User Testing**: How can you test the effectiveness of your language and literacy accommodations?
+- Which languages and scripts do our users read and speak?
+- Who can't read, and how will they use this?
+- Would symbols, audio or voice help?
+- How will translations be produced and checked?
+- Which steps will feel unfamiliar to someone new to digital tools?
 
-Use this card to ensure that your technology is inclusive and accessible to users from diverse linguistic backgrounds and with varying literacy levels.
+## In a workshop
+
+Give each persona a language and a reading level, then walk through one task as that person.
+
+## Related cards
+
+- [Localization]({{ '/cards/qualities/localization/' | relative_url }})
+- [Access and affordability]({{ '/cards/context/access-affordability/' | relative_url }})
+- [Design for inclusion]({{ '/cards/values/design-for-inclusion/' | relative_url }})
+- [User personas]({{ '/cards/exercises/user-personas/' | relative_url }})

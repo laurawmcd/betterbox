@@ -1,0 +1,49 @@
+# Suit-level data. cards = numbered cards in the suit; blank = blank cards added after them.
+
+- id: people
+  title: People
+  card_label: People
+  path: /cards/people/
+  blurb: Stakeholders in and around a technology project.
+  cards: 13
+  blank: 1
+  note: Renamed from Users in November 2026.
+  redirect_from:
+  - /cards/users/
+- id: exercises
+  title: Exercises
+  card_label: Exercises
+  path: /cards/exercises/
+  blurb: Workshop and design techniques.
+  cards: 13
+  blank: 1
+  note: Folder renamed from facilitation-design in November 2026.
+  redirect_from:
+  - /cards/facilitation-design/
+- id: context
+  title: Context
+  card_label: Context
+  path: /cards/context/
+  blurb: Real-world conditions that affect implementation.
+  cards: 13
+  blank: 1
+  note: Renamed from Practicalities.
+  redirect_from:
+  - /cards/practicalities/
+- id: qualities
+  title: Qualities
+  card_label: Qualities
+  path: /cards/qualities/
+  blurb: Technical qualities beyond basic functionality.
+  cards: 13
+  blank: 1
+  note: Renamed from Non-functional requirements in November 2026.
+  redirect_from:
+  - /cards/non-functional-requirements/
+- id: values
+  title: Values
+  card_label: Values
+  path: /cards/values/
+  blurb: Ethical principles that guide the work (the major arcana).
+  cards: 22
+  blank: 0

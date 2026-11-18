@@ -34,9 +34,9 @@ layout: default
     {%- if c.blank %}
       {% include card-face.html suit=suit blank=true title=c.title text=c.summary size="sm" %}
     {%- elsif c.slug %}
-      <a class="card-link" href="{{ url | relative_url }}">{% include card-face.html suit=suit number=forloop.index title=c.title text=text slug=c.slug size="sm" %}</a>
+      <a class="card-link" href="{{ url | relative_url }}">{% include card-face.html suit=suit number=c.number title=c.title text=text slug=c.slug size="sm" %}</a>
     {%- else %}
-      {% include card-face.html suit=suit number=forloop.index title=c.title text=text size="sm" %}
+      {% include card-face.html suit=suit number=c.number title=c.title text=text size="sm" %}
     {%- endif %}
     </li>
   {%- endfor %}

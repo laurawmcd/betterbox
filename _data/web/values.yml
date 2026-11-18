@@ -1,0 +1,220 @@
+# Web text for the Values suit (the 22-card major arcana). DRAFT for review.
+# Cards marked digital_principle correspond to the nine Principles for Digital Development (2024 update); text is paraphrased,
+# not copied. The cards from be-collaborative onward are proposals; see cards.yml status.
+
+positive-impact:
+  summary: "Aim to leave people better off than if the technology had never been used."
+  body: |
+    Avoiding harm is the minimum. This card asks for more: do better than no harm, and make the project better than not using technology at all. Beneficence is the old word for it. The test is whether the people affected would say that they are better off.
+  questions:
+    - "What would be better for people in a year because this project exists?"
+    - "Compared with doing nothing, or with a non-technical alternative, is this better?"
+    - "Who would say it made things worse?"
+    - "How will we know?"
+  related: [anticipate-mitigate-harms, use-evidence, humanity-compassion-empathy]
+
+anticipate-mitigate-harms:
+  summary: "Plan for the worst while working for the best outcomes."
+  digital_principle: anticipate-and-mitigate-harms
+  body: |
+    Harm is always possible with technology, and technology never operates alone. This value asks the team to look for harms before launch: digital repression and surveillance, widening divides by disability, income or geography, technology-enabled gender-based violence, damage to local businesses and civil society, and amplified social norms. Mitigation needs technical, regulatory, policy and institutional safeguards, and a long view of how today's inequities could grow.
+  questions:
+    - "What is the worst plausible use of this system, by us or by others?"
+    - "Whom could it harm first, and how would we hear about it?"
+    - "Which safeguards are technical, which legal, and which institutional?"
+    - "How might this look in five years, with more users and more data?"
+  related: [dark-logic-model, threat-modeling, risk-management, general-public]
+
+design-for-inclusion:
+  summary: "Consider the full range of human diversity, to widen impact and reduce harm."
+  digital_principle: design-for-inclusion
+  body: |
+    Inclusive design accounts for disability, literacy, language, connectivity, income and culture. It also reaches the offline people who benefit or lose indirectly, and it treats capacity-building and the cost of devices and services as part of the design. Diversity, gender, disability and intersectionality all belong under this value.
+  questions:
+    - "Who is left out by the way this is designed?"
+    - "How do disability, literacy, language and cost change who can use it?"
+    - "Who benefits or loses without being online at all?"
+    - "What help and training do people need to take part?"
+  related: [accessibility, language-literacy, access-affordability, leave-no-one-behind, intersectionality]
+
+climate-environment:
+  summary: "Consider the environmental cost of the technology and how it copes with a changing climate."
+  body: |
+    Technology has an environmental footprint in the devices it needs, the energy it uses, the servers it runs on and the waste it leaves. Projects also work in places affected by climate change. This value asks the team to reduce the footprint where they can, and to plan for the weather and hazards the project will face.
+  questions:
+    - "What devices, energy and hosting does the project depend on?"
+    - "What happens to the equipment at the end of its life?"
+    - "Which climate risks affect the users and the infrastructure?"
+    - "Could a lower-tech option do the same job?"
+  related: [build-for-sustainability, infrastructure-regulation-market, network-resilience]
+
+design-with-people:
+  summary: "Start and end design with the people who will manage, use and benefit from the project."
+  digital_principle: design-with-people
+  body: |
+    Good design involves the different groups who will manage, use and benefit from the project, in the first design and in every iteration. That means creating ways for people to improve what has been built, keeping feedback and grievance channels that are actually monitored and answered, and working in short cycles that respond to what people say. Respect, agency and autonomy are part of it: people should be treated as participants with their own decisions to make.
+  questions:
+    - "Which groups need to take part, and have we asked them?"
+    - "How can people give feedback or complain, and who reads it?"
+    - "What did we change last time because of what people told us?"
+    - "Where are we making decisions on people's behalf?"
+  related: [user-personas, respect, agency-autonomy, use-evidence]
+
+use-evidence:
+  summary: "Keep gathering, analyzing and using feedback so the project improves."
+  digital_principle: use-evidence-to-improve-outcomes
+  body: |
+    Evidence drives impact. Monitoring and evaluation now look at outcomes for people and communities, not only at access and usage. Use several ways of gathering feedback, both digital and analogue, keep complaint channels that someone watches, involve people in designing how success is measured, and change the project when the evidence says so.
+  questions:
+    - "What outcomes for people are we measuring, and what only counts usage?"
+    - "How do we collect feedback from people who are not online?"
+    - "Who helped decide what to measure?"
+    - "What would make us change course?"
+  related: [theory-of-change, design-with-people, funder, positive-impact]
+
+open-transparent-practices:
+  summary: "Build confidence through open governance, clear communication and open ways of working."
+  digital_principle: create-open-and-transparent-practices
+  body: |
+    Trust and good governance come from defining roles and responsibilities with accountability, sharing decisions, policies and practices openly, and giving stakeholders ways to ask questions and raise concerns. Technical practice follows: agile methods, open standards, open data, open source and open innovation where they fit. Where a project is closed, people stop trusting it and stop taking part.
+  questions:
+    - "What do we share publicly about decisions, funding and performance?"
+    - "Who can ask a question, and who answers?"
+    - "Which parts could be open source, open data or built on open standards?"
+    - "What are we keeping private, and is there a good reason?"
+  related: [accountability-governance, share-reuse-improve, interoperability, governance-and-oversight]
+
+share-reuse-improve:
+  summary: "Build on what works, improve it, and share so that others can do the same."
+  digital_principle: share-reuse-and-improve
+  body: |
+    Before building something new, look for something that already works. Use open standards and open source software, contribute improvements back, and document your work in a way others can follow. Reuse saves time and money, encourages collaboration and produces better products through continuous improvement.
+  questions:
+    - "What already exists that we could use or adapt?"
+    - "Who could reuse what we make, and is it documented for them?"
+    - "Which open standards or open source tools apply?"
+    - "What will we contribute back?"
+  related: [open-transparent-practices, interoperability, licensing-copyright, be-collaborative]
+
+justice-power:
+  summary: "Ask who holds power in the project, and whether the outcome is fair."
+  body: |
+    Technology moves power and resources around. This value asks whose interests the project serves, who decides, who is heard, and who bears the costs. A project can be efficient and still reinforce an unfair arrangement.
+  questions:
+    - "Who has power in this project, and who does not?"
+    - "Whose interests does it serve most?"
+    - "Does it move power towards the people it is meant to serve?"
+    - "Who could challenge a decision, and how?"
+  related: [funder, accountability-governance, agency-autonomy, general-public]
+
+humanity-compassion-empathy:
+  summary: "Keep people at the centre, especially when they are in difficult circumstances."
+  body: |
+    Behind every record and every metric is a person. Bring humanity, compassion and empathy into design and delivery decisions, and notice when efficiency crowds them out. The value matters most with people in crisis or distress, where a careless interaction can add to the harm.
+  questions:
+    - "How would this feel to someone on the worst day of their life?"
+    - "Where does the design treat people as data points?"
+    - "What would a kind version of this process look like?"
+    - "Who on the team keeps meeting the people we serve?"
+  related: [design-with-people, respect, positive-impact]
+
+accountability-governance:
+  summary: "Be clear who is responsible when something goes wrong, and who they answer to."
+  body: |
+    Accountability means someone owns each decision and answers for it. Governance is the set of structures that make that real: who decides, who oversees, and how the people affected can raise concerns and get a response. Without both, good intentions have nothing to hold on to.
+  questions:
+    - "Who is responsible for each major decision?"
+    - "To whom do they answer, and how?"
+    - "How can an affected person raise a concern, and what happens next?"
+    - "Who steps in if the people responsible fail?"
+  related: [governance-and-oversight, open-transparent-practices, justice-power, data-controller]
+
+understand-existing-ecosystem:
+  summary: "Understand the cultural, social and economic context before designing anything."
+  digital_principle: understand-the-existing-ecosystem
+  body: |
+    Trust starts with a thorough understanding of the setting you work in: culture, gender norms, politics, the economy, technology infrastructure, and who already does what. Review government policies and sector strategies, support the local organizations and technology already tackling the problem, assess device access, connectivity, affordability and digital literacy, and keep reassessing, because ecosystems change. Skipping this step leads to exclusion, lost trust and risk for the people involved.
+  questions:
+    - "Who is already working on this problem, and what do they use?"
+    - "Which government policies and strategies apply?"
+    - "What do people have access to, and what can they afford?"
+    - "When did we last check that our picture is still true?"
+  related: [infrastructure-regulation-market, cultural-context, political-context, system-mapping]
+
+build-for-sustainability:
+  summary: "Plan for the long term, financially, operationally and ecologically."
+  digital_principle: build-for-sustainability
+  body: |
+    Build for the long term by planning for financial, operational and ecological sustainability from the start. Show the full cost of ownership openly, plan for scale, consider how the project adapts to climate change and reduces its footprint, and accept that sustainable sometimes means consolidating services, transferring knowledge or planning a transition rather than running forever.
+  questions:
+    - "What does this cost to run each year, and who pays?"
+    - "What happens when the funding ends?"
+    - "Who will hold the knowledge when the team changes?"
+    - "Is there a planned end or handover?"
+  related: [funder, maintainability, design-for-scale, climate-environment]
+
+be-collaborative:
+  summary: "Work with other people and organizations rather than alone."
+  body: |
+    Many projects duplicate work others have already done or are doing. Being collaborative means sharing information, insight and resources with others working on related problems, and drawing on expertise from other organizations and sectors. It saves effort and spares users from a scatter of unconnected services.
+  questions:
+    - "Who else is working on this problem, and have we talked to them?"
+    - "What could we share, and what could we borrow?"
+    - "Who has the expertise we lack?"
+    - "What would it take to combine efforts?"
+  related: [share-reuse-improve, understand-existing-ecosystem, interoperability]
+
+respect:
+  summary: "Treat the people affected as partners whose time, knowledge and choices matter."
+  body: |
+    Respect shows up in small design decisions: whether people were asked, whether consent is real, whether their time and knowledge are valued, and whether the system treats them with dignity. It is easiest to see in how people are addressed and heard at their worst moments.
+  questions:
+    - "Did the people affected have a say in this?"
+    - "Is their consent real, or a click-through?"
+    - "Is their time, knowledge and effort acknowledged or paid for?"
+    - "Does the language in the interface treat them with dignity?"
+  related: [design-with-people, agency-autonomy, humanity-compassion-empathy]
+
+agency-autonomy:
+  summary: "People should keep control over the decisions that affect them."
+  body: |
+    Agency is a person's ability to act on their own behalf. Autonomy is their freedom to decide. Technology can support both, for example by giving people control of their data and real choices about whether and how to use a service, or it can undermine them through nudging, lock-in and hidden defaults.
+  questions:
+    - "What choices do people have, and are they real?"
+    - "Is anyone being nudged, pressured or locked in?"
+    - "Can people leave, and take their data with them?"
+    - "Who decides the defaults?"
+  related: [respect, people-first-data-practices, design-with-people, justice-power]
+
+leave-no-one-behind:
+  summary: "Start with the people who are hardest to reach and work outward."
+  body: |
+    Projects that succeed on average often fail the people with the least access, income, connectivity or voice. Leaving no one behind means asking who would be missing if the project met its own targets, and giving them priority in design and in measurement.
+  questions:
+    - "Who is hardest to reach, and why?"
+    - "Which groups would be missing if we hit our targets?"
+    - "Are they counted, and can we see their results separately?"
+    - "What would we change to reach them first?"
+  related: [design-for-inclusion, access-affordability, intersectionality, end-user-3]
+
+intersectionality:
+  summary: "Look at how overlapping identities and circumstances combine to shape people's experience."
+  body: |
+    People stand at the crossing of gender, disability, age, class, ethnicity and more, and the overlaps can compound disadvantage in ways that single categories miss. A project that serves 'women' or 'the poor' in general may still fail a poor disabled woman. This value asks the team to look at combinations, not only at categories.
+  questions:
+    - "Which combinations of identity or circumstance change how someone experiences this?"
+    - "Where do our categories hide differences?"
+    - "Whose experience do our data not show?"
+    - "Who could tell us what we cannot see?"
+  related: [design-for-inclusion, leave-no-one-behind, user-personas]
+
+local-ownership:
+  summary: "Local people and organizations should lead, control and benefit from the project."
+  body: |
+    Localization here means more than translation. It asks whether local people and organizations have a hand in leading the work, who owns what is built, and whether the design fits local knowledge, language and priorities. Projects run from elsewhere can end when the outside team leaves.
+  questions:
+    - "Who locally leads this, and who owns it?"
+    - "Who benefits, and who profits?"
+    - "Does the design fit local knowledge and priorities?"
+    - "What stays if the outside team leaves?"
+  related: [build-for-sustainability, cultural-context, localization, design-with-people]
