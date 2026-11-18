@@ -1,0 +1,14 @@
+# Old site pages that no longer have their own card, with where to send visitors.
+
+- old_page: /cards/facilitation-design/risk-analysis/
+  redirect_to: /cards/exercises/risk-management/
+  reason: Site-only card that duplicated Risk management.
+- old_page: /cards/practicalities/address-privacy-security/
+  redirect_to: /cards/context/people-first-data-practices/
+  reason: Site-only card; its ground is covered by Establish people-first data practices and Security.
+- old_page: /cards/values/fair-information-privacy/
+  redirect_to: /cards/context/people-first-data-practices/
+  reason: Covered by Establish people-first data practices.
+- old_page: /cards/non-functional-requirements/legal/
+  redirect_to: /cards/context/legal-issues/
+  reason: The deck text is written for Legal issues in Context.

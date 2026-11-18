@@ -1,21 +1,31 @@
 ---
-redirect_from:
-  - /cards/users/developer/
 layout: card
 title: Developer
-description: Understanding the role and perspective of developers in technology projects
+card_id: developer
+description: The person or team building the software or hardware.
+redirect_from:
+- /cards/users/developer/
 ---
 
 # Developer
 
-The Developer card represents the technical professionals responsible for designing, coding, testing, and maintaining software applications.
+Developers turn plans into working technology. Their skills, tools, time and constraints set what is possible, and they often learn late what users actually need. Ask what they can build, how long it will take, and what will need looking after once it is built.
 
-## Key Considerations
+A developer may be an internal team, a contractor or a vendor. Each has different reasons to document the work, hand it over and support it afterwards.
 
-1. **Technical Expertise**: How does the developer's knowledge and skills influence project decisions and outcomes?
-2. **Ethical Coding Practices**: How can developers ensure they're writing code that is ethical, secure, and respects user privacy?
-3. **Collaboration**: How do developers work with other team members, such as designers and product managers?
-4. **Problem-Solving**: What role do developers play in identifying and solving technical challenges?
-5. **Continuous Learning**: How do developers stay updated with new technologies and best practices?
+## Questions to ask
 
-Use this card to explore how developers' decisions and actions can impact the ethical, practical, and societal implications of the technology being developed.
+- Who is building this, and how well do they understand the users' context?
+- Can they explain trade-offs to the rest of the team in plain language?
+- What will they hand over when they leave, and who will keep it running?
+- Which decisions are being made in code that nobody else has looked at?
+
+## In a workshop
+
+Ask the developer, or someone standing in for them, to say what they have understood so far about each user. The gaps show up quickly.
+
+## Related cards
+
+- [Product owner / Product manager]({{ '/cards/people/product-owner/' | relative_url }})
+- [Feature lists and prioritization]({{ '/cards/exercises/feature-lists-prioritization/' | relative_url }})
+- [Maintainability]({{ '/cards/qualities/maintainability/' | relative_url }})

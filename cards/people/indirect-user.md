@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/users/indirect-user/
 layout: card
-title: Indirect User
-description: Considering those indirectly affected by the technology
+title: Indirect user
+card_id: indirect-user
+description: Someone affected by the system without using it.
+redirect_from:
+- /cards/users/indirect-user/
 ---
 
-# Indirect User
+# Indirect user
 
-The Indirect User card represents individuals or groups who may not directly use the technology but are affected by its implementation or outcomes.
+Indirect users never touch the system but feel its effects. They might be the family of a patient whose record is held in it, a neighbour whose water supply depends on a decision it informed, or a colleague who receives its reports. Their view is easy to miss because they are not in the room.
 
-## Key Considerations
+## Questions to ask
 
-1. **Identification**: Who are the indirect users of the technology?
-2. **Impact Assessment**: How might the technology affect these indirect users?
-3. **Ethical Considerations**: What ethical issues arise when considering indirect users?
-4. **Unintended Consequences**: What potential unintended consequences might affect indirect users?
-5. **Inclusion**: How can the needs and perspectives of indirect users be included in the design process?
+- Who is affected without ever using it?
+- What do they get from the system, and what do they lose?
+- Can they object to something, or ask for a correction?
+- Who could speak for them in this workshop?
 
-Use this card to broaden the consideration of the technology's impact beyond direct users, ensuring a more comprehensive understanding of its societal implications.
+## In a workshop
+
+Add indirect users to the system map. The arrows that point to them show effects nobody had planned.
+
+## Related cards
+
+- [General public]({{ '/cards/people/general-public/' | relative_url }})
+- [End user 1]({{ '/cards/people/end-user-1/' | relative_url }})
+- [Data subject]({{ '/cards/people/data-subject/' | relative_url }})
+- [System mapping]({{ '/cards/exercises/system-mapping/' | relative_url }})

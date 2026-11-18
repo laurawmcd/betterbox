@@ -12,7 +12,7 @@ description: get better at thinking about technology
 
 Betterbox is a deck of cards designed to help people run workshops that explore the ethical, practical, and societal implications of technology.
 
-The Betterbox deck has 74 cards: four suits of 13 cards each, and a 'Values' Major Arcana of 22 cards.
+The Betterbox deck has four suits of 13 cards each, plus a blank card in each suit for your own ideas, and a 'Values' Major Arcana of 22 cards.
 
 The four suits are:
 

@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/non-functional-requirements/help/
 layout: card
 title: Help
-description: Providing effective user assistance in technology projects
+card_id: help
+description: 'The type and amount of help users will need: interactive, inline, or a manual.'
+redirect_from:
+- /cards/non-functional-requirements/help/
 ---
 
 # Help
 
-The Help card focuses on providing users with the information and assistance they need to effectively use the technology.
+Help covers everything that supports people when they get stuck. Decide what type and extent of help the application needs: interactive help, inline help or an instruction manual. Consider users' languages and literacy, the devices they use, and who answers questions after the training ends.
 
-## Key Considerations
+## Questions to ask
 
-1. **Help Documentation**: What type of help documentation should be provided (e.g., user manuals, FAQs, tutorials)?
-2. **Contextual Help**: How can help be provided within the context of specific tasks or features?
-3. **Search Functionality**: How can users easily find the help information they need?
-4. **Multilingual Support**: How will help be provided for users of different languages?
-5. **Feedback Mechanism**: How can users provide feedback on the helpfulness of the assistance provided?
+- What will users need help with, and when?
+- Which form suits them: inline, interactive, printed, a person?
+- In which languages, and at what reading level?
+- Who answers when someone gets stuck, and how do they reach them?
 
-Use this card to ensure that your technology provides effective, accessible, and user-friendly help and support to its users.
+## In a workshop
+
+Have someone in the room use the system as if for the first time, and note every point where they hesitate.
+
+## Related cards
+
+- [Language, literacy]({{ '/cards/context/language-literacy/' | relative_url }})
+- [Administrator]({{ '/cards/people/administrator/' | relative_url }})
+- [Accessibility]({{ '/cards/qualities/accessibility/' | relative_url }})
+- [End user 1]({{ '/cards/people/end-user-1/' | relative_url }})

@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/facilitation-design/dark-logic-model/
 layout: card
-title: Dark Logic Model
-description: Considering potential negative outcomes in technology projects
+title: Dark logic model
+card_id: dark-logic-model
+description: Draw your theory of change again, this time with everything going wrong.
+redirect_from:
+- /cards/facilitation-design/dark-logic-model/
 ---
 
-# Dark Logic Model
+# Dark logic model
 
-The Dark Logic Model card encourages consideration of potential negative or unintended consequences of a technology project.
+Start from your Theory of Change and write a second version in which activities fail, risks are not mitigated, or bad actors step in. The exercise is uncomfortable, which is the point: it helps the group see their own possible part in causing harm.
 
-## Key Considerations
+## How to run it
 
-1. **Potential Harms**: What are potential negative outcomes of the technology?
-2. **Vulnerable Groups**: Who might be particularly vulnerable to negative effects?
-3. **Mitigation Strategies**: How can potential negative outcomes be mitigated?
-4. **Monitoring**: How can negative outcomes be monitored and detected?
-5. **Ethical Implications**: What ethical issues arise when considering potential negative outcomes?
+1. Start with the Theory of Change you made for the project.
+2. Write a new version where everything goes wrong: activities fail, risks go unmitigated, or bad actors intervene.
+3. Note the new risks that show up.
+4. Use Risk management to work out how to make those outcomes less likely.
 
-Use this card to proactively identify and address potential negative consequences of your technology project, enhancing its overall positive impact.
+## Tips
+
+- Ask, at each step, what the project team itself might do to make things worse. Good intentions do not prevent harm.
+
+## Related cards
+
+- [Theory of change]({{ '/cards/exercises/theory-of-change/' | relative_url }})
+- [Risk management]({{ '/cards/exercises/risk-management/' | relative_url }})
+- [Threat modeling]({{ '/cards/exercises/threat-modeling/' | relative_url }})
+- [Anticipate and mitigate harms]({{ '/cards/values/anticipate-mitigate-harms/' | relative_url }})

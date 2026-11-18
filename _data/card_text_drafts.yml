@@ -1,0 +1,76 @@
+# DRAFT printed-card text for cards that have none in deck v0.2. Written to match the deck's length and voice.
+# Non-functional requirements text starts from the descriptions in the live sheet. Merged into cards.yml with card_text_status: draft.
+
+governance-and-oversight: "The board, steering group or other body that holds the project accountable. Do they get real information? Do they have real authority? Can the people affected reach them?"
+
+swot-analysis: "List the project's Strengths and Weaknesses (inside your control) and its Opportunities and Threats (outside it). Work in small groups, then compare. Look for weaknesses that a threat could exploit, and strengths that could open an opportunity."
+
+plenary-discussion: "Bring everyone back together. Return to the system map and ask for feedback, risks, challenges and concerns. Invite criticism, including about surveillance, security and trust. Try to end on the priorities people voted for, not on the worst worry."
+
+cultural-context: "Norms, beliefs and habits shape how technology is used and by whom. Consider gender norms, who is trusted, what is private, and how information travels. What looks like a technical problem may be a cultural one."
+
+connectivity: "Signal, bandwidth and power decide what can work. Find out which networks reach your users, how reliable and costly they are, and whether people use basic phones or shared devices. Design for the connection people actually have."
+
+design-for-scale: "Will it work with ten times as many users, or in ten more places? Consider what breaks as the numbers grow: costs, support, data, staff. Decide what growth you are planning for, and what you are not."
+
+accessibility: "Can people with non-standard constraints use it, for example colorblindness, poor eyesight or no eyesight? Test with the people affected, not only against a checklist."
+
+security: "Does the data need to be encrypted in the database? Encrypted when it moves between systems? What authentication do people need for remote access? What would a breach cost the people involved?"
+
+network-resilience: "How does the system handle errors and boundary conditions while it runs? Think about what happens when the internet connection goes down, the power fails or hardware breaks."
+
+maintainability: "Who will fix and update it in two years? Consider documentation, readable code, dependencies that may lose support, and whether the people who built it will still be around."
+
+interoperability: "Which industry output standards should it follow? Does it have APIs? Is it part of a larger system? Consider what it needs to exchange data with."
+
+configurability: "Can end users change aspects of the software's configuration easily, through usable interfaces or config files? Decide what people should change themselves and what should stay locked."
+
+data-integrity: "How much loss, corruption or duplication of data can you tolerate? Some records must be exact and others can be approximate. How would you notice a problem?"
+
+licensing-copyright: "Does the client require particular rights to use the application or ownership of the code? Do these place restrictions on the software libraries you can use?"
+
+help: "What type and extent of help do users need? Interactive help, inline help or an instruction manual? Who answers when people get stuck?"
+
+installability: "How easy is it to install on every platform it needs? Consider whether end users install it themselves or a technical team deploys it."
+
+performance: "How fast does it need to be, and what does slowness or downtime cost? Consider latency on your users' connections and what happens at peak use."
+
+localization: "Does the system support multiple languages or locally appropriate formats throughout? Consider scripts, dates, numbers, currency and units, and who checks the translations."
+
+positive-impact: "Avoiding harm is the minimum. Aim to do better than no harm: to leave people better off than if the technology had not been used. Is this better than not using technology at all?"
+
+anticipate-mitigate-harms: "Harm is always possible with technology. Plan for the worst while working for the best outcomes. Look for harms early and build in safeguards from the start."
+
+design-for-inclusion: "Consider the full range of human diversity, including gender, disability, literacy, language and income. Who is left out by the way this is designed?"
+
+climate-environment: "Consider the environmental cost of the technology: devices, energy, servers and waste. How will the project cope with a changing climate, and reduce its footprint?"
+
+design-with-people: "Good design starts and ends with the people who will manage, use and benefit from it. Involve them from the beginning, and treat their agency and autonomy as design requirements."
+
+use-evidence: "Keep gathering, analyzing and using feedback. Measure outcomes for people, not only usage. Involve the people affected in deciding what to measure, and change course when the evidence says so."
+
+open-transparent-practices: "Build confidence through clear roles and responsibilities, openly shared decisions, ways for people to raise concerns, and open standards, data and source where you can."
+
+share-reuse-improve: "Build on what works, improve it, and share so that others can do the same. Use existing open source and standards, document your work, and contribute improvements back."
+
+justice-power: "Who holds power in this project and who does not? Consider whose interests are served and whether the outcome is fair."
+
+humanity-compassion-empathy: "Keep people at the centre. Bring humanity, compassion and empathy to every design decision, especially when the people affected are in difficult circumstances."
+
+accountability-governance: "Who is responsible when something goes wrong, and to whom do they answer? Set out who decides, who oversees, and how affected people can raise concerns and get a response."
+
+understand-existing-ecosystem: "Trust starts with understanding the cultural, social and economic context. Learn what technology and local organizations already exist, which policies apply, and who has access, before designing anything new."
+
+build-for-sustainability: "Plan for the long term: financial, operational and ecological. Show the full cost of ownership, and plan who will run it and how it might be handed over or wound down."
+
+be-collaborative: "Work with other people and organizations. Share information and resources, avoid duplicating what others are doing, and coordinate with those working on the same problem."
+
+respect: "Treat the people affected as partners whose time, knowledge and choices deserve respect. Was their consent real? Does the design treat them with dignity?"
+
+agency-autonomy: "People should keep control over decisions that affect them. Is anyone being nudged, forced or locked in? Can they leave, and take their data with them?"
+
+leave-no-one-behind: "Start with the people who are hardest to reach: those with the least access, income, connectivity or voice. Who would be left behind if the project met its own targets?"
+
+intersectionality: "People sit at the crossing of gender, disability, age, class and more, and the overlaps can compound disadvantage. Look beyond single categories."
+
+local-ownership: "Who owns this locally? Do local people and organizations lead, control and benefit from the project, and does it fit local knowledge, language and priorities?"

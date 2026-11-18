@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/practicalities/access-affordability/
 layout: card
-title: Access and Affordability
-description: Ensuring technology is accessible and affordable to intended users
+title: Access and affordability
+card_id: access-affordability
+description: Whether the people you want to reach can afford the devices, data, airtime and power.
+redirect_from:
+- /cards/practicalities/access-affordability/
 ---
 
-# Access and Affordability
+# Access and affordability
 
-This card focuses on making technology solutions accessible and affordable to the intended user base.
+Some users will be less able to pay for airtime, devices and even electricity. Where power at home is not certain, they may also spend time and money charging devices. Consider whether target users, even a subset of the most vulnerable, may struggle to use the technology because of what the equipment and connection cost.
 
-## Key Considerations
+## Questions to ask
 
-1. **Cost to Users**: What are the direct and indirect costs for users to access and use the technology?
-2. **Infrastructure Requirements**: What infrastructure (e.g., internet access, devices) is required to use the technology?
-3. **Alternative Access Methods**: Are there alternative ways to access the technology for users with limited resources?
-4. **Pricing Models**: What pricing models can be used to make the technology more affordable?
-5. **Digital Divide**: How does the technology address or potentially exacerbate the digital divide?
+- What do airtime, data, devices and charging cost, compared with what users earn?
+- Who would be priced out first?
+- Who pays: the user, the organization or the funder?
+- What happens when the power is out?
 
-Use this card to ensure that your technology solution is accessible and affordable to your intended users, promoting inclusivity and widespread adoption.
+## In a workshop
+
+Estimate a month of use for one persona in local currency, and say what share of their income it is.
+
+## Related cards
+
+- [Connectivity]({{ '/cards/context/connectivity/' | relative_url }})
+- [Infrastructure, regulation and market]({{ '/cards/context/infrastructure-regulation-market/' | relative_url }})
+- [Design for inclusion]({{ '/cards/values/design-for-inclusion/' | relative_url }})
+- [Leave no one behind]({{ '/cards/values/leave-no-one-behind/' | relative_url }})

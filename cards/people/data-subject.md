@@ -1,21 +1,29 @@
 ---
-redirect_from:
-  - /cards/users/data-subject/
 layout: card
-title: Data Subject
-description: Understanding the rights and needs of individuals whose data is processed
+title: Data subject
+card_id: data-subject
+description: A person whose data is held or managed by the system.
+redirect_from:
+- /cards/users/data-subject/
 ---
 
-# Data Subject
+# Data subject
 
-The Data Subject card represents individuals whose personal data is collected, held, or processed by the technology.
+Data subjects may never use the system. Their names, locations, health details, messages or images are recorded in it. In many places they have the right to know what is held, to correct it, and to have it deleted, and this includes people whose data was given by someone else on their behalf.
 
-## Key Considerations
+## Questions to ask
 
-1. **Data Rights**: What rights do data subjects have regarding their personal data?
-2. **Consent**: How is consent obtained and managed for data processing?
-3. **Data Access**: How can data subjects access their personal data?
-4. **Data Correction**: How can data subjects correct inaccurate personal data?
-5. **Data Deletion**: What processes are in place for data subjects to request data deletion?
+- Whose data does the system hold, and did they agree in a way they understood?
+- Can they see, correct or delete it?
+- What could happen to them if the data leaked or was misused?
+- Who could obtain the data by request or by force?
 
-Use this card to ensure that the rights and needs of data subjects are respected and protected throughout the data lifecycle in your technology project.
+## In a workshop
+
+Pick one type of record and follow it from collection to deletion, asking at each step what the data subject knows.
+
+## Related cards
+
+- [Data controller]({{ '/cards/people/data-controller/' | relative_url }})
+- [Establish people-first data practices]({{ '/cards/context/people-first-data-practices/' | relative_url }})
+- [Security]({{ '/cards/qualities/security/' | relative_url }})

@@ -7,13 +7,13 @@ layout: default
 {%- assign suit = site.data.deck | where: "folder", folder | first -%}
 {%- assign card = nil -%}{%- assign num = nil -%}{%- assign idx = -1 -%}
 {%- for c in suit.cards -%}
-  {%- if c.slug == slug -%}{%- assign card = c -%}{%- assign num = forloop.index -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
+  {%- if c.slug == slug -%}{%- assign card = c -%}{%- assign num = c.number | default: forloop.index -%}{%- assign idx = forloop.index0 -%}{%- endif -%}
 {%- endfor -%}
 {%- assign prevc = nil -%}{%- assign nextc = nil -%}{%- assign prevn = nil -%}{%- assign nextn = nil -%}
 {%- for c in suit.cards -%}
   {%- if c.slug and idx >= 0 -%}
-    {%- if forloop.index0 < idx -%}{%- assign prevc = c -%}{%- assign prevn = forloop.index -%}{%- endif -%}
-    {%- if forloop.index0 > idx and nextc == nil -%}{%- assign nextc = c -%}{%- assign nextn = forloop.index -%}{%- endif -%}
+    {%- if forloop.index0 < idx -%}{%- assign prevc = c -%}{%- assign prevn = c.number | default: forloop.index -%}{%- endif -%}
+    {%- if forloop.index0 > idx and nextc == nil -%}{%- assign nextc = c -%}{%- assign nextn = c.number | default: forloop.index -%}{%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 {%- assign face_title = card.title | default: page.title -%}

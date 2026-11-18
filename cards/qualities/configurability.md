@@ -1,21 +1,29 @@
 ---
-redirect_from:
-  - /cards/non-functional-requirements/configurability/
 layout: card
 title: Configurability
-description: Allowing for customization and adaptation of technology
+card_id: configurability
+description: How far end users can change the software's settings without a developer.
+redirect_from:
+- /cards/non-functional-requirements/configurability/
 ---
 
 # Configurability
 
-The Configurability card represents the ability for users or administrators to modify aspects of the system's operation without requiring changes to the source code.
+Configurability is the ability for end users to change aspects of the software's configuration easily, through usable interfaces or configuration files. It lets a system adapt to local needs without going back to the developer, though every option adds something to learn and to maintain.
 
-## Key Considerations
+## Questions to ask
 
-1. **User-Configurable Elements**: What aspects of the system should users be able to configure?
-2. **Configuration Interfaces**: How will users interact with configuration options?
-3. **Default Settings**: What are appropriate default configurations?
-4. **Configuration Management**: How will different configurations be managed and versioned?
-5. **Impact on Performance**: How might different configurations affect system performance?
+- What should users be able to change on their own?
+- What should stay locked, and why?
+- Who is allowed to change settings, and how is that recorded?
+- Will users understand the options, and who supports them?
 
-Use this card to ensure your technology provides appropriate levels of configurability, allowing it to be adapted to different use cases and user preferences.
+## In a workshop
+
+List every setting a local team might want to change, and sort them into 'anyone', 'administrator only' and 'developer only'.
+
+## Related cards
+
+- [Administrator]({{ '/cards/people/administrator/' | relative_url }})
+- [End user 1]({{ '/cards/people/end-user-1/' | relative_url }})
+- [Localization]({{ '/cards/qualities/localization/' | relative_url }})

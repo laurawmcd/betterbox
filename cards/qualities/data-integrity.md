@@ -1,23 +1,31 @@
 ---
-redirect_from:
-  - /cards/non-functional-requirements/data-integrity/
-  - /cards/non-functional-requirements/data-integrity-card/
 layout: card
-title: Data Integrity
-description: Ensuring data integrity in technology projects
+title: Data integrity
+card_id: data-integrity
+description: How much loss, corruption or duplication of data the project can tolerate.
+redirect_from:
+- /cards/non-functional-requirements/data-integrity-card/
+- /cards/non-functional-requirements/data-integrity/
 ---
 
-# Data Integrity
+# Data integrity
 
-The Data Integrity card represents the assurance that data is accurate, consistent, and reliable throughout its lifecycle.
+Some records must be exact, such as a case file or a payment. Others can be approximate. Data integrity is about deciding how much loss, corruption or duplication you can tolerate, and how you would notice a problem when it happens.
 
-## Key Considerations
+## Questions to ask
 
-1. **Data Validation**: How can you ensure that data entering the system is accurate and in the correct format?
-2. **Data Consistency**: How can you maintain consistency across different parts of the system and during updates?
-3. **Error Detection and Correction**: What mechanisms can be implemented to detect and correct data errors?
-4. **Backup and Recovery**: How can you protect against data loss and ensure data can be recovered in case of system failures?
-5. **Access Control**: How can you prevent unauthorized access or modifications to ensure data integrity?
-6. **Audit Trails**: How can you track changes to data over time to maintain accountability?
+- Which records must be exact, and which can be approximate?
+- What happens if a record is lost, changed or duplicated?
+- How would we notice?
+- Who is affected when the data is wrong, and how can they correct it?
 
-Use this card to ensure that data integrity is maintained throughout your system, contributing to the reliability and trustworthiness of your technology solution.
+## In a workshop
+
+Choose one type of record and ask the group to describe the worst plausible data error and its consequences.
+
+## Related cards
+
+- [Network resilience]({{ '/cards/qualities/network-resilience/' | relative_url }})
+- [Security]({{ '/cards/qualities/security/' | relative_url }})
+- [Data subject]({{ '/cards/people/data-subject/' | relative_url }})
+- [Interoperability]({{ '/cards/qualities/interoperability/' | relative_url }})

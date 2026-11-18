@@ -1,19 +1,24 @@
 ---
 layout: card
-title: Justice and Power
-description: Considering issues of justice and power dynamics in technology projects
+title: Justice and power
+card_id: justice-power
+description: Ask who holds power in the project, and whether the outcome is fair.
 ---
 
-# Justice and Power
+# Justice and power
 
-This card focuses on understanding and addressing issues of justice and power dynamics in technology development and deployment.
+Technology moves power and resources around. This value asks whose interests the project serves, who decides, who is heard, and who bears the costs. A project can be efficient and still reinforce an unfair arrangement.
 
-## Key Considerations
+## Questions to ask
 
-1. **Power Dynamics**: How might the technology affect existing power dynamics in society?
-2. **Access and Equity**: How can the technology promote more equitable access to resources or opportunities?
-3. **Social Justice**: How can the technology contribute to social justice goals?
-4. **Marginalized Groups**: How might the technology impact marginalized or vulnerable groups?
-5. **Accountability**: How can those with power in the project be held accountable for its impacts?
+- Who has power in this project, and who does not?
+- Whose interests does it serve most?
+- Does it move power towards the people it is meant to serve?
+- Who could challenge a decision, and how?
 
-Use this card to ensure your technology project considers and addresses issues of justice and power, striving to create more equitable outcomes.
+## Related cards
+
+- [Funder]({{ '/cards/people/funder/' | relative_url }})
+- [Accountability and governance]({{ '/cards/values/accountability-governance/' | relative_url }})
+- [Agency and autonomy]({{ '/cards/values/agency-autonomy/' | relative_url }})
+- [General public]({{ '/cards/people/general-public/' | relative_url }})

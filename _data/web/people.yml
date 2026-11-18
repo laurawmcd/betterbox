@@ -1,0 +1,164 @@
+# Web text for the Users suit. DRAFT for review. Keyed by card id (see ../cards.yml).
+# Fields: summary (one line), body (markdown), questions (list), use_it (how to use it in a workshop), related (card ids).
+
+product-owner:
+  summary: "The person who sets priorities and makes day-to-day decisions about what gets built."
+  body: |
+    The product owner or product manager decides what the project builds first, what waits, and what gets dropped. They manage deadlines and daily decisions, organize ideas and plans, and gather feedback and input from everyone else on the list.
+
+    Often the role is held part-time by someone with another job, or split between a funder's expectations and a team's capacity. Working out who holds it, and how much authority they have, tells you where decisions are really made.
+  questions:
+    - "Who makes the final call on priorities, and do they know it?"
+    - "How does this person hear from the people who will use the system?"
+    - "What happens when the funder's requirements and the users' needs pull in different directions?"
+    - "Does this person have the time and authority the role needs?"
+  use_it: "Put this card on the table early and ask the group to name the person, or to admit that nobody holds the role. Come back to it when you reach prioritization."
+  related: [funder, developer, feature-lists-prioritization]
+
+developer:
+  summary: "The person or team building the software or hardware."
+  body: |
+    Developers turn plans into working technology. Their skills, tools, time and constraints set what is possible, and they often learn late what users actually need. Ask what they can build, how long it will take, and what will need looking after once it is built.
+
+    A developer may be an internal team, a contractor or a vendor. Each has different reasons to document the work, hand it over and support it afterwards.
+  questions:
+    - "Who is building this, and how well do they understand the users' context?"
+    - "Can they explain trade-offs to the rest of the team in plain language?"
+    - "What will they hand over when they leave, and who will keep it running?"
+    - "Which decisions are being made in code that nobody else has looked at?"
+  use_it: "Ask the developer, or someone standing in for them, to say what they have understood so far about each user. The gaps show up quickly."
+  related: [product-owner, feature-lists-prioritization, maintainability]
+
+funder:
+  summary: "The entity paying for the technology or the project, and what it expects in return."
+  body: |
+    Funders shape a project through what they will pay for, how long they will pay, and what they ask to see. Their reporting requirements and timelines often steer design more than users do, and when the money stops a system can be left with nobody to run it.
+  questions:
+    - "What does the funder need to see, and by when?"
+    - "Who could pay for running costs after the first grant ends?"
+    - "Do the funder's indicators match what would help users?"
+    - "How open is the funder to changing course when the evidence says so?"
+  use_it: "Ask the group to describe what the funder would call success, then set it beside the users' version."
+  related: [product-owner, build-for-sustainability, use-evidence]
+
+administrator:
+  summary: "The person who runs the system day to day."
+  body: |
+    Administrators manage user accounts, adjust settings and parameters, and carry out maintenance. They take the calls when something breaks, so their needs are easy to overlook until after launch.
+  questions:
+    - "Who will administer this, and has anyone asked what they need?"
+    - "What can they change without calling a developer?"
+    - "How will they find out that something has gone wrong?"
+    - "What training do they need, and who will provide it?"
+  use_it: "Map the administrator's week. Which tasks come up most often, and which of them could the system make easier?"
+  related: [developer, configurability, help, maintainability]
+
+end-user-1:
+  summary: "The first of three cards for the people who use the system directly."
+  body: |
+    End users use the system or are directly affected by it. Different types of user do different tasks, have different skills and face different obstacles. Use this card for your most important group and write their name on it.
+
+    The other two End user cards are for other groups. Together the three cards keep a workshop from treating 'the user' as one person.
+  questions:
+    - "Who are they in concrete terms: role, place, devices, languages?"
+    - "What do they need to do, and what gets in their way?"
+    - "What do they use now to do the same job?"
+    - "How would they tell you that it wasn't working?"
+  use_it: "Write the user type on the card before the workshop, or fill it in together. This card feeds straight into the User personas exercise."
+  related: [end-user-2, end-user-3, user-personas, indirect-user]
+
+end-user-2:
+  summary: "The second of three cards for the people who use the system directly."
+  body: |
+    Use this card for a second group of end users. Their tasks, skills, devices or circumstances will differ from those of the group on the first End user card, and the design that suits one group can make things harder for the other.
+  questions:
+    - "How do this group's needs differ from the first group's?"
+    - "Does anything designed for the first group make life harder for this one?"
+    - "Where and how do they use the system?"
+    - "Who speaks for them when they are not in the room?"
+  use_it: "Name the group on the card and turn it into a persona. Compare it with the first group's persona and look for conflicts."
+  related: [end-user-1, end-user-3, user-personas]
+
+end-user-3:
+  summary: "The third of three cards for the people who use the system directly."
+  body: |
+    Use this card for a third group of end users, perhaps a group that uses the system rarely, or has a specialized need. People in less obvious groups are the ones most often left out of design.
+  questions:
+    - "Who is the group least likely to be thought of first?"
+    - "What do they need from the system that nobody else does?"
+    - "What would make them stop using it?"
+    - "Can they reach the same features by another route?"
+  use_it: "Ask the group who is missing from the first two cards, and put that person here."
+  related: [end-user-1, end-user-2, user-personas, design-for-inclusion]
+
+indirect-user:
+  summary: "Someone affected by the system without using it."
+  body: |
+    Indirect users never touch the system but feel its effects. They might be the family of a patient whose record is held in it, a neighbour whose water supply depends on a decision it informed, or a colleague who receives its reports. Their view is easy to miss because they are not in the room.
+  questions:
+    - "Who is affected without ever using it?"
+    - "What do they get from the system, and what do they lose?"
+    - "Can they object to something, or ask for a correction?"
+    - "Who could speak for them in this workshop?"
+  use_it: "Add indirect users to the system map. The arrows that point to them show effects nobody had planned."
+  related: [general-public, end-user-1, data-subject, system-mapping]
+
+regulator:
+  summary: "A body that sets and enforces rules for the technology, system or process."
+  body: |
+    Regulators include data protection authorities, telecoms regulators, health and financial authorities and local government. Their rules can require things you have not planned for, and in some places they can stop a project. Regulators may also be part of the political context, so look at how they act as well as what the rules say.
+  questions:
+    - "Which regulators have a say over this project, in which places?"
+    - "What do they require before launch and while it runs?"
+    - "Have you spoken to them, or to someone who has?"
+    - "What happens to the project if the rules change?"
+  use_it: "List the regulators on a flipchart and mark the ones nobody in the room has spoken to."
+  related: [legal-issues, political-context, data-controller]
+
+general-public:
+  summary: "The wider group affected by the second- and third-order effects of the technology."
+  body: |
+    Beyond direct and indirect users is everyone else. Society at large may see changes in behaviour, trust, jobs, prices or public services because of the technology. These effects arrive second or third in the chain, so they are hard to predict and easy to wave away.
+  questions:
+    - "What might change in the wider community if this works well? If it fails?"
+    - "Who benefits and who pays?"
+    - "What could someone with bad intentions do with this at scale?"
+    - "How would the public find out about a problem?"
+  use_it: "Use this card with the Dark logic model. Ask what the worst realistic outcome for the wider public would look like."
+  related: [indirect-user, anticipate-mitigate-harms, dark-logic-model]
+
+data-subject:
+  summary: "A person whose data is held or managed by the system."
+  body: |
+    Data subjects may never use the system. Their names, locations, health details, messages or images are recorded in it. In many places they have the right to know what is held, to correct it, and to have it deleted, and this includes people whose data was given by someone else on their behalf.
+  questions:
+    - "Whose data does the system hold, and did they agree in a way they understood?"
+    - "Can they see, correct or delete it?"
+    - "What could happen to them if the data leaked or was misused?"
+    - "Who could obtain the data by request or by force?"
+  use_it: "Pick one type of record and follow it from collection to deletion, asking at each step what the data subject knows."
+  related: [data-controller, people-first-data-practices, security]
+
+data-controller:
+  summary: "The person or team who decides how information is collected and used."
+  body: |
+    The data controller decides what data is collected, why, how long it is kept and who sees it. That may be the implementing organization, a partner, a vendor or a government. Naming the controller shows who answers to data subjects and to regulators. Data protection laws often define controllers and processors, and the definitions vary by country.
+  questions:
+    - "Who decides what is collected and kept?"
+    - "Who else processes the data on their behalf?"
+    - "Where is it stored, and under whose law?"
+    - "What is the process when someone asks to see or delete their data?"
+  use_it: "Write a name next to the card. If the group cannot agree on one, you have found a gap."
+  related: [data-subject, regulator, legal-issues, people-first-data-practices]
+
+governance-and-oversight:
+  summary: "The people or bodies who hold the project accountable."
+  body: |
+    Boards, steering groups, ethics committees, community panels and donor oversight all review a project and can act when it goes wrong. What matters is whether they receive real information, hold real authority, and are independent of the people running the project.
+  questions:
+    - "Who oversees this project, and who oversees them?"
+    - "What information do they receive, and how often?"
+    - "Can the people affected bring concerns to them directly?"
+    - "What powers do they have when something goes wrong?"
+  use_it: "Draw the lines of accountability on the system map and mark where no line exists."
+  related: [accountability-governance, funder, regulator]

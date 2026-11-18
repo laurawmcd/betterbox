@@ -1,19 +1,23 @@
 ---
 layout: card
-title: Humanity, Compassion, Empathy
-description: Prioritizing human values in technology projects
+title: Humanity, compassion and empathy
+card_id: humanity-compassion-empathy
+description: Keep people at the centre, especially when they are in difficult circumstances.
 ---
 
-# Humanity, Compassion, Empathy
+# Humanity, compassion and empathy
 
-This card emphasizes the importance of maintaining a focus on human values and experiences in technology development.
+Behind every record and every metric is a person. Bring humanity, compassion and empathy into design and delivery decisions, and notice when efficiency crowds them out. The value matters most with people in crisis or distress, where a careless interaction can add to the harm.
 
-## Key Considerations
+## Questions to ask
 
-1. **Human-Centered Design**: How does the technology prioritize human needs and experiences?
-2. **Empathy in Design**: How are empathy and compassion incorporated into the design process?
-3. **Emotional Impact**: How might the technology affect users' emotional well-being?
-4. **Ethical Considerations**: How are ethical implications for human lives considered?
-5. **Cultural Sensitivity**: How does the technology respect and accommodate different cultural values?
+- How would this feel to someone on the worst day of their life?
+- Where does the design treat people as data points?
+- What would a kind version of this process look like?
+- Who on the team keeps meeting the people we serve?
 
-Use this card to ensure your technology project maintains a strong focus on human values, promoting solutions that are compassionate and empathetic.
+## Related cards
+
+- [Design with people]({{ '/cards/values/design-with-people/' | relative_url }})
+- [Respect]({{ '/cards/values/respect/' | relative_url }})
+- [Aim for positive impact]({{ '/cards/values/positive-impact/' | relative_url }})

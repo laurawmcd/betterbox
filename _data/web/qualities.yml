@@ -1,0 +1,146 @@
+# Web text for the Non-functional requirements suit. DRAFT for review.
+# Descriptions in the live sheet are the starting point. Maintainability, Performance and Localization have thinner sources.
+
+accessibility:
+  summary: "Whether people with non-standard constraints, such as colorblindness or little or no sight, can use the system."
+  body: |
+    Accessibility covers usability for people with constraints that standard designs overlook, such as colorblindness, poor or no eyesight, limited hearing or limited movement. Designing for them early costs far less than adding it later, and many of the changes help everyone, for example in bright sunlight or on a small screen.
+  questions:
+    - "Who among our users has a visual, hearing, motor or cognitive constraint?"
+    - "Does any information depend on colour alone?"
+    - "Can the system be used with a screen reader or with large text?"
+    - "Have we tested with people who have these constraints, and not just against a checklist?"
+  use_it: "Pick one screen or message and ask the group to use it with eyes closed or in greyscale. Then discuss what broke."
+  related: [design-for-inclusion, language-literacy, help]
+
+security:
+  summary: "How data is protected, in storage, in transit and against unauthorized access."
+  body: |
+    Security asks what needs protecting, from whom, and what a breach would cost the people involved. Decide whether data must be encrypted in the database, whether it must be encrypted when it moves between systems, and what authentication people need when they reach the system remotely.
+  questions:
+    - "Does the data need to be encrypted in the database?"
+    - "Is it encrypted when it travels between internal systems?"
+    - "What authentication do people need to access it remotely?"
+    - "What would a breach cost the people whose data we hold?"
+  use_it: "Use it alongside Threat modeling. Take each asset from the threat map and ask how it is protected."
+  related: [threat-modeling, data-subject, people-first-data-practices, data-integrity]
+
+network-resilience:
+  summary: "How the system copes when the connection, the power or the hardware fails."
+  body: |
+    A system running in the real world will meet boundary conditions: the internet connection goes down, the power fails, a device breaks. Network resilience is its ability to handle those errors and conditions while it runs. A resilient system carries on where it can, fails safely where it cannot, and recovers without losing data.
+  questions:
+    - "What happens when the connection drops in the middle of a task?"
+    - "What happens when the power fails, or a device breaks?"
+    - "Can people carry on with a fallback, such as paper or SMS?"
+    - "How does the system recover, and how do we know that it did?"
+  use_it: "Walk through one key task and stop at each step to ask: what if it fails here?"
+  related: [connectivity, data-integrity, performance, maintainability]
+
+maintainability:
+  summary: "Whether someone will be able to fix, update and run the system in the years after launch."
+  body: |
+    Most of a system's life comes after launch. Maintainability is about whether it can be understood, repaired and updated by people other than the ones who built it. Documentation, readable code, supported dependencies and a named person or team all matter.
+  questions:
+    - "Who will fix and update this in two years, and are they aware of it yet?"
+    - "Is it documented well enough for someone new to pick up?"
+    - "Which dependencies could stop being supported?"
+    - "What does maintenance cost each year, and who pays?"
+  use_it: "Ask the developer what they would need to hand over the system tomorrow. The gaps are the maintainability risks."
+  related: [developer, administrator, build-for-sustainability, licensing-copyright]
+
+interoperability:
+  summary: "Whether the system follows industry standards and can exchange data with others."
+  body: |
+    Interoperability asks which industry output standards the system should follow, whether it has APIs, and whether it is part of a larger system. Systems that cannot exchange data end up with people re-entering it by hand, which costs time and adds errors.
+  questions:
+    - "What other systems does this one need to exchange data with?"
+    - "Which standards do they use?"
+    - "Does our system offer an API, and to whom?"
+    - "Who else might want to connect to it later?"
+  use_it: "Draw the system in the middle of a page and add every other system it touches, with an arrow for each data flow."
+  related: [share-reuse-improve, open-transparent-practices, data-integrity]
+
+configurability:
+  summary: "How far end users can change the software's settings without a developer."
+  body: |
+    Configurability is the ability for end users to change aspects of the software's configuration easily, through usable interfaces or configuration files. It lets a system adapt to local needs without going back to the developer, though every option adds something to learn and to maintain.
+  questions:
+    - "What should users be able to change on their own?"
+    - "What should stay locked, and why?"
+    - "Who is allowed to change settings, and how is that recorded?"
+    - "Will users understand the options, and who supports them?"
+  use_it: "List every setting a local team might want to change, and sort them into 'anyone', 'administrator only' and 'developer only'."
+  related: [administrator, end-user-1, localization]
+
+data-integrity:
+  summary: "How much loss, corruption or duplication of data the project can tolerate."
+  body: |
+    Some records must be exact, such as a case file or a payment. Others can be approximate. Data integrity is about deciding how much loss, corruption or duplication you can tolerate, and how you would notice a problem when it happens.
+  questions:
+    - "Which records must be exact, and which can be approximate?"
+    - "What happens if a record is lost, changed or duplicated?"
+    - "How would we notice?"
+    - "Who is affected when the data is wrong, and how can they correct it?"
+  use_it: "Choose one type of record and ask the group to describe the worst plausible data error and its consequences."
+  related: [network-resilience, security, data-subject, interoperability]
+
+licensing-copyright:
+  summary: "Who owns the code and content, and how licences limit what you can build with."
+  body: |
+    Check whether the client requires particular rights to use the application or ownership of the code, and whether those requirements restrict which software libraries you can use. Licences on open source components, content and data all carry conditions, and it is far easier to find out early.
+  questions:
+    - "Who will own the code, the content and the data?"
+    - "Does the client require particular rights?"
+    - "Do those requirements rule out any libraries or tools?"
+    - "Which licences apply to the components we already use?"
+  use_it: "Ask the developer for a list of the main components and their licences. If none exists, that is the first action."
+  related: [share-reuse-improve, legal-issues, developer]
+
+help:
+  summary: "The type and amount of help users will need: interactive, inline, or a manual."
+  body: |
+    Help covers everything that supports people when they get stuck. Decide what type and extent of help the application needs: interactive help, inline help or an instruction manual. Consider users' languages and literacy, the devices they use, and who answers questions after the training ends.
+  questions:
+    - "What will users need help with, and when?"
+    - "Which form suits them: inline, interactive, printed, a person?"
+    - "In which languages, and at what reading level?"
+    - "Who answers when someone gets stuck, and how do they reach them?"
+  use_it: "Have someone in the room use the system as if for the first time, and note every point where they hesitate."
+  related: [language-literacy, administrator, accessibility, end-user-1]
+
+installability:
+  summary: "How easily the system can be installed on every platform it needs to run on."
+  body: |
+    Installability is the ease of installing the system on all the necessary platforms. It matters whether end users install it themselves or a technical team deploys it, since that decides what you can ask of users' devices, storage, skills and connectivity.
+  questions:
+    - "Who installs it: users or a technical team?"
+    - "Which devices and operating systems must it run on?"
+    - "What does installation require in bandwidth, storage and skills?"
+    - "How are updates delivered?"
+  use_it: "Write down the steps a new user takes from receiving the link to completing a first task, and count them."
+  related: [connectivity, help, administrator, configurability]
+
+performance:
+  summary: "How fast the system needs to be, and what slowness or downtime costs."
+  body: |
+    Performance covers latency, speed and the cost of downtime. What counts as acceptable depends on the people using it: a delay that annoys a desk worker may make the system useless on a poor connection, and an outage that is an inconvenience in one setting may put people at risk in another.
+  questions:
+    - "How quickly does each key task have to complete?"
+    - "What do users' connections and devices allow?"
+    - "What does an outage cost, and who bears it?"
+    - "What happens at peak use?"
+  use_it: "Pick the most time-critical task and ask what the longest acceptable wait would be, then check it against the connection."
+  related: [connectivity, network-resilience, design-for-scale]
+
+localization:
+  summary: "Support for multiple languages and locally appropriate formats across the whole application."
+  body: |
+    Localization asks whether the system supports multiple languages or locally appropriate formats throughout. That covers scripts and text direction, dates, numbers, currency and units, and the wording of messages. Translation needs people who know the context, and someone to check it.
+  questions:
+    - "Which languages and formats must the system support?"
+    - "Does it handle the scripts and text directions we need?"
+    - "Who translates, and who checks?"
+    - "Are dates, numbers, currency and units shown in the way people here expect?"
+  use_it: "Ask a speaker of each target language to use the system and mark everything that looks or reads wrongly."
+  related: [language-literacy, cultural-context, configurability]

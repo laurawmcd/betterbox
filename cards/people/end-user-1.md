@@ -1,21 +1,32 @@
 ---
-redirect_from:
-  - /cards/users/end-user-1/
 layout: card
-title: End User 1
-description: Understanding the perspective and needs of primary end users
+title: End user 1
+card_id: end-user-1
+description: The first of three cards for the people who use the system directly.
+redirect_from:
+- /cards/users/end-user-1/
 ---
 
-# End User 1
+# End user 1
 
-The End User 1 card represents the primary users of the technology being developed. These are the individuals who will directly interact with and benefit from the product or service.
+End users use the system or are directly affected by it. Different types of user do different tasks, have different skills and face different obstacles. Use this card for your most important group and write their name on it.
 
-## Key Considerations
+The other two End user cards are for other groups. Together the three cards keep a workshop from treating 'the user' as one person.
 
-1. **User Needs**: What are the primary needs and goals of this user group?
-2. **User Experience**: How can the technology be designed to provide the best possible experience for these users?
-3. **Accessibility**: Are there any specific accessibility requirements for this user group?
-4. **User Feedback**: How can feedback from this user group be effectively collected and incorporated into the development process?
-5. **Potential Impacts**: How might the technology positively or negatively affect this user group's daily life or work?
+## Questions to ask
 
-Use this card to ensure that the primary end users' perspectives are central to the development process and that their needs are being met in an ethical and effective manner.
+- Who are they in concrete terms: role, place, devices, languages?
+- What do they need to do, and what gets in their way?
+- What do they use now to do the same job?
+- How would they tell you that it wasn't working?
+
+## In a workshop
+
+Write the user type on the card before the workshop, or fill it in together. This card feeds straight into the User personas exercise.
+
+## Related cards
+
+- [End user 2]({{ '/cards/people/end-user-2/' | relative_url }})
+- [End user 3]({{ '/cards/people/end-user-3/' | relative_url }})
+- [User personas]({{ '/cards/exercises/user-personas/' | relative_url }})
+- [Indirect user]({{ '/cards/people/indirect-user/' | relative_url }})

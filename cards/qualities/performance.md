@@ -1,21 +1,31 @@
 ---
-redirect_from:
-  - /cards/non-functional-requirements/performance/
 layout: card
 title: Performance
-description: Addressing performance requirements in technology projects
+card_id: performance
+description: How fast the system needs to be, and what slowness or downtime costs.
+redirect_from:
+- /cards/non-functional-requirements/performance/
 ---
 
 # Performance
 
-The Performance card represents the consideration of how well a system performs in terms of responsiveness, speed, and resource utilization.
+*This card is proposed for the next version of the deck.*
 
-## Key Considerations
+Performance covers latency, speed and the cost of downtime. What counts as acceptable depends on the people using it: a delay that annoys a desk worker may make the system useless on a poor connection, and an outage that is an inconvenience in one setting may put people at risk in another.
 
-1. **Response Time**: What are the acceptable response times for different operations?
-2. **Throughput**: How many operations per unit of time should the system be able to handle?
-3. **Resource Utilization**: How efficiently does the system use CPU, memory, network, and other resources?
-4. **Scalability**: How does performance change as the load on the system increases?
-5. **Performance Testing**: What methods will be used to measure and monitor performance?
+## Questions to ask
 
-Use this card to ensure that performance requirements are clearly defined and met, contributing to a positive user experience and efficient system operation.
+- How quickly does each key task have to complete?
+- What do users' connections and devices allow?
+- What does an outage cost, and who bears it?
+- What happens at peak use?
+
+## In a workshop
+
+Pick the most time-critical task and ask what the longest acceptable wait would be, then check it against the connection.
+
+## Related cards
+
+- [Connectivity]({{ '/cards/context/connectivity/' | relative_url }})
+- [Network resilience]({{ '/cards/qualities/network-resilience/' | relative_url }})
+- [Design for scale]({{ '/cards/context/design-for-scale/' | relative_url }})

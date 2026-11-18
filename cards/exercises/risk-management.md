@@ -1,21 +1,32 @@
 ---
-redirect_from:
-  - /cards/facilitation-design/risk-management/
 layout: card
-title: Risk Management
-description: Strategies for managing risks in technology projects
+title: Risk management
+card_id: risk-management
+description: Brainstorm what could go wrong, rank the risks, and agree what to do about the important ones.
+redirect_from:
+- /cards/exercises/risk-analysis/
+- /cards/facilitation-design/risk-analysis/
+- /cards/facilitation-design/risk-management/
 ---
 
-# Risk Management
+# Risk management
 
-The Risk Management card focuses on the ongoing process of identifying, assessing, and controlling threats to a technology project's capital and earnings.
+Mitigating risk is an important part of project management. This exercise gets the group to name risks, rate them, and decide what to do about them, so that the plan carries the answers instead of the anxieties.
 
-## Key Considerations
+## How to run it
 
-1. **Risk Identification**: What are the potential risks that could affect the project?
-2. **Risk Assessment**: How can the likelihood and potential impact of each risk be evaluated?
-3. **Risk Mitigation**: What strategies can be implemented to reduce or manage identified risks?
-4. **Contingency Planning**: What backup plans can be put in place for high-impact risks?
-5. **Monitoring and Review**: How will risks be continuously monitored and managed throughout the project lifecycle?
+1. Brainstorm the risks that might arise. Give everyone sticky notes and ask for one risk per note.
+2. Rate each risk by likelihood and by impact, for example high, medium or low, and identify the most important ones.
+3. For each important risk, come up with ways to make it less likely or less damaging.
+4. For risks you cannot reduce, discuss how to go forward safely, or whether to go forward at all.
 
-Use this card to develop a comprehensive risk management strategy for your technology project, ensuring that potential issues are anticipated and addressed proactively.
+## Tips
+
+- People rarely think of the worst risks unprompted. Run the Dark logic model or Threat modeling first to widen the list.
+
+## Related cards
+
+- [Dark logic model]({{ '/cards/exercises/dark-logic-model/' | relative_url }})
+- [Threat modeling]({{ '/cards/exercises/threat-modeling/' | relative_url }})
+- [Theory of change]({{ '/cards/exercises/theory-of-change/' | relative_url }})
+- [Project management]({{ '/cards/exercises/project-management/' | relative_url }})

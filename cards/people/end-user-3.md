@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/users/end-user-3/
 layout: card
-title: End User 3
-description: Understanding the needs of tertiary user groups
+title: End user 3
+card_id: end-user-3
+description: The third of three cards for the people who use the system directly.
+redirect_from:
+- /cards/users/end-user-3/
 ---
 
-# End User 3
+# End user 3
 
-The End User 3 card represents tertiary user groups who may interact with the technology less frequently or in unique ways.
+Use this card for a third group of end users, perhaps a group that uses the system rarely, or has a specialized need. People in less obvious groups are the ones most often left out of design.
 
-## Key Considerations
+## Questions to ask
 
-1. **Occasional Use**: How can the system accommodate users who interact with it infrequently?
-2. **Specialized Needs**: Are there any specialized features required for this user group?
-3. **Intuitiveness**: How can the interface be made intuitive for infrequent users?
-4. **Support**: What kind of support structures are needed for this user group?
-5. **Impact Assessment**: How might the technology impact this group indirectly?
+- Who is the group least likely to be thought of first?
+- What do they need from the system that nobody else does?
+- What would make them stop using it?
+- Can they reach the same features by another route?
 
-Use this card to ensure that the needs of all potential user groups, even those with less frequent interactions, are considered in the development process.
+## In a workshop
+
+Ask the group who is missing from the first two cards, and put that person here.
+
+## Related cards
+
+- [End user 1]({{ '/cards/people/end-user-1/' | relative_url }})
+- [End user 2]({{ '/cards/people/end-user-2/' | relative_url }})
+- [User personas]({{ '/cards/exercises/user-personas/' | relative_url }})
+- [Design for inclusion]({{ '/cards/values/design-for-inclusion/' | relative_url }})

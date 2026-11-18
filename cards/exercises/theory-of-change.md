@@ -1,19 +1,28 @@
 ---
 layout: card
-title: Theory of Change
-description: Mapping how a project's activities lead to its goal
+title: Theory of change
+card_id: theory-of-change
+description: Map how your activities are meant to lead to your goal, and look for the gaps.
+redirect_from:
+- /cards/facilitation-design/theory-of-change/
 ---
 
-# Theory of Change
+# Theory of change
 
-The Theory of Change card helps a team set out how the work they plan to do will lead to the goal they want to reach, and test whether each step really follows from the one before.
+A theory of change shows how the work is expected to produce results. Drawing it as a group exposes assumptions that everyone had been carrying silently.
 
-## Key Considerations
+## How to run it
 
-1. **Goal**: What change does the project exist to bring about, and for whom?
-2. **Activities**: What will the team actually do?
-3. **Outputs and Outcomes**: What does each activity produce, and what difference should that make to people?
-4. **Assumptions**: What has to be true for each step to lead to the next? Which of these assumptions are untested?
-5. **Gaps and Risks**: Where would the activities fail to produce the outcome, and what new risks appear along the way?
+1. Starting with what you know, write your goal at the top of a large piece of paper and the planned activities at the bottom.
+2. In between, map how the activities create the outputs and outcomes that lead to your goal. You should end up with a pyramid, or a tree with deep roots.
+3. Look for gaps where the activities will not produce the outcome you want, and for places where new risks become visible.
 
-Use this card early in a project to agree on how it is meant to work. It is also the starting point for the Dark Logic Model card, which asks what happens when each step goes wrong.
+## Tips
+
+- Write the assumption on each arrow: 'this leads to that, because...'. Weak assumptions are usually where a project is most likely to fail.
+
+## Related cards
+
+- [Dark logic model]({{ '/cards/exercises/dark-logic-model/' | relative_url }})
+- [Risk management]({{ '/cards/exercises/risk-management/' | relative_url }})
+- [Use evidence to improve outcomes]({{ '/cards/values/use-evidence/' | relative_url }})

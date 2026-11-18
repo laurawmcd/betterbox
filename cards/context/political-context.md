@@ -1,21 +1,30 @@
 ---
-redirect_from:
-  - /cards/practicalities/political-context/
 layout: card
-title: Political Context
-description: Understanding and navigating the political context in technology projects
+title: Political context
+card_id: political-context
+description: Who controls communications and information, and what that means for risk and behaviour.
+redirect_from:
+- /cards/practicalities/political-context/
 ---
 
-# Political Context
+# Political context
 
-The Political Context card represents the consideration of the political environment in which a technology project operates.
+Communications infrastructure may be regulated, monitored and controlled by state authorities. Conflict can damage it, or block access to install, repair and maintain it. Analyzing the political context, the ownership of communications networks and access to information helps you understand risks and how users will behave.
 
-## Key Considerations
+## Questions to ask
 
-1. **Regulatory Landscape**: What are the relevant laws and regulations affecting the project?
-2. **Stakeholder Interests**: How do different political stakeholders view or influence the project?
-3. **Public Perception**: How might the political context affect public perception of the technology?
-4. **Ethics and Governance**: How can the project navigate ethical issues in the given political context?
-5. **Long-term Sustainability**: How might changes in the political landscape affect the project's long-term viability?
+- Who controls the networks, and who can monitor them?
+- Could conflict cut access or stop repairs?
+- Who could be at risk if the project were seen as political?
+- How does that change what you collect, store or announce?
 
-Use this card to ensure that political factors are considered in project planning and decision-making, helping to navigate potential challenges and opportunities.
+## In a workshop
+
+Pair this card with Threat modeling. Ask which actors in the political context would be interested in your data.
+
+## Related cards
+
+- [Regulator]({{ '/cards/people/regulator/' | relative_url }})
+- [Threat modeling]({{ '/cards/exercises/threat-modeling/' | relative_url }})
+- [Infrastructure, regulation and market]({{ '/cards/context/infrastructure-regulation-market/' | relative_url }})
+- [Anticipate and mitigate harms]({{ '/cards/values/anticipate-mitigate-harms/' | relative_url }})
