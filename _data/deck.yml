@@ -1,5 +1,6 @@
 # Built by scripts/build_pages.py from _data/cards.yml, _data/suits.yml and _data/web/. Edit those, not this.
 # deck_size: numbered cards in the printed suit. face: the printed card text. proposed: card not yet confirmed.
+# blank: left blank for workshop participants to write their own (blank cards and unfilled slots).
 - folder: people
   name: People
   color: '#A7166A'
@@ -79,9 +80,9 @@
       have real authority? Can the people affected reach them?
     proposed: true
   - number: 14
-    title: Custom User
+    title: Blank card
     blank: true
-    summary: Add your own user category
+    summary: Add a person or group of your own
 - folder: exercises
   name: Exercises
   color: '#0E6B66'
@@ -216,11 +217,13 @@
       worst worry.
     proposed: true
   - number: 13
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add an exercise of your own
   - number: 14
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add an exercise of your own
 - folder: context
   name: Context
   color: '#9A4A08'
@@ -338,17 +341,21 @@
       support, data, staff. Decide what growth you are planning for, and what you are not.'
     proposed: true
   - number: 11
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a piece of context of your own
   - number: 12
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a piece of context of your own
   - number: 13
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a piece of context of your own
   - number: 14
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a piece of context of your own
 - folder: qualities
   name: Qualities
   color: '#2C4A94'
@@ -442,11 +449,13 @@
       currency and units, and who checks the translations.
     proposed: true
   - number: 13
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a quality of your own
   - number: 14
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a quality of your own
 - folder: values
   name: Values
   color: '#2A1F3D'
@@ -576,11 +585,14 @@
       fit local knowledge, language and priorities?
     proposed: true
   - number: 20
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a value of your own
   - number: 21
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a value of your own
   - number: 22
-    title: Card to come
+    title: Blank card
     blank: true
+    summary: Add a value of your own

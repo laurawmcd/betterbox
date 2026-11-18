@@ -59,13 +59,16 @@ for c in named:
     redirects[c['id']] -= new_paths
 
 # _data/deck.yml
+BLANK_TEXT = {'people': 'Add a person or group of your own',
+              'exercises': 'Add an exercise of your own',
+              'context': 'Add a piece of context of your own',
+              'qualities': 'Add a quality of your own',
+              'values': 'Add a value of your own'}
 deck = []
 for s in suits:
     look = old_deck.get(s['id'], {})
-    old_blanks = [c for c in look.get('cards', []) if c.get('blank')]
     entry = {'folder': s['id'], 'name': s['title'], 'color': look.get('color', '#A7166A'),
              'pip': look.get('pip', 'circle'), 'deck_size': s['cards'], 'cards': []}
-    blank_i = 0
     for c in sorted((c for c in cards if c['suit'] == s['id']), key=lambda c: c['number']):
         if c['status'] in ('confirmed', 'proposed'):
             w = web[s['id']].get(c['id']) or {}
@@ -73,18 +76,15 @@ for s in suits:
             if w.get('summary'): e['summary'] = w['summary']
             if c.get('card_text'): e['face'] = c['card_text']
             if c['status'] == 'proposed': e['proposed'] = True
-        elif c['status'] == 'blank':
-            ob = old_blanks[blank_i] if blank_i < len(old_blanks) else {}
-            blank_i += 1
-            e = {'number': c['number'], 'title': ob.get('title', 'Blank card'), 'blank': True}
-            if ob.get('summary'): e['summary'] = ob['summary']
-        else:  # open slot, card not chosen yet
-            e = {'number': c['number'], 'title': 'Card to come', 'blank': True}
+        else:  # blank card, or a slot with no card chosen: left blank for people to write their own
+            e = {'number': c['number'], 'title': 'Blank card', 'blank': True,
+                 'summary': BLANK_TEXT.get(s['id'], 'Write your own card')}
         entry['cards'].append(e)
     deck.append(entry)
 
 header = ('# Built by scripts/build_pages.py from _data/cards.yml, _data/suits.yml and _data/web/. Edit those, not this.\n'
-          '# deck_size: numbered cards in the printed suit. face: the printed card text. proposed: card not yet confirmed.\n')
+          '# deck_size: numbered cards in the printed suit. face: the printed card text. proposed: card not yet confirmed.\n'
+          '# blank: left blank for workshop participants to write their own (blank cards and unfilled slots).\n')
 deck_text = header + yaml.dump(deck, allow_unicode=True, sort_keys=False, width=120)
 
 

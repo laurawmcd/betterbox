@@ -13,15 +13,13 @@ cards = yaml.safe_load(open('_data/cards.yml'))
 only_approved = '--approved-only' in sys.argv
 rows = []
 for c in sorted(cards, key=lambda c: (ORDER.index(c['suit']), c['number'])):
-    if c['status'] == 'open':
-        continue
-    if only_approved and not c.get('card_text_approved'):
+    blank = c['status'] in ('blank', 'open')  # unfilled slots print as blank cards for people's own ideas
+    if only_approved and not blank and not c.get('card_text_approved'):
         continue
     paras = (c.get('card_text') or '').split('\n\n')
     if len(paras) > 3:
         sys.exit(f"{c['id']}: more than 3 paragraphs")
     paras += [''] * (3 - len(paras))
-    blank = c['status'] == 'blank'
     rows.append({
         'id': c['id'], 'suit': BACK[c['suit']], 'number': c['number'],
         'title': '' if blank else c.get('deck_title') or c['title'],
