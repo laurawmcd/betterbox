@@ -1,11 +1,11 @@
 # Built by scripts/build_pages.py from _data/cards.yml, _data/suits.yml and _data/web/. Edit those, not this.
-# deck_size: numbered cards in the printed suit. face: the printed card text. proposed: card not yet confirmed.
+# deck_size: cards in the printed suit, blank included. face: the printed card text. proposed: card not yet confirmed.
 # blank: left blank for workshop participants to write their own (blank cards and unfilled slots).
 - folder: people
   name: People
   color: '#A7166A'
   pip: circle
-  deck_size: 13
+  deck_size: 14
   cards:
   - number: 1
     title: Product owner / Product manager
@@ -87,7 +87,7 @@
   name: Exercises
   color: '#0E6B66'
   pip: triangle
-  deck_size: 13
+  deck_size: 14
   cards:
   - number: 1
     title: Expectation and norm-setting
@@ -228,7 +228,7 @@
   name: Context
   color: '#9A4A08'
   pip: square
-  deck_size: 13
+  deck_size: 14
   cards:
   - number: 1
     title: Implementing organization capacity
@@ -360,7 +360,7 @@
   name: Qualities
   color: '#2C4A94'
   pip: diamond
-  deck_size: 13
+  deck_size: 14
   cards:
   - number: 1
     title: Accessibility

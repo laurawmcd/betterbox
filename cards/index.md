@@ -6,7 +6,7 @@ description: Explore the card deck designed to help workshop ethical technology 
 
 # Betterbox Cards
 
-Our deck consists of four suits of 13 cards each, plus a Values Major Arcana of 22 cards. Each section helps you explore different aspects of ethical technology development.
+Our deck has 78 cards: four suits of 14 cards each (13 cards and a blank card for your own ideas), plus a Values Major Arcana of 22 cards. Each section helps you explore different aspects of ethical technology development.
 
 ## Card Suits
 

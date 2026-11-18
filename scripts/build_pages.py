@@ -68,7 +68,7 @@ deck = []
 for s in suits:
     look = old_deck.get(s['id'], {})
     entry = {'folder': s['id'], 'name': s['title'], 'color': look.get('color', '#A7166A'),
-             'pip': look.get('pip', 'circle'), 'deck_size': s['cards'], 'cards': []}
+             'pip': look.get('pip', 'circle'), 'deck_size': s['cards'] + s.get('blank', 0), 'cards': []}
     for c in sorted((c for c in cards if c['suit'] == s['id']), key=lambda c: c['number']):
         if c['status'] in ('confirmed', 'proposed'):
             w = web[s['id']].get(c['id']) or {}
@@ -83,7 +83,7 @@ for s in suits:
     deck.append(entry)
 
 header = ('# Built by scripts/build_pages.py from _data/cards.yml, _data/suits.yml and _data/web/. Edit those, not this.\n'
-          '# deck_size: numbered cards in the printed suit. face: the printed card text. proposed: card not yet confirmed.\n'
+          '# deck_size: cards in the printed suit, blank included. face: the printed card text. proposed: card not yet confirmed.\n'
           '# blank: left blank for workshop participants to write their own (blank cards and unfilled slots).\n')
 deck_text = header + yaml.dump(deck, allow_unicode=True, sort_keys=False, width=120)
 
