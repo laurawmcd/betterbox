@@ -129,7 +129,7 @@ a:hover { color: var(--brand-dark); }
 .card-face--values .card-face__num .pip { fill: var(--gold); }
 .card-face__body { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 0.7em; padding: 1.2em 1.2em 0.6em; overflow: hidden; }
 .card-face__title { margin: 0; font: 600 1.7em/1.15 var(--display); color: var(--suit); }
-.card-face__text { margin: 0; font-size: 0.95em; line-height: 1.45; color: var(--ink); overflow: hidden; }
+.card-face__text { margin: 0; font-size: 0.95em; line-height: 1.45; color: var(--ink); flex: none; }
 .card-face__foot { border-top: 1px solid var(--line); padding: 0.6em 1.1em; font-size: 0.62em; line-height: 1.3; color: var(--muted); display: flex; justify-content: space-between; align-items: center; gap: 0.5em; }
 .card-face__foot span { overflow-wrap: anywhere; }
 .card-face__foot .pip { width: 0.9em; height: 0.9em; fill: var(--suit); flex: none; }

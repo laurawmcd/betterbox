@@ -1,8 +1,8 @@
 // Shrink the text on each drawn card until all of it fits inside the card,
 // so the pictures show the full printed text instead of cutting it off.
 (function () {
-  var MIN = 0.5;   // never go below half the normal size
-  var STEP = 0.04;
+  var MIN = 0.4;   // never go below 40% of the normal size
+  var STEP = 0.03;
 
   function fit(card) {
     var body = card.querySelector('.card-face__body');
