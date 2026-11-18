@@ -79,7 +79,8 @@
   - title: Risk Analysis
     slug: risk-analysis
   - title: Theory of Change
-    no_page: true
+    slug: theory-of-change
+    summary: Mapping how a project's activities lead to its goal
     face: |-
       Starting with what you know write your goal at the top of a large piece of paper, and the planned activities at the bottom. In between, map how the activities create the outputs and outcomes that lead to your goal.
 
