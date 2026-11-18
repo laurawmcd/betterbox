@@ -1,9 +1,11 @@
 # Suit order, colours and card order for the site. Card lists come from the old suit index pages.
+# deck_size: how many cards the printed suit has (the list below holds only the cards the site has so far).
 # face: the printed card text, from Betterbox_deck_v0.2.idml. Cards without it show their summary or page description.
 - folder: people
   name: People
   color: '#A7166A'
   pip: circle
+  deck_size: 13
   cards:
   - title: Product Owner / Product Manager
     slug: product-owner
@@ -66,6 +68,7 @@
   name: Exercises
   color: '#0E6B66'
   pip: triangle
+  deck_size: 13
   cards:
   - title: Expectation and Norm-setting
     slug: expectation-norm-setting
@@ -137,6 +140,7 @@
   name: Context
   color: '#9A4A08'
   pip: square
+  deck_size: 13
   cards:
   - title: Implementing Organization Capacity
     slug: implementing-organization-capacity
@@ -207,6 +211,7 @@
   name: Qualities
   color: '#2C4A94'
   pip: diamond
+  deck_size: 13
   cards:
   - title: Accessibility
     slug: accessibility
@@ -259,6 +264,7 @@
   name: Values
   color: '#2A1F3D'
   pip: star
+  deck_size: 22
   cards:
   - title: Do Better Than No Harm
     slug: do-better-than-no-harm
